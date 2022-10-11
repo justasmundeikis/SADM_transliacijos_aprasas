@@ -1,4 +1,4 @@
-# Youtube banner paruošimas
+# Pre-transliavimo darbai
 
 1. Parsisiųsti šabloną iš Teams (Trišalės tarybos grupė - > Files -> Pagalbiniai_failai)
     * arba atsisiųsti šabloną spaudžiant [čia](files/TT_šablonas.xcf)

@@ -1,0 +1,20 @@
+# Live transliacija
+
+### Teams nustatymai
+
+Standartinis TEAMS nustatymas yra, jog renginio organizatorius arba dalyvis turi patvirtinti kiekvieną norintį prisijungti prie susitikimo. Dėl šios priežasties ekrane atsiranda pop-up pranešimas apie norinčius prisijungti, be to, girdimas pranešimo signalas. Kad būtų išvengta šių video ir garso trikdžių rekomenduojami šie nustatymai:
+
+* `Who can bypass the lobby` pakeisti į `Everyone`
+* `Announce when callers join ir leave` - išjungti
+
+TEAMS susitikimo lange
+
+![](figures/1_technical/teams_setup_1.png)
+
+Einama į `Meeting options`
+
+![](figures/1_technical/teams_setup_2.png)
+
+Keičiama į šiuos nustatymus
+
+![](figures/1_technical/teams_setup_3.png)

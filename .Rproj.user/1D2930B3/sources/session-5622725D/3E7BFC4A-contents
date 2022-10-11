@@ -6,20 +6,14 @@ book:
   author: "Justas Mundeikis"
   date: "2022-08-31"
   sidebar: 
-    collapse-level: 3
+    collapse-level: 4
   chapters:
     - index.qmd
-    - 1_process_overview.qmd
+    - 0_process_overview.qmd
     - 1_hardware_software.qmd
-    - 3_preparing_youtube_banner.qmd
-    - 4_setup_obs_studio.qmd
-    - 5_setup_teams.qmd
-    - 6_setup_notebook.qmd
-    - 7_going_live.qmd
-    - 8_post_edit.qmd
-
-bibliography: references.bib
-
+    - 2_preparation.qmd
+    - 3_live.qmd
+    - 4_post_edit.qmd
 format:
   html:
     theme: cosmo
