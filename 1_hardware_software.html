@@ -134,7 +134,6 @@ ul.task-list{list-style: none;}
   <ul class="collapse">
   <li><a href="#windows-nustatymai" id="toc-windows-nustatymai" class="nav-link" data-scroll-target="#windows-nustatymai"> <span class="header-section-number">1.4.1</span> Windows nustatymai</a></li>
   <li><a href="#obs-studio-nustatymai" id="toc-obs-studio-nustatymai" class="nav-link" data-scroll-target="#obs-studio-nustatymai"> <span class="header-section-number">1.4.2</span> OBS-Studio nustatymai</a></li>
-  <li><a href="#teams-nustatymai" id="toc-teams-nustatymai" class="nav-link" data-scroll-target="#teams-nustatymai"> <span class="header-section-number">1.4.3</span> Teams nustatymai</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -213,30 +212,96 @@ ul.task-list{list-style: none;}
 <section id="windows-nustatymai" class="level3" data-number="1.4.1">
 <h3 data-number="1.4.1" class="anchored" data-anchor-id="windows-nustatymai"><span class="header-section-number">1.4.1</span> Windows nustatymai</h3>
 <ol type="1">
-<li><p>“Windows updates” rekomenduojama pasitikrinti ar Windows operacinė sistema yra turi visus atnaujinimus, jeigu reikia, atlikti atnaujinimus ir restartuoti kompiuterį, taip užtikrinant, jog Windows neinicijuos atnaujinimų ar restartavimo translaicijos metu.</p></li>
-<li><p>Windows mikrofo išjungimas yra reikalingas tam, kad transliuoant MS TEAMS susiitkimą, ekrana neatsiratų pop-up langelis, nurodantis, kad kalbant reikia įsijungti mikrofoną, atitinkamai šis langelis būtų matomas tranliacijos video įraše</p></li>
-<li><p>Task-bar lock nuėmimas (opcionalu)</p></li>
-<li><p>Energijos nustatymai</p></li>
+<li>“Windows updates” rekomenduojama pasitikrinti ar Windows operacinė sistema yra turi visus atnaujinimus, jeigu reikia, atlikti atnaujinimus ir restartuoti kompiuterį, taip užtikrinant, jog Windows neinicijuos atnaujinimų ar restartavimo transliacijos metu.</li>
 </ol>
+<p>Iš pagrindinio <code>Settings</code> lango einama į <code>Update &amp; Security</code></p>
+<p><img src="figures/1_technical/win_update_1.png" class="img-fluid"></p>
+<p>Kuriame pasitikrinama, ar turimi visi atnaujinimai</p>
+<p><img src="figures/1_technical/win_update_2.png" class="img-fluid"></p>
+<ol start="2" type="1">
+<li>Windows mikrono išjungimas yra reikalingas tam, kad transliuojant TEAMS susitikimą, ekrane neatsirastų pop-up langelis, nurodantis, kad kalbant reikia įsijungti mikrofoną, atitinkamai šis langelis būtų matomas transliacijos video įraše. Paaiškinimas: kai yra mikrofonas yra išjungiamas tik pačioje TEAMS programoje, TEAMS gauna signalą, jog yra kalbama ir todėl transliacijos metu išmeta langelį siūlantį įsijungti mikrofoną. Siekiant išvengti tokio elgesio reikia deaktyvuoti mikrofoną pačioje WINDOWS sistemoje.</li>
+</ol>
+<p>Iš pagrindinio <code>Settings</code> lango einama į <code>System</code>:</p>
+<p><img src="figures/1_technical/win_audio_1.png" class="img-fluid"></p>
+<p>Tada einama į <code>Sound</code>:</p>
+<p><img src="figures/1_technical/win_audio_2.png" class="img-fluid"></p>
+<p>Lango apatinėje dalyje (skiltyje <code>Input</code>) spaudžiama ant <code>Device properties</code>:</p>
+<p><img src="figures/1_technical/win_audio_3.png" class="img-fluid"></p>
+<p>Uždedama varnelė ant <code>Disable</code></p>
+<p><img src="figures/1_technical/win_audio_4.png" class="img-fluid"></p>
+<ol start="3" type="1">
+<li>Energijos nustatymai</li>
+</ol>
+<p>Siekiant, kad vykdant transliaciją WINDOWS neribotų kompiuterio, reikia susikurti ir aktyvuoti naują energijos planą <code>High performance</code> bei pakeisti kai kuriuos nustatymus, jog paliekant transliaciją porai valandų ir nenaudojant kompiuterio, šis “neužmigtų”, taip nutraukiant transliaciją ar sugadinant įrašą.</p>
+<p>Paieškos funkcijoje įrašoma <code>Choose a power plan</code> ir atidaromas nustatymų langas:</p>
+<p><img src="figures/1_technical/win_power_1.png" class="img-fluid"></p>
+<p>Spaudžiama ant <code>Create a power plan</code></p>
+<p><img src="figures/1_technical/win_power_2.png" class="img-fluid"></p>
+<p>Pasirenkamas nustatymas <code>High performance</code> ir spaudžiama ant <code>Next</code>:</p>
+<p><img src="figures/1_technical/win_power_3.png" class="img-fluid"></p>
+<p>Pasirenkama, kada WINDOWS turėtų išjungti ekraną ir tiek baterijos tiek krovimo rėžime pasirenkamas <code>Never</code> ir spaudžiama ant <code>Create</code></p>
+<p><img src="figures/1_technical/win_power_4.png" class="img-fluid"></p>
+<p>Siekiant pakeisti kai kuriuos nustatymus, spaudžiama ant <code>Change plan settings</code></p>
+<p><img src="figures/1_technical/win_power_5.png" class="img-fluid"></p>
+<p>Toliau ant <code>Change advanced power setttings</code></p>
+<p><img src="figures/1_technical/win_power_6.png" class="img-fluid"></p>
+<p><code>Hard disk</code> šakoje, <code>Turn off hard disk after</code> pakeičiama į <code>Never</code> tiek baterijos tiek krovimo rėžime</p>
+<p><img src="figures/1_technical/win_power_7.png" class="img-fluid"></p>
 </section>
 <section id="obs-studio-nustatymai" class="level3" data-number="1.4.2">
 <h3 data-number="1.4.2" class="anchored" data-anchor-id="obs-studio-nustatymai"><span class="header-section-number">1.4.2</span> OBS-Studio nustatymai</h3>
 <ol type="1">
-<li><p>Paskyros sujungimas su Youtube</p></li>
+<li>OBS-studio ir Youtube paskyros sujungimas</li>
+</ol>
+<p>…</p>
+<p><img src="figures/1_technical/obs_1.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_2.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_3.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_4.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_5.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_6.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_7.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_8.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_9.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_10.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_11.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_12.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_13.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_14.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_15.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_16.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_17.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_18.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_19.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_20.png" class="img-fluid"></p>
+<p>…</p>
+<p><img src="figures/1_technical/obs_21.png" class="img-fluid"></p>
+<ol start="2" type="1">
 <li><p>Studio mode</p></li>
-<li><p>Aplanko Windows aplinkoje suskūrimas (pvz. OBS_transliacijos) ir nustatymas, jog video įrašai turėtų būti saugomi šiame aplanke</p></li>
+<li><p>Aplanko Windows aplinkoje sukūrimas (pvz. obs_video) ir nustatymas, jog video įrašai turėtų būti saugomi šiame aplanke</p></li>
 <li><p>Video nustatymai</p></li>
 <li><p>Output nustatymai</p></li>
 </ol>
 <p>Papildomi nustatymai bus aptarti “Transliacijos” skyriuje</p>
-</section>
-<section id="teams-nustatymai" class="level3" data-number="1.4.3">
-<h3 data-number="1.4.3" class="anchored" data-anchor-id="teams-nustatymai"><span class="header-section-number">1.4.3</span> Teams nustatymai</h3>
-<p>Standartinis TEAMS nustatymas yra, jog renginio organizatorius arba dalyvis turi patvrinti kiekvieną norintį prisjungti prie susitikimo. Dėl šios priežasties ekrane atsiranda pop-up pranešimas apie norinčius porisijungti, be to, girdimimas pranšimo signalas. Tad kad būtų išvengta šių video ir garsinių trikdžių rekomenduojami šie nustytamai:</p>
-<ul>
-<li><strong>Who can bypass the lobby</strong> pakeisti į <strong>Everynone</strong></li>
-<li><strong>Announce when callers join ir leave</strong> išjungti</li>
-</ul>
 
 
 </section>
