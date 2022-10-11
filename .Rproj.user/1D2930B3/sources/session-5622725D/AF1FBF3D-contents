@@ -1,0 +1,83 @@
+# Transliavimo procesas
+
+Šiame skyriuje detalizuojamas visas SADM transliavimo procesas, nuo pasiruošimo tranliavimui savaitę prieš, iki 
+
+
+## Youtube banner sukūrimas
+
+* start -> GIMP
+* File -> Open -> pasirenkame failą 'TT_šablonas.xcf'
+* Jeigu kairiame kampe nesimato `Toolbox`:
+    * Tools -> New Toolbox
+* Pasirenkame teksto editavimą su paspaude klaviatūros kvalvišą `t` arba toolbox su pele paspaudą ant `A`
+* su pele spaudžiama bet kur ant datos laukelio
+* perrašoma data
+* File -> Exort, pasirenkamas pavadinimas, kuris atitinka seknt5 TT posėdžio datą, pvz "TT_šablonas_2022_09_27", atsiradusiame pop up lange, spaudžiame ant Export
+
+
+
+## Youtube tranliacijos sukūrimas
+
+* Atsidarius https://youtube.com
+* Suvedami prisijungimo duomenys:
+    * socmin@gmail.com
+    * *********
+*
+
+
+### Užsklandos sukūrimas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Video editavimas
+
+Po sėkmingos transliacijos, Youtube prireiks 1-3 valandų laiko, apdoroti pati video. Tuo metu, kai Youtube dar apdoroja video, negalima edituoti originalaus video failo. Youtube leidžia apdoroti video failą, bet tada siūlo išsaugoti video kaip naują failą, tai padarius dingtų visų peržiūrųū statistiką, komentarai ir t.t. Todėl yra būtina palaukti, kol Youtube baigs video apdorojimą. Ar Youtube baigė, geriausiai galima pamatti atsidarius SADM "Youtube studio"
+
+[]
+
+Pasirinkus "Turinys"
+
+[]
+
+Tada pasirinkus tiesioginiai srautai
+
+[]
+
+Tada pasirinkus norimą video
+
+[]
+
+Jeigu ties "Pabaigos užsklanda" vis dar yra pilkas ir neleidžia keisti nustatytų, tada Youtube dar vykd video apdorjimą, jeigu laukelis nebėra pilkas, reiškia, aprodojimras yra baigtas.
+
+[]
+
+
+Pasirankame redagavimą:
+
+[]
+
+Įparstai ko gero norėsime visada nukirpti transliacijos pradžią (užsklandos skaidrę iki garso paleidimo). Šioje vietoje matosi, jog turime video medžiagą, bet neturime garso medžiagos. 
+[]
+
+Todėl su padidinimo pagalba ir pelės paspaudimo kur norima rastis video faile susiauriname diapazoną
+
+[]
+
+

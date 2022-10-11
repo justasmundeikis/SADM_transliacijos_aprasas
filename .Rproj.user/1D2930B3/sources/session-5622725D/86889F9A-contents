@@ -1,0 +1,92 @@
+# Techninė ir programinė įranga
+
+## Techninės įrangos reikalavimai
+
+Renginio transliacijos metu galima tikėtis, jog kompiuteris (nešiojamas ar stacionarus) bus pilnai apkrautas ir papildomas jo naudojimas gali daryti neigiamą įtaką transliacijos ir video įrašo kokybei. Transliacijos metu turi būti deaktyvuotas mikrofonas, todėl įrenginys nebūtų panaudojamas dalyvavimui renginyje. Dėl šių dviejų priežasčių rekomenduojama naudoti dedikuotą kompiuterį šiai užduočiai. 
+
+Reikalavimai:
+
+* Procesorius:
+    * minimum `Intel i-5`
+    * geriau `Intel i-7` 
+* Darbinės atminties (RAM)
+    * minimum 8 GB
+    * geriau 16 GB
+
+Pasitikrinti galima 
+
+* `START` -> `About your PC` arba 
+* `START` -> `Settings` -> `System` -> `About`
+
+## Interneto sparta
+
+Spartą galima pasitikrinti [https://www.speedtest.net/](https://www.speedtest.net/).
+
+Jeigu WIFI sparta atsiuntimo (`download`) ir išsiuntimo (`upload`) yra mažesnė nei 20 Mbps patartina kompiuterį / notebooką jungti su `ethernet` kabeliu į maršrutizatorių (`router`), taip ženkliai pagerinant internetinę spartą.
+
+![](figures/1_technical/router-connect-2.jpg)
+
+![](figures/1_technical/laptop-connect.jpg)
+
+## Energijos tiekimas
+
+Transliuojant visada turi būti įjungtas elektros tiekimo kabelis.
+
+![](figures/1_technical/power.png)
+
+
+## Programinės įrangos reikalavimai
+
+Transliacijai reikalingos šios programos:
+
+* GIMP
+    * naudojama grafikų (užsklandų / banner’ių) paruošimui
+    * nemokama (laisva), atviro kodo programa
+    * <https://www.gimp.org/downloads/>
+
+* OBS Studio (transliavimui): nemokama (laisva), atviro kodo programa
+    * naudojama video transliavimui
+    * nemokama (laisva), atviro kodo programa
+    * <https://obsproject.com/download>
+
+Tikėtina, jog abiejų programų instaliavimui gali prireikti IT komandos pagalbos (leidimo instaliuoti darbiniame kompiuteryje). Todėl rekomenduojama instaliavimo ir testavimo procesus atlikti kuo galima anksčiau.
+
+
+### Windows nustatymai
+
+1. "Windows updates" rekomenduojama pasitikrinti ar Windows operacinė sistema yra turi visus atnaujinimus, jeigu reikia, atlikti atnaujinimus ir restartuoti kompiuterį, taip užtikrinant, jog Windows neinicijuos atnaujinimų ar restartavimo translaicijos metu.
+
+2. Windows mikrofo išjungimas yra reikalingas tam, kad transliuoant MS TEAMS susiitkimą, ekrana neatsiratų pop-up langelis, nurodantis, kad kalbant reikia įsijungti mikrofoną, atitinkamai šis langelis būtų matomas tranliacijos video įraše
+
+3. Task-bar lock nuėmimas (opcionalu)
+
+4. Energijos nustatymai
+
+
+### OBS-Studio nustatymai
+
+1. Paskyros sujungimas su Youtube
+
+2. Studio mode
+
+3. Aplanko Windows aplinkoje suskūrimas (pvz. OBS_transliacijos) ir nustatymas, jog video įrašai turėtų būti saugomi šiame aplanke
+
+4. Video nustatymai
+
+5. Output nustatymai
+
+Papildomi nustatymai bus aptarti "Transliacijos" skyriuje
+
+
+### Teams nustatymai
+
+Standartinis TEAMS nustatymas yra, jog renginio organizatorius arba dalyvis turi patvrinti kiekvieną norintį prisjungti prie susitikimo. Dėl šios priežasties ekrane atsiranda pop-up pranešimas apie norinčius porisijungti, be to, girdimimas pranšimo signalas.  Tad kad būtų išvengta šių video ir garsinių trikdžių rekomenduojami šie nustytamai:
+
+* **Who can bypass the lobby** pakeisti į **Everynone**
+* **Announce when callers join ir leave** išjungti
+
+
+
+
+
+
