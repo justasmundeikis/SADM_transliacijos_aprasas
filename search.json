@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Techninis aprašas SADM transliacijoms",
+    "section": "",
+    "text": "Šis techninis aprašas skirtas LR SADM darbuotojams, kurie turi užtikrinti SADM organizuojamų dvišalių bei trišalių susitikimų, vykstančių per MS TEAMS platformą, tiesioginę transliaciją internetu per Youtube LR SADM paskyrą.\nSusitikimų, posėdžių bei diskusijų transliavimas užtikrina vykdomo socialinio dialogo skaidrumą bei tiek LR SADM, tiek kitų socialinių partnerių atskaitomybę visuomenei bei reprezentuojamoms interesų grupėms.\nKartu transliavimas užtikrina archyvavimo funkciją: transliuoti video išsaugomi platformoje Youtube, juose nurodant laiko žymas, atima poreikį transkribuoti posėdžius. Visgi saugumo sumetimais rekomenduojama padaryti 2 atsarginius video įrašus, kaip tai padaryti, bus paaiškinta šiame apraše.\nŠis aprašas nedetalizuoja, kuri LR SADM komanda turi užtikrinti transliavimo vykdymą:\n\nkomanda, kuri organizuoja renginį\nkomunikacijos komanda\nIT komanda\n\nKiekviena komandos įtraukimas turi savo pliusų ir minusų:\n\nkomanda, kuri organizuoja renginį (darbo teisės grupė)\n\nminusas: tikėtinas mažesnis IT raštingumas, galimi konfliktai su kitų renginių transliavimu nesuderinus su komunikacijos komanda\npliusas: visas procesas vienuose rankose\n\nkomunikacijos komanda\n\nminusas: tikėtinas mažesnis IT raštingumas, papildomas derinimas su organizuojančia komanda\npliusas: centralizuotos komunikacijos kompetencijos organizacijoje\n\nIT komanda\n\nminusas: papildomas derinimas su organizuojančia komanda, papildomas derinimas su komunikacijos komanda dėl galimai persidengenčių laike transliacijų\npliusas: tikėtinas didesnis IT raštingumas ir kompetencijas spręsti ad-hoc kylančias IT problemas\n\n\nOptimalus rezultatas būtų pasiektas, jeigu susitikimo organizatorius (susitikimo administratoriaus teises turintis asmuo) vykdytų transliaciją, t.y. jog būtų atskirtos šios dvi funkcijos:\n\nTEAMS susitikimo techninis organizavimas ( TEAMS susitikimo nustatymų valdymas) ir susitikimo transliavimas bei pirminis ir antriniai įrašo darymai\nSusitikimo administravimas (kvorumo patikrinimas, klausimų atsakymas susitikimo metu ir t.t.)\n\nŠis aprašas skirtas TEAMS platformoje vykstančių susitikimų retransliavimui, tačiau yra lengvai adaptuojamas ZOOM / JITSI ir kitų platformų naudojimui, kurios galėtų būti naudojamos ateityje vietoj TEAMS platformos.\nTaip pat daroma prielaida, jog archyvavimo ir organizavimo tikslais taip pat naudojama TEAMS programa. Jeigu ateityje tai pasikeistų, atitinkamai reiktų adaptuoti šiame apraše esančius principus naujai platformai."
+  },
+  {
+    "objectID": "1_process_overview.html",
+    "href": "1_process_overview.html",
+    "title": "Transliavimo procesas - trumpai",
+    "section": "",
+    "text": "Žemiau pateikiamas specinifinis procesas pritaikytas LR trišalės tarybos transliavimui, gali būti adaptuotas bet kokio kito formato renginių, diskusijų ir posėdžių transliavimui.\n\nTechninės ir programines pasiruošimas (programinės įrangos instaliavimas, interneto spartos matavimas)\nPasiruošimas transliavimui\nTransliavimas\nPost-transliavimo darbai\n\n\nYoutube esančio video editavimas\nMS Teams sukėlimas"
+  },
+  {
+    "objectID": "1_hardware_software.html",
+    "href": "1_hardware_software.html",
+    "title": "1  Techninė ir programinė įranga",
+    "section": "",
+    "text": "Renginio transliacijos metu galima tikėtis, jog kompiuteris (nešiojamas ar stacionarus) bus pilnai apkrautas ir papildomas jo naudojimas gali daryti neigiamą įtaką transliacijos ir video įrašo kokybei. Transliacijos metu turi būti deaktyvuotas mikrofonas, todėl įrenginys nebūtų panaudojamas dalyvavimui renginyje. Dėl šių dviejų priežasčių rekomenduojama naudoti dedikuotą kompiuterį šiai užduočiai.\nReikalavimai:\n\nProcesorius:\n\nminimum Intel i-5\ngeriau Intel i-7\n\nDarbinės atminties (RAM)\n\nminimum 8 GB\ngeriau 16 GB\n\n\nPasitikrinti galima\n\nSTART -> About your PC arba\nSTART -> Settings -> System -> About"
+  },
+  {
+    "objectID": "1_hardware_software.html#interneto-sparta",
+    "href": "1_hardware_software.html#interneto-sparta",
+    "title": "1  Techninė ir programinė įranga",
+    "section": "1.2 Interneto sparta",
+    "text": "1.2 Interneto sparta\nSpartą galima pasitikrinti https://www.speedtest.net/.\nJeigu WIFI sparta atsiuntimo (download) ir išsiuntimo (upload) yra mažesnė nei 20 Mbps patartina kompiuterį / notebooką jungti su ethernet kabeliu į maršrutizatorių (router), taip ženkliai pagerinant internetinę spartą."
+  },
+  {
+    "objectID": "1_hardware_software.html#energijos-tiekimas",
+    "href": "1_hardware_software.html#energijos-tiekimas",
+    "title": "1  Techninė ir programinė įranga",
+    "section": "1.3 Energijos tiekimas",
+    "text": "1.3 Energijos tiekimas\nTransliuojant visada turi būti įjungtas elektros tiekimo kabelis."
+  },
+  {
+    "objectID": "1_hardware_software.html#programinės-įrangos-reikalavimai",
+    "href": "1_hardware_software.html#programinės-įrangos-reikalavimai",
+    "title": "1  Techninė ir programinė įranga",
+    "section": "1.4 Programinės įrangos reikalavimai",
+    "text": "1.4 Programinės įrangos reikalavimai\nTransliacijai reikalingos šios programos:\n\nGIMP\n\nnaudojama grafikų (užsklandų / banner’ių) paruošimui\nnemokama (laisva), atviro kodo programa\nhttps://www.gimp.org/downloads/\n\nOBS Studio (transliavimui): nemokama (laisva), atviro kodo programa\n\nnaudojama video transliavimui\nnemokama (laisva), atviro kodo programa\nhttps://obsproject.com/download\n\n\nTikėtina, jog abiejų programų instaliavimui gali prireikti IT komandos pagalbos (leidimo instaliuoti darbiniame kompiuteryje). Todėl rekomenduojama instaliavimo ir testavimo procesus atlikti kuo galima anksčiau.\n\n1.4.1 Windows nustatymai\n\n“Windows updates” rekomenduojama pasitikrinti ar Windows operacinė sistema yra turi visus atnaujinimus, jeigu reikia, atlikti atnaujinimus ir restartuoti kompiuterį, taip užtikrinant, jog Windows neinicijuos atnaujinimų ar restartavimo translaicijos metu.\nWindows mikrofo išjungimas yra reikalingas tam, kad transliuoant MS TEAMS susiitkimą, ekrana neatsiratų pop-up langelis, nurodantis, kad kalbant reikia įsijungti mikrofoną, atitinkamai šis langelis būtų matomas tranliacijos video įraše\nTask-bar lock nuėmimas (opcionalu)\nEnergijos nustatymai\n\n\n\n1.4.2 OBS-Studio nustatymai\n\nPaskyros sujungimas su Youtube\nStudio mode\nAplanko Windows aplinkoje suskūrimas (pvz. OBS_transliacijos) ir nustatymas, jog video įrašai turėtų būti saugomi šiame aplanke\nVideo nustatymai\nOutput nustatymai\n\nPapildomi nustatymai bus aptarti “Transliacijos” skyriuje\n\n\n1.4.3 Teams nustatymai\nStandartinis TEAMS nustatymas yra, jog renginio organizatorius arba dalyvis turi patvrinti kiekvieną norintį prisjungti prie susitikimo. Dėl šios priežasties ekrane atsiranda pop-up pranešimas apie norinčius porisijungti, be to, girdimimas pranšimo signalas. Tad kad būtų išvengta šių video ir garsinių trikdžių rekomenduojami šie nustytamai:\n\nWho can bypass the lobby pakeisti į Everynone\nAnnounce when callers join ir leave išjungti"
+  },
+  {
+    "objectID": "3_preparing_youtube_banner.html",
+    "href": "3_preparing_youtube_banner.html",
+    "title": "2  Youtube banner paruošimas",
+    "section": "",
+    "text": "Parsisiųsti šabloną iš Teams (Trišalės tarybos grupė - > Files -> Pagalbiniai_failai)\n\narba atsisiųsti šabloną spaudžiant čia\njeigu patogiau, persikelti failą ant Desktop\n\nPaleisti GIMP programą\nAtsidaryti parsisiųstą šablono failą su File -> Open -> pasirenkant šablono failą\nJeigu nesimato toolbox kairėje pusėje meniu juostoje Tools -> New toolbox\nToolbox juostoje pasirinkti A (teksto editavimo simbolis)\nPaspaudus ant datos, perrašyti datą į reikiamą datą\nGalima išsaugoti šabloną (nebūtina)\nFailas eksportuojamas kaip .png dokumentas: File -> Export\n\npavadinimą rekomenduoju papildyti būsimo posėdžio data\npatvirtinus atsiradusiame pop-up lange pasirinkti Export"
+  }
+]
