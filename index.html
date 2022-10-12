@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Justas Mundeikis">
-<meta name="dcterms.date" content="2022-08-31">
+<meta name="dcterms.date" content="2022-10-12">
 
 <title>Techninis aprašas SADM transliacijoms</title>
 <style>
@@ -58,9 +58,12 @@ ul.task-list{list-style: none;}
 }</script>
 
 
+<meta name="twitter:title" content="Techninis aprašas SADM transliacijoms">
+<meta name="twitter:description" content="Šis techninis aprašas skirtas SADM darbuotojams, kurie turi užtikrinti SADM organizuojamų dvišalių bei trišalių susitikimų, vykstančių per TEAMS platformą, tiesioginę transliaciją internetu per…">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -74,9 +77,36 @@ ul.task-list{list-style: none;}
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title d-none d-lg-block">Techninis aprašas SADM transliacijoms</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Justas Mundeikis </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 12, 2022</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Techninis aprašas SADM transliacijoms</a> 
@@ -128,55 +158,33 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#įvadas" id="toc-įvadas" class="nav-link active" data-scroll-target="#įvadas">Įvadas</a></li>
+  <li><a href="#įvadas" id="toc-įvadas" class="nav-link active" data-scroll-target="#įvadas">Įvadas</a>
+  <ul class="collapse">
+  <li><a href="#pagalba" id="toc-pagalba" class="nav-link" data-scroll-target="#pagalba">Pagalba</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title d-none d-lg-block">Techninis aprašas SADM transliacijoms</h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Justas Mundeikis </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">August 31, 2022</p>
-    </div>
-  </div>
-    
-  </div>
-  
-
-</header>
 
 <section id="įvadas" class="level1 unnumbered">
 <h1 class="unnumbered">Įvadas</h1>
-<p>Šis techninis aprašas skirtas LR SADM darbuotojams, kurie turi užtikrinti SADM organizuojamų dvišalių bei trišalių susitikimų, vykstančių per MS TEAMS platformą, tiesioginę transliaciją internetu per <a href="https://www.youtube.com/channel/UCSIDVgAzDrQ9P43ccXTznVA">Youtube</a> LR SADM paskyrą.</p>
-<p>Susitikimų, posėdžių bei diskusijų transliavimas užtikrina vykdomo socialinio dialogo skaidrumą bei tiek LR SADM, tiek kitų socialinių partnerių atskaitomybę visuomenei bei reprezentuojamoms interesų grupėms.</p>
+<p>Šis techninis aprašas skirtas SADM darbuotojams, kurie turi užtikrinti SADM organizuojamų dvišalių bei trišalių susitikimų, vykstančių per TEAMS platformą, tiesioginę transliaciją internetu per <a href="https://www.youtube.com/channel/UCSIDVgAzDrQ9P43ccXTznVA">Youtube</a> SADM paskyrą.</p>
+<p>Susitikimų, posėdžių bei diskusijų transliavimas užtikrina vykdomo socialinio dialogo skaidrumą bei tiek SADM, tiek kitų socialinių partnerių atskaitomybę visuomenei bei reprezentuojamoms interesų grupėms.</p>
 <p>Kartu transliavimas užtikrina archyvavimo funkciją: transliuoti video išsaugomi platformoje Youtube, juose nurodant laiko žymas, atima poreikį transkribuoti posėdžius. Visgi saugumo sumetimais rekomenduojama padaryti 2 atsarginius video įrašus, kaip tai padaryti, bus paaiškinta šiame apraše.</p>
-<p>Šis aprašas nedetalizuoja, kuri LR SADM komanda turi užtikrinti transliavimo vykdymą:</p>
+<p>Šis aprašas nedetalizuoja, kuri SADM komanda turi užtikrinti transliavimo vykdymą:</p>
 <ul>
-<li>komanda, kuri organizuoja renginį</li>
+<li>darbo teisės komanda</li>
 <li>komunikacijos komanda</li>
 <li>IT komanda</li>
 </ul>
-<p>Kiekviena komandos įtraukimas turi savo pliusų ir minusų:</p>
+<p>Kiekviena komanda turi savo galimų pliusų ir minusų:</p>
 <ul>
-<li>komanda, kuri organizuoja renginį (darbo teisės grupė)
+<li>darbo teisės komanda
 <ul>
 <li>minusas: tikėtinas mažesnis IT raštingumas, galimi konfliktai su kitų renginių transliavimu nesuderinus su komunikacijos komanda</li>
 <li>pliusas: visas procesas vienuose rankose</li>
@@ -188,19 +196,39 @@ ul.task-list{list-style: none;}
 </ul></li>
 <li>IT komanda
 <ul>
-<li>minusas: papildomas derinimas su organizuojančia komanda, papildomas derinimas su komunikacijos komanda dėl galimai persidengenčių laike transliacijų</li>
+<li>minusas: reikalingas papildomas derinimas su organizuojančia komanda ir su komunikacijos komanda dėl galimai persidengenčių laike transliacijų</li>
 <li>pliusas: tikėtinas didesnis IT raštingumas ir kompetencijas spręsti ad-hoc kylančias IT problemas</li>
 </ul></li>
 </ul>
 <p>Optimalus rezultatas būtų pasiektas, jeigu susitikimo organizatorius (susitikimo administratoriaus teises turintis asmuo) vykdytų transliaciją, t.y. jog būtų atskirtos šios dvi funkcijos:</p>
 <ol type="1">
-<li><p>TEAMS susitikimo techninis organizavimas ( TEAMS susitikimo nustatymų valdymas) ir susitikimo transliavimas bei pirminis ir antriniai įrašo darymai</p></li>
+<li><p>TEAMS susitikimo techninis organizavimas (TEAMS susitikimo nustatymų valdymas) ir susitikimo transliavimas bei pirminis ir antriniai įrašo darymai</p></li>
 <li><p>Susitikimo administravimas (kvorumo patikrinimas, klausimų atsakymas susitikimo metu ir t.t.)</p></li>
 </ol>
 <p>Šis aprašas skirtas TEAMS platformoje vykstančių susitikimų retransliavimui, tačiau yra lengvai adaptuojamas ZOOM / JITSI ir kitų platformų naudojimui, kurios galėtų būti naudojamos ateityje vietoj TEAMS platformos.</p>
 <p>Taip pat daroma prielaida, jog archyvavimo ir organizavimo tikslais taip pat naudojama TEAMS programa. Jeigu ateityje tai pasikeistų, atitinkamai reiktų adaptuoti šiame apraše esančius principus naujai platformai.</p>
+<section id="pagalba" class="level2">
+<h2 class="anchored" data-anchor-id="pagalba">Pagalba</h2>
+<p>Nepaisant išsamaus techninio aprašo, transliacijas turintiems vykdyti darbuotojams gali kilti papildomų klausimų, poreikis padėti spręsti iškilusias problemas.</p>
+<p>Pagalbos algoritmas turėtų būti toks:</p>
+<ol type="1">
+<li>Jeigu kyla papildomų klausimų, techninis raportas nėra aiškus, reiktų jog būtų papildytas / pataisytas aprašas:
+<ul>
+<li>kontaktuoti Justą Mundeikį</li>
+</ul></li>
+<li>Jeigu kyla techninių problemų (nepavyksta instaliuoti programų / metamos klaidos)
+<ul>
+<li>kontaktuoti SADM IT komandą</li>
+<li>kontaktuoti Justą Mundeikį</li>
+</ul></li>
+<li>Jeigu kyla poreikis papildomai pasiaiškinti transliavimo mechanizmą, galimi 1:1 individualūs susitikimai su Justu Mundeikiu, kuriuos reiktų derinti individualiai
+<ul>
+<li>kontaktuoti Justą Mundeikį</li>
+</ul></li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
