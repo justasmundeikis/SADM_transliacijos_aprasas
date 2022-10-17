@@ -46,7 +46,28 @@
     "href": "2_preparation.html",
     "title": "2  Pre-transliavimo darbai",
     "section": "",
-    "text": "Parsisiųsti šabloną iš Teams (Trišalės tarybos grupė - > Files -> Pagalbiniai_failai)\n\narba atsisiųsti šabloną spaudžiant čia\njeigu patogiau, persikelti failą ant Desktop\n\nPaleisti GIMP programą\nAtsidaryti parsisiųstą šablono failą su File -> Open -> pasirenkant šablono failą\nJeigu nesimato toolbox kairėje pusėje meniu juostoje Tools -> New toolbox\nToolbox juostoje pasirinkti A (teksto editavimo simbolis)\nPaspaudus ant datos, perrašyti datą į reikiamą datą\nGalima išsaugoti šabloną (nebūtina)\nFailas eksportuojamas kaip .png dokumentas: File -> Export\n\npavadinimą rekomenduoju papildyti būsimo posėdžio data\npatvirtinus atsiradusiame pop-up lange pasirinkti Export"
+    "text": "Šiame skyriuje parodomi du paruošiamieji transliacijai darbai:\nPo įrašo ji veikia kaip transliacijos pagrindinis paveiksliukas, kuris matomas peržiūrint visus video"
+  },
+  {
+    "objectID": "2_preparation.html#youtube-užsklandos-sukūrimas",
+    "href": "2_preparation.html#youtube-užsklandos-sukūrimas",
+    "title": "2  Pre-transliavimo darbai",
+    "section": "2.1 Youtube užsklandos sukūrimas",
+    "text": "2.1 Youtube užsklandos sukūrimas\nŽemiau pateikta instrukcija naudojantis GIMP grafikos apdorojimo programa (žr. 1 skyrius).\n\nParsisiunčiamas šablonas arba iš TT Teams kanalo (Trišalės tarybos grupė - > Files -> Pagalbiniai_failai), arba spaudžiant čia. Rekomenduojama išsisaugoti ant darbastalio / darbalaukio (Desktop)\n\n\n\nPaleidus GIMP programą, atidaromas parsisiųstas šablono failas su Failas -> Open ir pasirenkant šablono failą\n\n\n\n\n\nĮrankių juostoje (kairėje pusėje) pasirinkti A (teksto editavimo simbolį) paspaudžiant ant jo su pele\n\n\n\nTada su pele spaudžiama ant datos ir data koreguojama į sekančio posėdžio datą. Jeigu reikia koreguoti raidžių dydį, dvigubu pelės paspaudimu galima pasirinkti visas raides ir tada padidinti arba sumažinti raidžių dydį, išreikštą px (turėtų būti 70).\n\n\n\nNorint eksportuoti failą kaip paveiksliuką, spaudžiama ant: Failas -> Eksportuoti.\n\n\nTada pavadinimą reiktų papildyti numatomo posėdžio data ir spausti ant Eksportuoti.\n\nAtsidariusiame pop-up lange nieko nekeisti ir spausti vėl spausti ant Eksportuoti\n\nDarbalaukyje dabar turėtų būti atsiradęs naujas failas\n\nŠį naują failą ir naudosime Youtube užsklandai. GIMP programą galima išjungti"
+  },
+  {
+    "objectID": "2_preparation.html#būsimos-youtube-transliacijos-sukūrimas",
+    "href": "2_preparation.html#būsimos-youtube-transliacijos-sukūrimas",
+    "title": "2  Pre-transliavimo darbai",
+    "section": "2.2 Būsimos Youtube transliacijos sukūrimas",
+    "text": "2.2 Būsimos Youtube transliacijos sukūrimas\nŠiame poskyryje daroma prielaida, jog OBS-Studio programa yra instaliuoti ir susieta su SADM Youtube paskyra (žr. 1 skyrius).\n\nPaleidus OBS-Studio programą spausti ant Manage brodcast\n\n\n\nAtsidariusiame lange reikia užpildyti viską transliacijos informaciją. Žemiau pateikiamas pvz., TT posėdžiui 2022-10-25.\n\n\nTitle: Trišalės tarybos posėdis 2022-10-25\nDescription galima įrašyti “Posėdžio darbotvarkę ir posėdžio medžiagą galima rasti: https://socmin.lrv.lt/lt/administracine-informacija/tarybos-ir-komisijos/lr-trisale-taryba/trisales-tarybos-posedziai”\nIs this video made for kids? pasirinkti No, it's not made for kids\nThumbnail pasirinkti spaudžiant ant Select file ir pasirenkant pirmame šio skyriaus dalyje sukurtą užsklandą\nUždėti varnelę ant Schedule for later ir pasirinkti laiką, kada planuojama transliacijos pradžia (pvz., 2022-10-25 14:00 atitinka 10/25/22 2:00 PM)\nPasitikrinti ar viskas suvesta teisingai, spausti ant Schedule broadcast\n\nNuėjus į Youtube, netrukus galima rasti transliaciją."
+  },
+  {
+    "objectID": "2_preparation.html#komunikacija-su-komunikacijos-komanda",
+    "href": "2_preparation.html#komunikacija-su-komunikacijos-komanda",
+    "title": "2  Pre-transliavimo darbai",
+    "section": "2.3 Komunikacija su Komunikacijos komanda",
+    "text": "2.3 Komunikacija su Komunikacijos komanda\n\nSukūrus planuojama transliaciją, būtina informuoti Komunikacijos komandą apie tai, kurią dieną ir kuriuo metu bus naudojamasi transliacijos prieiga, tam kad tuo pačiu metu nevyktų jokių kitų transliacijų. Informavimas yra pakankamas privačia žinute per TEAMS platformą."
   },
   {
     "objectID": "3_live.html",
