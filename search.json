@@ -46,7 +46,7 @@
     "href": "2_preparation.html",
     "title": "2  Pre-transliavimo darbai",
     "section": "",
-    "text": "Šiame skyriuje parodomi du paruošiamieji transliacijai darbai:\nPo įrašo ji veikia kaip transliacijos pagrindinis paveiksliukas, kuris matomas peržiūrint visus video"
+    "text": "Šiame skyriuje parodomi du paruošiamieji transliacijai darbai:\nPo įrašo ji veikia kaip transliacijos pagrindinis paveiksliukas, kuris matomas peržiūrint visus video\nTaip pat pateikiamos papildomos rekomendacijos TT Teams kanale bei komunikuojant su kitomis komandomis apie planuojamą transliaciją."
   },
   {
     "objectID": "2_preparation.html#youtube-užsklandos-sukūrimas",
@@ -68,6 +68,13 @@
     "title": "2  Pre-transliavimo darbai",
     "section": "2.3 Komunikacija su Komunikacijos komanda",
     "text": "2.3 Komunikacija su Komunikacijos komanda\n\nSukūrus planuojama transliaciją, būtina informuoti Komunikacijos komandą apie tai, kurią dieną ir kuriuo metu bus naudojamasi transliacijos prieiga, tam kad tuo pačiu metu nevyktų jokių kitų transliacijų. Informavimas yra pakankamas privačia žinute per TEAMS platformą."
+  },
+  {
+    "objectID": "2_preparation.html#tt-teams-kanalo-darbai",
+    "href": "2_preparation.html#tt-teams-kanalo-darbai",
+    "title": "2  Pre-transliavimo darbai",
+    "section": "2.4 TT Teams kanalo darbai",
+    "text": "2.4 TT Teams kanalo darbai\nSukūrus transliacijos renginio anonsą, taip apt rekomenduojama sukurti reikiama aplankų struktūrą TT Teams kanale:\n\nFiles -> Posėdžiai -> Sukurti naują aplanką skirtą TT_YYYY_MM_DD posėdžiui (jeigu tai Darbo Grupė, tada DG_YYYY_MM_DD). Šio aplanko viduje sukurti šiuos aplankus:\n\nvideo_įrašas\nprotokolas\ndokumentai"
   },
   {
     "objectID": "3_live.html",
