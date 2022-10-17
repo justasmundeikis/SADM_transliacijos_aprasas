@@ -74,7 +74,7 @@
     "href": "2_preparation.html#tt-teams-kanalo-darbai",
     "title": "2  Pre-transliavimo darbai",
     "section": "2.4 TT Teams kanalo darbai",
-    "text": "2.4 TT Teams kanalo darbai\nSukūrus transliacijos renginio anonsą, taip apt rekomenduojama sukurti reikiama aplankų struktūrą TT Teams kanale:\n\nFiles -> Posėdžiai -> Sukurti naują aplanką skirtą YYYY_MM_DD_TT posėdžiui (jeigu tai Darbo Grupė, tada YYYY_MM_DD_DG). Šio aplanko viduje sukurti šiuos aplankus:\n\nvideo_įrašas\nprotokolas\ndokumentai"
+    "text": "2.4 TT Teams kanalo darbai\nSukūrus transliacijos renginio anonsą, taip apt rekomenduojama sukurti reikiama aplankų struktūrą TT Teams kanale:\n\nFiles -> Posėdžiai -> YYYY -> sukurti naują aplanką skirtą YYYY_MM_DD_TT/ posėdžiui (jeigu tai Darbo Grupė, tada YYYY_MM_DD_DG). Šio aplanko viduje sukurti šiuos aplankus:\n\nvideo_įrašas/\ndokumentai/\n\nprotokolas/\nmedžiaga/\nprograma.pdf / programa.docx\n\n\n\nAplankas dokumentai galėtų būti archyvuojamas į .zip archyva ir naudojamas socmin.lt tinklpayje pateikti visą medžiagą, kuri buvo naudota susitikimo metu (žr. 4 skyrius)"
   },
   {
     "objectID": "3_live.html",
