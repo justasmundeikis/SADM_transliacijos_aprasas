@@ -6,14 +6,13 @@
 
 ![](figures/2_pre/yb_1.png)
 
- Po įrašo ji veikia kaip transliacijos pagrindinis paveiksliukas, kuris matomas peržiūrint visus video
+Po įrašo ji veikia kaip transliacijos pagrindinis paveiksliukas, kuris matomas peržiūrint visus video
 
 ![](figures/2_pre/yb_2.png)
 
 2. sukuriamas Youtube transliacijos renginys per `OBS-Studio` programą
 
 Taip pat pateikiamos papildomos rekomendacijos TT Teams kanale bei komunikuojant su kitomis komandomis apie planuojamą transliaciją.
-
 
 ## Youtube užsklandos sukūrimas
 
@@ -67,9 +66,7 @@ Darbalaukyje dabar turėtų būti atsiradęs naujas failas
 
 2. Atsidariusiame lange reikia užpildyti viską transliacijos informaciją. Žemiau pateikiamas pvz., TT posėdžiui 2022-10-25.
 
-
 ![](figures/2_pre/obs_3.png)
-
 
 * `Title`: Trišalės tarybos posėdis 2022-10-25 
 * `Description`: galima įrašyti "Posėdžio darbotvarkę ir posėdžio medžiagą galima rasti:
@@ -79,7 +76,7 @@ https://socmin.lrv.lt/lt/administracine-informacija/tarybos-ir-komisijos/lr-tris
 * `Is this video made for kids?` pasirinkti `No, it's not made for kids`
 * `Thumbnail` pasirinkti spaudžiant ant `Select file` ir pasirenkant pirmame šio skyriaus dalyje sukurtą užsklandą
 * Uždėti varnelę ant `Schedule for later` ir pasirinkti laiką, kada planuojama transliacijos pradžia (pvz., `2022-11-22 14:00` atitinka `11/22/22 2:00 PM`)
-* Uždėti varnelę ant `Eneble Auto-start` IR `Enable Auto-stop`, šis pasirinkimas leis pradėti ir užbaigti Youtube transliaciją tiesiogiai iš OBS-Studio programos
+* Uždėti varnelę ant `Enable Auto-start` IR `Enable Auto-stop`, šis pasirinkimas leis pradėti ir užbaigti Youtube transliaciją tiesiogiai iš OBS-Studio programos
 * Pasitikrinti ar viskas suvesta teisingai, spausti ant `Schedule broadcast`
 
 
@@ -101,4 +98,5 @@ Sukūrus transliacijos renginio anonsą, taip apt rekomenduojama sukurti reikiam
         * medžiaga/
         * programa.pdf / programa.docx
 
-Aplankas `dokumentai` galėtų būti archyvuojamas į .zip archyva ir naudojamas socmin.lt tinklpayje pateikti visą medžiagą, kuri buvo naudota susitikimo metu (žr. 4 skyrius)
+Aplankas `dokumentai` galėtų būti archyvuojamas į .zip archyva ir naudojamas socmin.lt tinklapyje pateikti visą medžiagą, kuri buvo naudota susitikimo metu (žr. 4 skyrius)
+
