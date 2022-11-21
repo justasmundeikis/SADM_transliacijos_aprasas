@@ -20,7 +20,6 @@ Pasitikrinti galima
 -   `START` -\> `Paremetrai` -\> `Sistema` -\> `Apie`
 
 
-
 ## Interneto sparta
 
 Spartą galima pasitikrinti <https://www.speedtest.net/>.
@@ -188,42 +187,11 @@ Jeigu viskas pavyksta, spaudžiama ant `Apply settings`
 
 ![](figures/1_technical/obs_13.png){style="border: 1px solid black"}
 
-#### Studio Mode
+#### Video nustatymai
 
-`Studio mode` aktyvuoja jog matomi du "ekranai":
-
--   dešinys ekranas: kam pasiruošta rodyti
--   kairys ekranas: kas transliuojama / įrašoma
-
-Detaliau apie OBS-Studio transliavimą / ekranų naudojimą sekančiame skyriuje
-
-![](figures/1_technical/obs_14.png){style="border: 1px solid black"}
-
-![](figures/1_technical/obs_15.png){style="border: 1px solid black"}
-
-#### Įrašo vietos parinkimas
-
-Pasirinktoje vietoje sukuriamas naujas aplankas, pvz: `obs_video`
-
-![](figures/1_technical/obs_16.png){style="border: 1px solid black"}
-
-OBS-Studio spaudžiama ant `Settings`
+Einama į nustaymus:
 
 ![](figures/1_technical/obs_17.png){style="border: 1px solid black"}
-
-Einama į `Output`
-
-![](figures/1_technical/obs_18.png){style="border: 1px solid black"}
-
-ir skiltyje `Recording` pasirenkamas aplankas paspaudus ant `Browse`
-
-![](figures/1_technical/obs_19.png){style="border: 1px solid black"}
-
-Opcionaliai pasirenkama, kad sugeneruotas failo pavadinimas būtų be tarpelių
-
-![](figures/1_technical/obs_20.png){style="border: 1px solid black"}
-
-#### Video nustatymai
 
 Paspaudus ant `Video` reikia įsitikinti, ar šie nustatymai yra perimti teisingai:
 

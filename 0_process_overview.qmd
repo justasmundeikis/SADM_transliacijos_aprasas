@@ -13,4 +13,4 @@
 4. Post-transliavimo darbai
 
 
-![](figures/test.svg)
+![](figures/0/tt_transliavimo_procesas.svg)
