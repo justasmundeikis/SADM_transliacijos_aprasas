@@ -2,218 +2,233 @@
 
 ## Techninės įrangos reikalavimai
 
-Renginio transliacijos metu galima tikėtis, jog kompiuteris (nešiojamas ar stacionarus) bus pilnai apkrautas ir papildomas jo naudojimas gali daryti neigiamą įtaką transliacijos ir video įrašo kokybei. Transliacijos metu turi būti deaktyvuotas mikrofonas, todėl įrenginys nebūtų panaudojamas dalyvavimui renginyje. Dėl šių dviejų priežasčių rekomenduojama naudoti dedikuotą kompiuterį šiai užduočiai. 
+Renginio transliacijos metu galima tikėtis, jog kompiuteris (nešiojamas ar stacionarus) bus pilnai apkrautas ir papildomas jo naudojimas gali daryti neigiamą įtaką transliacijos ir video įrašo kokybei. Transliacijos metu turi būti deaktyvuotas mikrofonas, todėl įrenginys nebūtų panaudojamas dalyvavimui renginyje. Dėl šių dviejų priežasčių rekomenduojama naudoti dedikuotą kompiuterį šiai užduočiai.
 
 Reikalavimai:
 
-* Procesorius:
-    * minimum `Intel i-5`
-    * geriau `Intel i-7` 
-* Darbinės atminties (RAM)
-    * minimum 8 GB
-    * geriau 16 GB
+-   Procesorius:
+    -   minimum `Intel i-5`
+    -   geriau `Intel i-7`
 
-Pasitikrinti galima 
+-   Darbinės atminties (RAM)
+    -   minimum 8 GB
+    -   geriau 16 GB
 
-* `START` -> `About your PC` arba 
-* `START` -> `Settings` -> `System` -> `About`
+Pasitikrinti galima
+
+-   `START` -\> `Apie šį kompiuterį` arba
+-   `START` -\> `Paremetrai` -\> `Sistema` -\> `Apie`
+
+
 
 ## Interneto sparta
 
-Spartą galima pasitikrinti [https://www.speedtest.net/](https://www.speedtest.net/).
+Spartą galima pasitikrinti <https://www.speedtest.net/>.
 
 Jeigu WIFI sparta atsiuntimo (`download`) ir išsiuntimo (`upload`) yra mažesnė nei 20 Mbps patartina kompiuterį / notebooką jungti su `ethernet` kabeliu į maršrutizatorių (`router`), taip ženkliai pagerinant internetinę spartą.
 
+::: {layout-ncol="2"}
 ![](figures/1_technical/router-connect-2.jpg)
 
 ![](figures/1_technical/laptop-connect.jpg)
+:::
 
 ## Energijos tiekimas
 
 Transliuojant visada turi būti įjungtas elektros tiekimo kabelis.
 
-![](figures/1_technical/power.png)
-
+![](figures/1_technical/power.png){style="border: 1px solid black"}
 
 ## Programinės įrangos reikalavimai
 
 Transliacijai reikalingos šios programos:
 
-* GIMP
-    * naudojama grafikų (užsklandų / banner’ių) paruošimui
-    * nemokama (laisva), atviro kodo programa
-    * <https://www.gimp.org/downloads/>
-
-* OBS Studio (transliavimui): nemokama (laisva), atviro kodo programa
-    * naudojama video transliavimui
-    * nemokama (laisva), atviro kodo programa
-    * <https://obsproject.com/download>
+-   GIMP
+    -   naudojama grafikų (užsklandų / banner'ių) paruošimui
+    -   nemokama (laisva), atviro kodo programa
+    -   [Atsisiųsti GIMP](https://www.gimp.org/downloads/)
+-   OBS-Studio (transliavimui):
+    -   naudojama video transliavimui
+    -   nemokama (laisva), atviro kodo programa
+    -   [Atsiųsti OBS-Studio](https://obsproject.com/download)
 
 Tikėtina, jog abiejų programų instaliavimui gali prireikti IT komandos pagalbos (leidimo instaliuoti darbiniame kompiuteryje). Todėl rekomenduojama instaliavimo ir testavimo procesus atlikti kuo galima anksčiau.
 
-
 ### Windows nustatymai
 
-1. "Windows updates" rekomenduojama pasitikrinti ar Windows operacinė sistema yra turi visus atnaujinimus, jeigu reikia, atlikti atnaujinimus ir restartuoti kompiuterį, taip užtikrinant, jog Windows neinicijuos atnaujinimų ar restartavimo transliacijos metu.
+#### Windows updates
 
-Iš pagrindinio `Settings` lango einama į `Update & Security`
+1.  `"Windows update" parametrai` rekomenduojama pasitikrinti ar Windows operacinė sistema yra turi visus atnaujinimus, jeigu reikia, atlikti atnaujinimus ir restartuoti kompiuterį, taip užtikrinant, jog Windows neinicijuos atnaujinimų ar restartavimo transliacijos metu.
 
-![](figures/1_technical/win_update_1.png)
+Iš pagrindinio `Paremetrai` lango einama į `Naujinimas ir sauga` kuriame pasitikrinama, ar turimi visi atnaujinimai. Jeigu reikia parsiunčiami ir instaliuojami atnaujinimai, restartuojamas kompiuteris.
 
-Kuriame pasitikrinama, ar turimi visi atnaujinimai
+![](figures/1_technical/win_parametrai.png){style="border: 1px solid black"}
 
-![](figures/1_technical/win_update_2.png)
 
-2. Windows mikrono išjungimas yra reikalingas tam, kad transliuojant TEAMS susitikimą, ekrane neatsirastų pop-up langelis, nurodantis, kad kalbant reikia įsijungti mikrofoną, atitinkamai šis langelis būtų matomas transliacijos video įraše.  Paaiškinimas: kai yra mikrofonas yra išjungiamas tik pačioje TEAMS programoje, TEAMS gauna signalą, jog yra kalbama ir todėl transliacijos metu išmeta langelį siūlantį įsijungti mikrofoną. Siekiant išvengti tokio elgesio reikia deaktyvuoti mikrofoną pačioje WINDOWS sistemoje.
+![](figures/1_technical/win_update_1.png){style="border: 1px solid black"}
 
-Iš pagrindinio `Settings` lango einama į `System`:
+![](figures/1_technical/win_update_2.png){style="border: 1px solid black"}
 
-![](figures/1_technical/win_audio_1.png)
 
-Tada einama į `Sound`:
+#### Windows mikrofono išjungimas
 
-![](figures/1_technical/win_audio_2.png)
+Windows mikrono išjungimas yra reikalingas tam, kad transliuojant TEAMS susitikimą, ekrane neatsirastų pop-up langelis, nurodantis, kad kalbant reikia įsijungti mikrofoną, atitinkamai šis langelis būtų matomas transliacijos video įraše. Paaiškinimas: kai yra mikrofonas yra išjungiamas tik pačioje TEAMS programoje, TEAMS gauna signalą, jog yra kalbama ir todėl transliacijos metu išmeta langelį siūlantį įsijungti mikrofoną. Siekiant išvengti tokio elgesio reikia deaktyvuoti mikrofoną pačioje WINDOWS sistemoje.
 
-Lango apatinėje dalyje (skiltyje `Input`) spaudžiama ant `Device properties`:
+Iš pagrindinio `Paremetrai` lango einama į `Sistema`
 
-![](figures/1_technical/win_audio_3.png)
+![](figures/1_technical/win_audio_1.png){style="border: 1px solid black"}
 
-Uždedama varnelė ant `Disable`
+Pasirenkamas submeniu  `Garsas`
 
-![](figures/1_technical/win_audio_4.png)
+![](figures/1_technical/win_audio_2.png){style="border: 1px solid black"}
 
-3. Energijos nustatymai
+Lango apatinėje dalyje (skiltyje `Įvestis`) spaudžiama ant `Įrenginio ypatybės`
+
+![](figures/1_technical/win_audio_3.png){style="border: 1px solid black"}
+
+Uždedama varnelė ant `Išjungti`
+
+![](figures/1_technical/win_audio_4.png){style="border: 1px solid black"}
+
+Nuo dabar WINDOWS nebeturi mikrofono. Esant poreikiui nuėmus varnelę, mikrofoną galima vėl aktyvuoti ir naudoti pvz., per TEAMS susitikimus.
+
+#### Windows energijos nustatymai
 
 Siekiant, kad vykdant transliaciją WINDOWS neribotų kompiuterio, reikia susikurti ir aktyvuoti naują energijos planą `High performance` bei pakeisti kai kuriuos nustatymus, jog paliekant transliaciją porai valandų ir nenaudojant kompiuterio, šis "neužmigtų", taip nutraukiant transliaciją ar sugadinant įrašą.
 
-Paieškos funkcijoje įrašoma `Choose a power plan` ir atidaromas nustatymų langas:
+Iš pagrindinio `Paremetrai` lango einama į `Sistema`
 
-![](figures/1_technical/win_power_1.png)
+![](figures/1_technical/win_audio_1.png){style="border: 1px solid black"}
 
-Spaudžiama ant `Create a power plan`
+Pasirenkamas submeniu  `Energijos vartojimas ir miego rėžimas` ir jame spaudžiama ant `Papildomi energijos naudojimo parametrai`
 
-![](figures/1_technical/win_power_2.png)
+![](figures/1_technical/win_power_1.png){style="border: 1px solid black"}
 
-Pasirenkamas nustatymas `High performance` ir spaudžiama ant `Next`:
+Atsidariusiame naujame meniu lange spaudžiama ant `Kurti energijos vartojimo planą`
 
-![](figures/1_technical/win_power_3.png)
+![](figures/1_technical/win_power_2.png){style="border: 1px solid black"}
 
-Pasirenkama, kada WINDOWS turėtų išjungti ekraną ir tiek baterijos tiek krovimo rėžime pasirenkamas `Never` ir spaudžiama ant `Create`
+Pasirenkamas nustatymas `Didelis efektyvumas`  (opcionaliai: pakeičiamas plano pavadinimas pvz., Didelis efektyvumas) ir spaudžiama ant `Toliau`
 
-![](figures/1_technical/win_power_4.png)
+![](figures/1_technical/win_power_3.png){style="border: 1px solid black"}
 
-Siekiant pakeisti kai kuriuos nustatymus, spaudžiama ant `Change plan settings`
+Pasirenkama, kada WINDOWS turėtų išjungti ekraną ir tiek `Iš akumuliatoriaus`, tiek `Įjungtas į elektros tinklą` rėžime pasirenkama `Niekada` ir spaudžiama ant `Kurti`
 
-![](figures/1_technical/win_power_5.png)
+![](figures/1_technical/win_power_4.png){style="border: 1px solid black"}
 
-Toliau ant `Change advanced power setttings`
+Siekiant pakeisti kai kuriuos (ką tik sukurto plano "Didelis efektyvumas") nustatymus, spaudžiama ant `Keisti plano parametrus`
 
-![](figures/1_technical/win_power_6.png)
+![](figures/1_technical/win_power_5.png){style="border: 1px solid black"}
 
-`Hard disk` šakoje, `Turn off hard disk after` pakeičiama į `Never` tiek baterijos tiek krovimo rėžime 
+Toliau ant `Keisti papidlomus maitinimo parametrus`
 
-![](figures/1_technical/win_power_7.png)
+![](figures/1_technical/win_power_6.png){style="border: 1px solid black"}
 
+`Standusis diskas` šakoje, `Išjungti standųjį diską` pakeičiame į `Niekada` tiek `Iš akumuliatoriaus`, tiek `Įjungtas į elektros tinklą` rėžime. `Niekada` pasiekiamas kai keliskart spaudžiama ant rodyklytės `žemyn`.
+
+![](figures/1_technical/win_power_7.png){style="border: 1px solid black"}
 
 ### OBS-Studio nustatymai
 
-1. OBS-studio ir Youtube paskyros sujungimas 
+Žemiau pateikiama seka nustatymų, kuriuos reiktų atlikti pirmą kartą po to OBS-Studio instaliavimo.
 
-... 
+#### OBS-Studio ir Youtube paskyros sujungimas
 
-![](figures/1_technical/obs_1.png)
+Pirmą kartą paleidus OBS-Studio startuoja `Auto-Configuration Wizard` (šią funkciją galima startuoti pakartotinai bet kada pasirenkant `Tools` -> `Auto-Configuration Wizard`)
 
-... 
+Pirmame lange pasirenkama teikiama pirmenybe `Optimize for streaming, recoding is secondary`, siekiant užtikrinti kuo geresnius nustatymus transliacijai, nes daromas įrašas bus tik kaip atsarginė kopija.
 
-![](figures/1_technical/obs_2.png)
+![](figures/1_technical/obs_1.png){style="border: 1px solid black"}
 
-... 
+Sekančiame lange nustatoma rezoliucija `1920 x 1080` ir pasirenkama `30` FPS
 
-![](figures/1_technical/obs_3.png)
+![](figures/1_technical/obs_2.png){style="border: 1px solid black"}
 
-... 
+Pasirenkamas servisas, su kuriuo norima sujungti, mūsų atveju `Youtube-RTMPS`
 
-![](figures/1_technical/obs_4.png)
+![](figures/1_technical/obs_3.png){style="border: 1px solid black"}
 
-... 
+Spaudžiama ant `Connect Account`, jog įvyktų sujungimas su SADM Youtube paskyra
 
-![](figures/1_technical/obs_5.png)
+![](figures/1_technical/obs_4.png){style="border: 1px solid black"}
 
-... 
+Atsidaro interneto naršyklė, kurioje reikia įrašyti SADM naudojama el. pašto adresą susietą su Youtube paskyra
 
-![](figures/1_technical/obs_6.png)
+![](figures/1_technical/obs_5.png){style="border: 1px solid black"}
 
-... 
+Suvedamas slaptažodis
 
-![](figures/1_technical/obs_7.png)
+![](figures/1_technical/obs_6.png){style="border: 1px solid black"}
 
-... 
+Pasirenkama SADM paskyra (kuri bus naudojama transliacijoms)
 
-![](figures/1_technical/obs_8.png)
+![](figures/1_technical/obs_7.png){style="border: 1px solid black"}
 
-... 
+Suteikiama prieiga OBS-Studio programai valdyti Youtube esantį turinį (reikalinga transliacijų kūrimui ir transliavimui), patvirtinama spaudžiant ant `Tęsti`
 
-![](figures/1_technical/obs_9.png)
+![](figures/1_technical/obs_8.png){style="border: 1px solid black"}
 
-... 
+Jeigu matomas šis vaizdas, galima išjungti interneto naršyklę
 
-![](figures/1_technical/obs_10.png)
+![](figures/1_technical/obs_9.png){style="border: 1px solid black"}
 
-... 
+`Auto-Configuration Wizard` dabar matosi prie kurios paskyros yra jungiamasi, jeigu viskas gerai, spaudžiama ant `Next`
 
-![](figures/1_technical/obs_11.png)
+![](figures/1_technical/obs_10.png){style="border: 1px solid black"}
 
-... 
+OBS-Studio vykdo spartos testavimą ir optimalių nustatymų paiešką. Jeigu dėl kokių nors priežasčių procesas stringa, reikia spausti ant `Back`, grįžti vienu langeliu anksčiau ir pakartoti procesą.
 
-![](figures/1_technical/obs_12.png)
+![](figures/1_technical/obs_11.png){style="border: 1px solid black"}
 
-... 
+Jeigu viskas pavyksta, spaudžiama ant `Apply settings`
 
-![](figures/1_technical/obs_13.png)
+![](figures/1_technical/obs_12.png){style="border: 1px solid black"}
 
-... 
+Šiuos langus galima išjungti šiam kartui
 
-![](figures/1_technical/obs_14.png)
+![](figures/1_technical/obs_13.png){style="border: 1px solid black"}
 
-... 
+#### Studio Mode
 
-![](figures/1_technical/obs_15.png)
+`Studio mode` aktyvuoja jog matomi du "ekranai":
 
-... 
+-   dešinys ekranas: kam pasiruošta rodyti
+-   kairys ekranas: kas transliuojama / įrašoma
 
-![](figures/1_technical/obs_16.png)
+Detaliau apie OBS-Studio transliavimą / ekranų naudojimą sekančiame skyriuje
 
-... 
+![](figures/1_technical/obs_14.png){style="border: 1px solid black"}
 
-![](figures/1_technical/obs_17.png)
+![](figures/1_technical/obs_15.png){style="border: 1px solid black"}
 
-... 
+#### Įrašo vietos parinkimas
 
-![](figures/1_technical/obs_18.png)
+Pasirinktoje vietoje sukuriamas naujas aplankas, pvz: `obs_video`
 
-... 
+![](figures/1_technical/obs_16.png){style="border: 1px solid black"}
 
-![](figures/1_technical/obs_19.png)
+OBS-Studio spaudžiama ant `Settings`
 
-... 
+![](figures/1_technical/obs_17.png){style="border: 1px solid black"}
 
-![](figures/1_technical/obs_20.png)
+Einama į `Output`
 
-... 
+![](figures/1_technical/obs_18.png){style="border: 1px solid black"}
 
-![](figures/1_technical/obs_21.png)
+ir skiltyje `Recording` pasirenkamas aplankas paspaudus ant `Browse`
 
+![](figures/1_technical/obs_19.png){style="border: 1px solid black"}
 
-2. Studio mode
+Opcionaliai pasirenkama, kad sugeneruotas failo pavadinimas būtų be tarpelių
 
-3. Aplanko Windows aplinkoje sukūrimas (pvz. obs_video) ir nustatymas, jog video įrašai turėtų būti saugomi šiame aplanke
+![](figures/1_technical/obs_20.png){style="border: 1px solid black"}
 
-4. Video nustatymai
+#### Video nustatymai
 
-5. Output nustatymai
+Paspaudus ant `Video` reikia įsitikinti, ar šie nustatymai yra perimti teisingai:
 
-Papildomi nustatymai bus aptarti "Transliacijos" skyriuje
+-   `Base (Canvas) Resolution: 1920 x 1080`
+-   `Output (Scaled) Resolution: 1920 x 1080`
+-   `Common FPS Values: 30`
 
-
-
-
+![](figures/1_technical/obs_21.png){style="border: 1px solid black"}

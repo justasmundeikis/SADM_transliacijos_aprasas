@@ -1,5 +1,20 @@
 # Live transliacija
 
+Šiame skyriuje aprošomi veiksmai iš dviejų kompiuterių perspektyvos:
+
+* organizatoriaus (su galimybe naudotis mirkofonu, darančio papildomą įrašą)
+* transliuotojo (be mikrofono, tranlsiuojančio į Youtube ir darančio įrašą)
+
+
+
+
+
+
+## Transliacijos set-up
+
+
+
+
 ### Teams nustatymai
 
 Standartinis TEAMS nustatymas yra, jog renginio organizatorius arba dalyvis turi patvirtinti kiekvieną norintį prisijungti prie susitikimo. Dėl šios priežasties ekrane atsiranda pop-up pranešimas apie norinčius prisijungti, be to, girdimas pranešimo signalas. Kad būtų išvengta šių video ir garso trikdžių rekomenduojami šie nustatymai:

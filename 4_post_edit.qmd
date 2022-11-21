@@ -1,1 +1,48 @@
+
 # Post-transliavimo darbai
+
+## Video apkarpymas
+
+..
+
+## Laiko žymės
+
+..
+
+## Failų paruošimas tinklapiui
+
+Šiuo metu [SADM tinklapyje](https://socmin.lrv.lt/lt/administracine-informacija/tarybos-ir-komisijos/lr-trisale-taryba/trisales-tarybos-posedziai) taip atrodo sukeliama posėdžių medžiaga:
+
+![](figures/4_post/sadm.png) 
+
+Tokiame sukėlime ne retai trūksta pranešėjų skaidrių (pvz., 2022-06-21 LB pristatymo skaidrių). 
+
+Rekomencija keisti į tokį formatą
+
++-------------+----------------+-------------+------------------+---------------+
+| Data        | Formatas       | Programa    | Medžiaga         | Video         |
++=============+================+=============+==================+===============+
+| 2022-09-27  | Trišalė taryba | 1....       | [archyvas.zip]() | [Youtube]()   |
+|             |                |             |                  |               |
+|             |                | 2....       |                  |               |
+|             |                |             |                  |               |
+|             |                | 3....       |                  |               |
++-------------+----------------+-------------+------------------+---------------+
+| 2022-09-13  | Trišalė taryba | 1....       | [archyvas.zip]() | [Youtube]()   |
+|             |                |             |                  |               |
+|             |                | 2....       |                  |               |
+|             |                |             |                  |               |
+|             |                | 3....       |                  |               |
++-------------+----------------+-------------+------------------+---------------+
+| ....        | Trišalė taryba | 1....       | [archyvas.zip]() | [Youtube]()   |
+|             |                |             |                  |               |
+|             |                | 2....       |                  |               |
+|             |                |             |                  |               |
+|             |                | 3....       |                  |               |
++-------------+----------------+-------------+------------------+---------------+
+
+- `Formatas` galėtų būti `Trišalė taryba` bei komisijų ir komitetų posėdžiai
+- `Programa` galėtų būti 1:1 programa, kurį būna paruošta prieš posėdį
+- `Medžiaga` į .zip archyva suarchuvuotas visas dokumentų aplankas (jeigu nėra youtube transliacijos, kartu į zip archyvą įkeliamas ir video)
+- `Video` nuoroda į youtube transliacijos įrašą
+- Idealiu atveju būtų galima šią lentelę **filtruoti**

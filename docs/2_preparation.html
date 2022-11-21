@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Techninis aprašas SADM transliacijoms - 2&nbsp; Pre-transliavimo darbai</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./3_live.html" rel="next">
+<link href="./1_hardware_software.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<meta name="twitter:title" content="Techninis aprašas SADM transliacijoms - 2&nbsp; Pre-transliavimo darbai">
+<meta name="twitter:description" content="Šiame skyriuje parodomi du paruošiamieji transliacijai darbai:">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pre-transliavimo darbai</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pre-transliavimo darbai</span></h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Techninis aprašas SADM transliacijoms</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Įvadas</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0_process_overview.html" class="sidebar-item-text sidebar-link">Transliavimo procesas - trumpai</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1_hardware_software.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Techninė ir programinė įranga</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2_preparation.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pre-transliavimo darbai</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./3_live.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Live transliacija</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./4_post_edit.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Post-transliavimo darbai</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#youtube-užsklandos-sukūrimas" id="toc-youtube-užsklandos-sukūrimas" class="nav-link active" data-scroll-target="#youtube-užsklandos-sukūrimas"><span class="toc-section-number">2.1</span>  Youtube užsklandos sukūrimas</a></li>
+  <li><a href="#būsimos-youtube-transliacijos-sukūrimas" id="toc-būsimos-youtube-transliacijos-sukūrimas" class="nav-link" data-scroll-target="#būsimos-youtube-transliacijos-sukūrimas"><span class="toc-section-number">2.2</span>  Būsimos Youtube transliacijos sukūrimas</a></li>
+  <li><a href="#komunikacija-su-komunikacijos-komanda" id="toc-komunikacija-su-komunikacijos-komanda" class="nav-link" data-scroll-target="#komunikacija-su-komunikacijos-komanda"><span class="toc-section-number">2.3</span>  Komunikacija su Komunikacijos komanda</a></li>
+  <li><a href="#tt-teams-kanalo-darbai" id="toc-tt-teams-kanalo-darbai" class="nav-link" data-scroll-target="#tt-teams-kanalo-darbai"><span class="toc-section-number">2.4</span>  TT Teams kanalo darbai</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>Šiame skyriuje parodomi du paruošiamieji transliacijai darbai:</p>
+<ol type="1">
+<li>sukuriama užsklanda Youtube transliacijai, ji matoma Youtube kanale laukiant transliacijos</li>
+</ol>
+<p><img src="figures/2_pre/yb_1.png" class="img-fluid"></p>
+<p>Po įrašo ji veikia kaip transliacijos pagrindinis paveiksliukas, kuris matomas peržiūrint visus video</p>
+<p><img src="figures/2_pre/yb_2.png" class="img-fluid"></p>
+<ol start="2" type="1">
+<li>sukuriamas Youtube transliacijos renginys per <code>OBS-Studio</code> programą</li>
+</ol>
+<p>Taip pat pateikiamos papildomos rekomendacijos TT Teams kanale bei komunikuojant su kitomis komandomis apie planuojamą transliaciją.</p>
+<section id="youtube-užsklandos-sukūrimas" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="youtube-užsklandos-sukūrimas"><span class="header-section-number">2.1</span> Youtube užsklandos sukūrimas</h2>
+<p>Žemiau pateikta instrukcija naudojantis <code>GIMP</code> grafikos apdorojimo programa (žr. 1 skyrius).</p>
+<ol type="1">
+<li>Parsisiunčiamas šablonas arba iš TT Teams kanalo (Trišalės tarybos grupė - &gt; Files -&gt; Pagalbiniai_failai), arba spaudžiant <a href="files/TT_šablonas.xcf">čia</a>. Rekomenduojama išsisaugoti ant darbastalio / darbalaukio (<code>Desktop</code>)</li>
+</ol>
+<p><img src="figures/2_pre/gimp_1.png" class="img-fluid"></p>
+<ol start="2" type="1">
+<li>Paleidus GIMP programą, atidaromas parsisiųstas šablono failas su <code>Failas</code> -&gt; <code>Open</code> ir pasirenkant šablono failą</li>
+</ol>
+<p><img src="figures/2_pre/gimp_2.png" class="img-fluid"></p>
+<p><img src="figures/2_pre/gimp_3.png" class="img-fluid"></p>
+<p><img src="figures/2_pre/gimp_4.png" class="img-fluid"></p>
+<ol start="5" type="1">
+<li><code>Įrankių</code> juostoje (kairėje pusėje) pasirinkti <code>A</code> (teksto editavimo simbolį) paspaudžiant ant jo su pele</li>
+</ol>
+<p><img src="figures/2_pre/gimp_5.png" class="img-fluid"></p>
+<ol start="6" type="1">
+<li>Tada su pele spaudžiama ant datos ir data koreguojama į sekančio posėdžio datą. Jeigu reikia koreguoti raidžių dydį, dvigubu pelės paspaudimu galima pasirinkti visas raides ir tada padidinti arba sumažinti raidžių dydį, išreikštą <code>px</code> (turėtų būti <strong>70</strong>).</li>
+</ol>
+<p><img src="figures/2_pre/gimp_6.png" class="img-fluid"></p>
+<ol start="7" type="1">
+<li>Norint eksportuoti failą kaip paveiksliuką, spaudžiama ant: <code>Failas</code> -&gt; <code>Eksportuoti</code>.</li>
+</ol>
+<p><img src="figures/2_pre/gimp_7.png" class="img-fluid"></p>
+<p>Tada pavadinimą reiktų papildyti numatomo posėdžio data ir spausti ant <code>Eksportuoti</code>.</p>
+<p><img src="figures/2_pre/gimp_8.png" class="img-fluid"></p>
+<p>Atsidariusiame pop-up lange nieko nekeisti ir spausti vėl spausti ant <code>Eksportuoti</code></p>
+<p><img src="figures/2_pre/gimp_9.png" class="img-fluid"></p>
+<p>Darbalaukyje dabar turėtų būti atsiradęs naujas failas</p>
+<p><img src="figures/2_pre/gimp_10.png" class="img-fluid"></p>
+<p>Šį naują failą ir naudosime Youtube užsklandai. <code>GIMP</code> programą galima išjungti</p>
+</section>
+<section id="būsimos-youtube-transliacijos-sukūrimas" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="būsimos-youtube-transliacijos-sukūrimas"><span class="header-section-number">2.2</span> Būsimos Youtube transliacijos sukūrimas</h2>
+<p>Šiame poskyryje daroma prielaida, jog <code>OBS-Studio</code> programa yra instaliuoti ir susieta su SADM Youtube paskyra (žr. 1 skyrius).</p>
+<ol type="1">
+<li>Paleidus <code>OBS-Studio</code> programą spausti ant <code>Manage brodcast</code></li>
+</ol>
+<p><img src="figures/2_pre/obs_1.png" class="img-fluid"></p>
+<ol start="2" type="1">
+<li>Atsidariusiame lange reikia užpildyti viską transliacijos informaciją. Žemiau pateikiamas pvz., TT posėdžiui 2022-10-25.</li>
+</ol>
+<p><img src="figures/2_pre/obs_3.png" class="img-fluid"></p>
+<ul>
+<li><code>Title</code>: Trišalės tarybos posėdis 2022-10-25</li>
+<li><code>Description</code>: galima įrašyti “Posėdžio darbotvarkę ir posėdžio medžiagą galima rasti: https://socmin.lrv.lt/lt/administracine-informacija/tarybos-ir-komisijos/lr-trisale-taryba/trisales-tarybos-posedziai”</li>
+<li><code>Privacy</code> - <code>Public</code></li>
+<li><code>Category</code> - <code>News &amp; Politics</code></li>
+<li><code>Is this video made for kids?</code> pasirinkti <code>No, it's not made for kids</code></li>
+<li><code>Thumbnail</code> pasirinkti spaudžiant ant <code>Select file</code> ir pasirenkant pirmame šio skyriaus dalyje sukurtą užsklandą</li>
+<li>Uždėti varnelę ant <code>Schedule for later</code> ir pasirinkti laiką, kada planuojama transliacijos pradžia (pvz., <code>2022-11-22 14:00</code> atitinka <code>11/22/22 2:00 PM</code>)</li>
+<li>Uždėti varnelę ant <code>Eneble Auto-start</code> IR <code>Enable Auto-stop</code>, šis pasirinkimas leis pradėti ir užbaigti Youtube transliaciją tiesiogiai iš OBS-Studio programos</li>
+<li>Pasitikrinti ar viskas suvesta teisingai, spausti ant <code>Schedule broadcast</code></li>
+</ul>
+<p>Nuėjus į Youtube, netrukus galima rasti transliaciją.</p>
+</section>
+<section id="komunikacija-su-komunikacijos-komanda" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="komunikacija-su-komunikacijos-komanda"><span class="header-section-number">2.3</span> Komunikacija su Komunikacijos komanda</h2>
+<ul>
+<li>Sukūrus planuojama transliaciją, būtina informuoti Komunikacijos komandą apie tai, kurią dieną ir kuriuo metu bus naudojamasi transliacijos prieiga, tam kad tuo pačiu metu nevyktų jokių kitų transliacijų. Informavimas yra pakankamas privačia žinute per TEAMS platformą.</li>
+</ul>
+</section>
+<section id="tt-teams-kanalo-darbai" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="tt-teams-kanalo-darbai"><span class="header-section-number">2.4</span> TT Teams kanalo darbai</h2>
+<p>Sukūrus transliacijos renginio anonsą, taip apt rekomenduojama sukurti reikiama aplankų struktūrą TT Teams kanale:</p>
+<ul>
+<li><code>Files</code> -&gt; <code>Posėdžiai</code> -&gt; <code>YYYY</code> -&gt; sukurti naują aplanką skirtą <code>YYYY_MM_DD_TT/</code> posėdžiui (jeigu tai Darbo Grupė, tada YYYY_MM_DD_DG). Šio aplanko viduje sukurti šiuos aplankus:
+<ul>
+<li>video_įrašas/</li>
+<li>dokumentai/
+<ul>
+<li>protokolas/</li>
+<li>medžiaga/</li>
+<li>programa.pdf / programa.docx</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>Aplankas <code>dokumentai</code> galėtų būti archyvuojamas į .zip archyva ir naudojamas socmin.lt tinklpayje pateikti visą medžiagą, kuri buvo naudota susitikimo metu (žr. 4 skyrius)</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./1_hardware_software.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Techninė ir programinė įranga</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./3_live.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Live transliacija</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Techninis aprašas SADM transliacijoms",
+    "section": "",
+    "text": "Šis techninis aprašas skirtas SADM darbuotojams, kurie turi užtikrinti SADM organizuojamų dvišalių bei trišalių susitikimų, vykstančių per TEAMS platformą, tiesioginę transliaciją internetu per Youtube SADM paskyrą.\nSusitikimų, posėdžių bei diskusijų transliavimas užtikrina vykdomo socialinio dialogo skaidrumą bei tiek SADM, tiek kitų socialinių partnerių atskaitomybę visuomenei bei reprezentuojamoms interesų grupėms.\nKartu transliavimas užtikrina archyvavimo funkciją: transliuoti video išsaugomi platformoje Youtube, juose nurodant laiko žymas, atima poreikį transkribuoti posėdžius. Visgi saugumo sumetimais rekomenduojama padaryti 2 atsarginius video įrašus, kaip tai padaryti, bus paaiškinta šiame apraše.\nŠis aprašas nedetalizuoja, kuri SADM komanda turi užtikrinti transliavimo vykdymą:\n\ndarbo teisės komanda\nkomunikacijos komanda\nIT komanda\n\nKiekviena komanda turi savo galimų pliusų ir minusų:\n\ndarbo teisės komanda\n\nminusas: tikėtinas mažesnis IT raštingumas, galimi konfliktai su kitų renginių transliavimu nesuderinus su komunikacijos komanda\npliusas: visas procesas vienuose rankose\n\nkomunikacijos komanda\n\nminusas: tikėtinas mažesnis IT raštingumas, papildomas derinimas su organizuojančia komanda\npliusas: centralizuotos komunikacijos kompetencijos organizacijoje\n\nIT komanda\n\nminusas: reikalingas papildomas derinimas su organizuojančia komanda ir su komunikacijos komanda dėl galimai persidengenčių laike transliacijų\npliusas: tikėtinas didesnis IT raštingumas ir kompetencijas spręsti ad-hoc kylančias IT problemas\n\n\nOptimalus rezultatas būtų pasiektas, jeigu susitikimo organizatorius (susitikimo administratoriaus teises turintis asmuo) vykdytų transliaciją, t.y. jog būtų atskirtos šios dvi funkcijos:\n\nTEAMS susitikimo techninis organizavimas (TEAMS susitikimo nustatymų valdymas) ir susitikimo transliavimas bei pirminis ir antriniai įrašo darymai\nSusitikimo administravimas (kvorumo patikrinimas, klausimų atsakymas susitikimo metu ir t.t.)\n\nŠis aprašas skirtas TEAMS platformoje vykstančių susitikimų retransliavimui, tačiau yra lengvai adaptuojamas ZOOM / JITSI ir kitų platformų naudojimui, kurios galėtų būti naudojamos ateityje vietoj TEAMS platformos.\nTaip pat daroma prielaida, jog archyvavimo ir organizavimo tikslais taip pat naudojama TEAMS programa. Jeigu ateityje tai pasikeistų, atitinkamai reiktų adaptuoti šiame apraše esančius principus naujai platformai.\n\n\nNepaisant išsamaus techninio aprašo, transliacijas turintiems vykdyti darbuotojams gali kilti papildomų klausimų, poreikis padėti spręsti iškilusias problemas.\nPagalbos algoritmas turėtų būti toks:\n\nJeigu kyla papildomų klausimų, techninis raportas nėra aiškus, reiktų jog būtų papildytas / pataisytas aprašas:\n\nkontaktuoti Justą Mundeikį\n\nJeigu kyla techninių problemų (nepavyksta instaliuoti programų / metamos klaidos)\n\nkontaktuoti SADM IT komandą\nkontaktuoti Justą Mundeikį\n\nJeigu kyla poreikis papildomai pasiaiškinti transliavimo mechanizmą, galimi 1:1 individualūs susitikimai su Justu Mundeikiu, kuriuos reiktų derinti individualiai\n\nkontaktuoti Justą Mundeikį"
+  },
+  {
+    "objectID": "0_process_overview.html",
+    "href": "0_process_overview.html",
+    "title": "Transliavimo procesas - trumpai",
+    "section": "",
+    "text": "Žemiau pateikiamas specifinis procesas pritaikytas LR trišalės tarybos transliavimui, gali būti adaptuotas bet kokio kito formato renginių, diskusijų ir posėdžių transliavimui.\n\nTechninė ir programinė įranga\nPre-transliavimo darbai\nTransliavimas\nPost-transliavimo darbai"
+  },
+  {
+    "objectID": "1_hardware_software.html",
+    "href": "1_hardware_software.html",
+    "title": "1  Techninė ir programinė įranga",
+    "section": "",
+    "text": "Renginio transliacijos metu galima tikėtis, jog kompiuteris (nešiojamas ar stacionarus) bus pilnai apkrautas ir papildomas jo naudojimas gali daryti neigiamą įtaką transliacijos ir video įrašo kokybei. Transliacijos metu turi būti deaktyvuotas mikrofonas, todėl įrenginys nebūtų panaudojamas dalyvavimui renginyje. Dėl šių dviejų priežasčių rekomenduojama naudoti dedikuotą kompiuterį šiai užduočiai.\nReikalavimai:\n\nProcesorius:\n\nminimum Intel i-5\ngeriau Intel i-7\n\nDarbinės atminties (RAM)\n\nminimum 8 GB\ngeriau 16 GB\n\n\nPasitikrinti galima\n\nSTART -> Apie šį kompiuterį arba\nSTART -> Paremetrai -> Sistema -> Apie"
+  },
+  {
+    "objectID": "1_hardware_software.html#interneto-sparta",
+    "href": "1_hardware_software.html#interneto-sparta",
+    "title": "1  Techninė ir programinė įranga",
+    "section": "1.2 Interneto sparta",
+    "text": "1.2 Interneto sparta\nSpartą galima pasitikrinti https://www.speedtest.net/.\nJeigu WIFI sparta atsiuntimo (download) ir išsiuntimo (upload) yra mažesnė nei 20 Mbps patartina kompiuterį / notebooką jungti su ethernet kabeliu į maršrutizatorių (router), taip ženkliai pagerinant internetinę spartą."
+  },
+  {
+    "objectID": "1_hardware_software.html#energijos-tiekimas",
+    "href": "1_hardware_software.html#energijos-tiekimas",
+    "title": "1  Techninė ir programinė įranga",
+    "section": "1.3 Energijos tiekimas",
+    "text": "1.3 Energijos tiekimas\nTransliuojant visada turi būti įjungtas elektros tiekimo kabelis."
+  },
+  {
+    "objectID": "1_hardware_software.html#programinės-įrangos-reikalavimai",
+    "href": "1_hardware_software.html#programinės-įrangos-reikalavimai",
+    "title": "1  Techninė ir programinė įranga",
+    "section": "1.4 Programinės įrangos reikalavimai",
+    "text": "1.4 Programinės įrangos reikalavimai\nTransliacijai reikalingos šios programos:\n\nGIMP\n\nnaudojama grafikų (užsklandų / banner’ių) paruošimui\nnemokama (laisva), atviro kodo programa\nAtsisiųsti GIMP\n\nOBS-Studio (transliavimui):\n\nnaudojama video transliavimui\nnemokama (laisva), atviro kodo programa\nAtsiųsti OBS-Studio\n\n\nTikėtina, jog abiejų programų instaliavimui gali prireikti IT komandos pagalbos (leidimo instaliuoti darbiniame kompiuteryje). Todėl rekomenduojama instaliavimo ir testavimo procesus atlikti kuo galima anksčiau.\n\n1.4.1 Windows nustatymai\n\n1.4.1.1 Windows updates\n\n\"Windows update\" parametrai rekomenduojama pasitikrinti ar Windows operacinė sistema yra turi visus atnaujinimus, jeigu reikia, atlikti atnaujinimus ir restartuoti kompiuterį, taip užtikrinant, jog Windows neinicijuos atnaujinimų ar restartavimo transliacijos metu.\n\nIš pagrindinio Paremetrai lango einama į Naujinimas ir sauga kuriame pasitikrinama, ar turimi visi atnaujinimai. Jeigu reikia parsiunčiami ir instaliuojami atnaujinimai, restartuojamas kompiuteris.\n\n\n\n\n\n1.4.1.2 Windows mikrofono išjungimas\nWindows mikrono išjungimas yra reikalingas tam, kad transliuojant TEAMS susitikimą, ekrane neatsirastų pop-up langelis, nurodantis, kad kalbant reikia įsijungti mikrofoną, atitinkamai šis langelis būtų matomas transliacijos video įraše. Paaiškinimas: kai yra mikrofonas yra išjungiamas tik pačioje TEAMS programoje, TEAMS gauna signalą, jog yra kalbama ir todėl transliacijos metu išmeta langelį siūlantį įsijungti mikrofoną. Siekiant išvengti tokio elgesio reikia deaktyvuoti mikrofoną pačioje WINDOWS sistemoje.\nIš pagrindinio Paremetrai lango einama į Sistema\n\nPasirenkamas submeniu Garsas\n\nLango apatinėje dalyje (skiltyje Įvestis) spaudžiama ant Įrenginio ypatybės\n\nUždedama varnelė ant Išjungti\n\nNuo dabar WINDOWS nebeturi mikrofono. Esant poreikiui nuėmus varnelę, mikrofoną galima vėl aktyvuoti ir naudoti pvz., per TEAMS susitikimus.\n\n\n1.4.1.3 Windows energijos nustatymai\nSiekiant, kad vykdant transliaciją WINDOWS neribotų kompiuterio, reikia susikurti ir aktyvuoti naują energijos planą High performance bei pakeisti kai kuriuos nustatymus, jog paliekant transliaciją porai valandų ir nenaudojant kompiuterio, šis “neužmigtų”, taip nutraukiant transliaciją ar sugadinant įrašą.\nIš pagrindinio Paremetrai lango einama į Sistema\n\nPasirenkamas submeniu Energijos vartojimas ir miego rėžimas ir jame spaudžiama ant Papildomi energijos naudojimo parametrai\n\nAtsidariusiame naujame meniu lange spaudžiama ant Kurti energijos vartojimo planą\n\nPasirenkamas nustatymas Didelis efektyvumas (opcionaliai: pakeičiamas plano pavadinimas pvz., Didelis efektyvumas) ir spaudžiama ant Toliau\n\nPasirenkama, kada WINDOWS turėtų išjungti ekraną ir tiek Iš akumuliatoriaus, tiek Įjungtas į elektros tinklą rėžime pasirenkama Niekada ir spaudžiama ant Kurti\n\nSiekiant pakeisti kai kuriuos (ką tik sukurto plano “Didelis efektyvumas”) nustatymus, spaudžiama ant Keisti plano parametrus\n\nToliau ant Keisti papidlomus maitinimo parametrus\n\nStandusis diskas šakoje, Išjungti standųjį diską pakeičiame į Niekada tiek Iš akumuliatoriaus, tiek Įjungtas į elektros tinklą rėžime. Niekada pasiekiamas kai keliskart spaudžiama ant rodyklytės žemyn.\n\n\n\n\n1.4.2 OBS-Studio nustatymai\nŽemiau pateikiama seka nustatymų, kuriuos reiktų atlikti pirmą kartą po to OBS-Studio instaliavimo.\n\n1.4.2.1 OBS-Studio ir Youtube paskyros sujungimas\nPirmą kartą paleidus OBS-Studio startuoja Auto-Configuration Wizard (šią funkciją galima startuoti pakartotinai bet kada pasirenkant Tools -> Auto-Configuration Wizard)\nPirmame lange pasirenkama teikiama pirmenybe Optimize for streaming, recoding is secondary, siekiant užtikrinti kuo geresnius nustatymus transliacijai, nes daromas įrašas bus tik kaip atsarginė kopija.\n\nSekančiame lange nustatoma rezoliucija 1920 x 1080 ir pasirenkama 30 FPS\n\nPasirenkamas servisas, su kuriuo norima sujungti, mūsų atveju Youtube-RTMPS\n\nSpaudžiama ant Connect Account, jog įvyktų sujungimas su SADM Youtube paskyra\n\nAtsidaro interneto naršyklė, kurioje reikia įrašyti SADM naudojama el. pašto adresą susietą su Youtube paskyra\n\nSuvedamas slaptažodis\n\nPasirenkama SADM paskyra (kuri bus naudojama transliacijoms)\n\nSuteikiama prieiga OBS-Studio programai valdyti Youtube esantį turinį (reikalinga transliacijų kūrimui ir transliavimui), patvirtinama spaudžiant ant Tęsti\n\nJeigu matomas šis vaizdas, galima išjungti interneto naršyklę\n\nAuto-Configuration Wizard dabar matosi prie kurios paskyros yra jungiamasi, jeigu viskas gerai, spaudžiama ant Next\n\nOBS-Studio vykdo spartos testavimą ir optimalių nustatymų paiešką. Jeigu dėl kokių nors priežasčių procesas stringa, reikia spausti ant Back, grįžti vienu langeliu anksčiau ir pakartoti procesą.\n\nJeigu viskas pavyksta, spaudžiama ant Apply settings\n\nŠiuos langus galima išjungti šiam kartui\n\n\n\n1.4.2.2 Studio Mode\nStudio mode aktyvuoja jog matomi du “ekranai”:\n\ndešinys ekranas: kam pasiruošta rodyti\nkairys ekranas: kas transliuojama / įrašoma\n\nDetaliau apie OBS-Studio transliavimą / ekranų naudojimą sekančiame skyriuje\n\n\n\n\n1.4.2.3 Įrašo vietos parinkimas\nPasirinktoje vietoje sukuriamas naujas aplankas, pvz: obs_video\n\nOBS-Studio spaudžiama ant Settings\n\nEinama į Output\n\nir skiltyje Recording pasirenkamas aplankas paspaudus ant Browse\n\nOpcionaliai pasirenkama, kad sugeneruotas failo pavadinimas būtų be tarpelių\n\n\n\n1.4.2.4 Video nustatymai\nPaspaudus ant Video reikia įsitikinti, ar šie nustatymai yra perimti teisingai:\n\nBase (Canvas) Resolution: 1920 x 1080\nOutput (Scaled) Resolution: 1920 x 1080\nCommon FPS Values: 30"
+  },
+  {
+    "objectID": "2_preparation.html",
+    "href": "2_preparation.html",
+    "title": "2  Pre-transliavimo darbai",
+    "section": "",
+    "text": "Šiame skyriuje parodomi du paruošiamieji transliacijai darbai:\nPo įrašo ji veikia kaip transliacijos pagrindinis paveiksliukas, kuris matomas peržiūrint visus video\nTaip pat pateikiamos papildomos rekomendacijos TT Teams kanale bei komunikuojant su kitomis komandomis apie planuojamą transliaciją."
+  },
+  {
+    "objectID": "2_preparation.html#youtube-užsklandos-sukūrimas",
+    "href": "2_preparation.html#youtube-užsklandos-sukūrimas",
+    "title": "2  Pre-transliavimo darbai",
+    "section": "2.1 Youtube užsklandos sukūrimas",
+    "text": "2.1 Youtube užsklandos sukūrimas\nŽemiau pateikta instrukcija naudojantis GIMP grafikos apdorojimo programa (žr. 1 skyrius).\n\nParsisiunčiamas šablonas arba iš TT Teams kanalo (Trišalės tarybos grupė - > Files -> Pagalbiniai_failai), arba spaudžiant čia. Rekomenduojama išsisaugoti ant darbastalio / darbalaukio (Desktop)\n\n\n\nPaleidus GIMP programą, atidaromas parsisiųstas šablono failas su Failas -> Open ir pasirenkant šablono failą\n\n\n\n\n\nĮrankių juostoje (kairėje pusėje) pasirinkti A (teksto editavimo simbolį) paspaudžiant ant jo su pele\n\n\n\nTada su pele spaudžiama ant datos ir data koreguojama į sekančio posėdžio datą. Jeigu reikia koreguoti raidžių dydį, dvigubu pelės paspaudimu galima pasirinkti visas raides ir tada padidinti arba sumažinti raidžių dydį, išreikštą px (turėtų būti 70).\n\n\n\nNorint eksportuoti failą kaip paveiksliuką, spaudžiama ant: Failas -> Eksportuoti.\n\n\nTada pavadinimą reiktų papildyti numatomo posėdžio data ir spausti ant Eksportuoti.\n\nAtsidariusiame pop-up lange nieko nekeisti ir spausti vėl spausti ant Eksportuoti\n\nDarbalaukyje dabar turėtų būti atsiradęs naujas failas\n\nŠį naują failą ir naudosime Youtube užsklandai. GIMP programą galima išjungti"
+  },
+  {
+    "objectID": "2_preparation.html#būsimos-youtube-transliacijos-sukūrimas",
+    "href": "2_preparation.html#būsimos-youtube-transliacijos-sukūrimas",
+    "title": "2  Pre-transliavimo darbai",
+    "section": "2.2 Būsimos Youtube transliacijos sukūrimas",
+    "text": "2.2 Būsimos Youtube transliacijos sukūrimas\nŠiame poskyryje daroma prielaida, jog OBS-Studio programa yra instaliuoti ir susieta su SADM Youtube paskyra (žr. 1 skyrius).\n\nPaleidus OBS-Studio programą spausti ant Manage brodcast\n\n\n\nAtsidariusiame lange reikia užpildyti viską transliacijos informaciją. Žemiau pateikiamas pvz., TT posėdžiui 2022-10-25.\n\n\n\nTitle: Trišalės tarybos posėdis 2022-10-25\nDescription: galima įrašyti “Posėdžio darbotvarkę ir posėdžio medžiagą galima rasti: https://socmin.lrv.lt/lt/administracine-informacija/tarybos-ir-komisijos/lr-trisale-taryba/trisales-tarybos-posedziai”\nPrivacy - Public\nCategory - News & Politics\nIs this video made for kids? pasirinkti No, it's not made for kids\nThumbnail pasirinkti spaudžiant ant Select file ir pasirenkant pirmame šio skyriaus dalyje sukurtą užsklandą\nUždėti varnelę ant Schedule for later ir pasirinkti laiką, kada planuojama transliacijos pradžia (pvz., 2022-11-22 14:00 atitinka 11/22/22 2:00 PM)\nUždėti varnelę ant Eneble Auto-start IR Enable Auto-stop, šis pasirinkimas leis pradėti ir užbaigti Youtube transliaciją tiesiogiai iš OBS-Studio programos\nPasitikrinti ar viskas suvesta teisingai, spausti ant Schedule broadcast\n\nNuėjus į Youtube, netrukus galima rasti transliaciją."
+  },
+  {
+    "objectID": "2_preparation.html#komunikacija-su-komunikacijos-komanda",
+    "href": "2_preparation.html#komunikacija-su-komunikacijos-komanda",
+    "title": "2  Pre-transliavimo darbai",
+    "section": "2.3 Komunikacija su Komunikacijos komanda",
+    "text": "2.3 Komunikacija su Komunikacijos komanda\n\nSukūrus planuojama transliaciją, būtina informuoti Komunikacijos komandą apie tai, kurią dieną ir kuriuo metu bus naudojamasi transliacijos prieiga, tam kad tuo pačiu metu nevyktų jokių kitų transliacijų. Informavimas yra pakankamas privačia žinute per TEAMS platformą."
+  },
+  {
+    "objectID": "2_preparation.html#tt-teams-kanalo-darbai",
+    "href": "2_preparation.html#tt-teams-kanalo-darbai",
+    "title": "2  Pre-transliavimo darbai",
+    "section": "2.4 TT Teams kanalo darbai",
+    "text": "2.4 TT Teams kanalo darbai\nSukūrus transliacijos renginio anonsą, taip apt rekomenduojama sukurti reikiama aplankų struktūrą TT Teams kanale:\n\nFiles -> Posėdžiai -> YYYY -> sukurti naują aplanką skirtą YYYY_MM_DD_TT/ posėdžiui (jeigu tai Darbo Grupė, tada YYYY_MM_DD_DG). Šio aplanko viduje sukurti šiuos aplankus:\n\nvideo_įrašas/\ndokumentai/\n\nprotokolas/\nmedžiaga/\nprograma.pdf / programa.docx\n\n\n\nAplankas dokumentai galėtų būti archyvuojamas į .zip archyva ir naudojamas socmin.lt tinklpayje pateikti visą medžiagą, kuri buvo naudota susitikimo metu (žr. 4 skyrius)"
+  },
+  {
+    "objectID": "3_live.html",
+    "href": "3_live.html",
+    "title": "3  Live transliacija",
+    "section": "",
+    "text": "Šiame skyriuje aprošomi veiksmai iš dviejų kompiuterių perspektyvos:"
+  },
+  {
+    "objectID": "3_live.html#transliacijos-set-up",
+    "href": "3_live.html#transliacijos-set-up",
+    "title": "3  Live transliacija",
+    "section": "3.1 Transliacijos set-up",
+    "text": "3.1 Transliacijos set-up\n\n3.1.1 Teams nustatymai\nStandartinis TEAMS nustatymas yra, jog renginio organizatorius arba dalyvis turi patvirtinti kiekvieną norintį prisijungti prie susitikimo. Dėl šios priežasties ekrane atsiranda pop-up pranešimas apie norinčius prisijungti, be to, girdimas pranešimo signalas. Kad būtų išvengta šių video ir garso trikdžių rekomenduojami šie nustatymai:\n\nWho can bypass the lobby pakeisti į Everyone\nAnnounce when callers join ir leave - išjungti\n\nTEAMS susitikimo lange\n\nEinama į Meeting options\n\nKeičiama į šiuos nustatymus"
+  },
+  {
+    "objectID": "4_post_edit.html",
+    "href": "4_post_edit.html",
+    "title": "4  Post-transliavimo darbai",
+    "section": "",
+    "text": ".."
+  },
+  {
+    "objectID": "4_post_edit.html#laiko-žymės",
+    "href": "4_post_edit.html#laiko-žymės",
+    "title": "4  Post-transliavimo darbai",
+    "section": "4.2 Laiko žymės",
+    "text": "4.2 Laiko žymės\n.."
+  },
+  {
+    "objectID": "4_post_edit.html#failų-paruošimas-tinklapiui",
+    "href": "4_post_edit.html#failų-paruošimas-tinklapiui",
+    "title": "4  Post-transliavimo darbai",
+    "section": "4.3 Failų paruošimas tinklapiui",
+    "text": "4.3 Failų paruošimas tinklapiui\nŠiuo metu SADM tinklapyje taip atrodo sukeliama posėdžių medžiaga:\n\nTokiame sukėlime ne retai trūksta pranešėjų skaidrių (pvz., 2022-06-21 LB pristatymo skaidrių).\nRekomencija keisti į tokį formatą\n\n\n\nData\nFormatas\nPrograma\nMedžiaga\nVideo\n\n\n\n\n2022-09-27\nTrišalė taryba\n1….\n2….\n3….\narchyvas.zip\nYoutube\n\n\n2022-09-13\nTrišalė taryba\n1….\n2….\n3….\narchyvas.zip\nYoutube\n\n\n….\nTrišalė taryba\n1….\n2….\n3….\narchyvas.zip\nYoutube\n\n\n\n\nFormatas galėtų būti Trišalė taryba bei komisijų ir komitetų posėdžiai\nPrograma galėtų būti 1:1 programa, kurį būna paruošta prieš posėdį\nMedžiaga į .zip archyva suarchuvuotas visas dokumentų aplankas (jeigu nėra youtube transliacijos, kartu į zip archyvą įkeliamas ir video)\nVideo nuoroda į youtube transliacijos įrašą\nIdealiu atveju būtų galima šią lentelę filtruoti"
+  }
+]

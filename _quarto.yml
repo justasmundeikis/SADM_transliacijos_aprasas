@@ -1,12 +1,18 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Techninis aprašas SADM transliacijoms"
   author: "Justas Mundeikis"
-  date: "2022-08-31"
-  sidebar: 
-    collapse-level: 4
+  date: now
+  lang: lt
+  search: true
+  twitter-card: true
+  site-url: https://example.com
+  sidebar:
+    style: "docked"
+    search: true
   chapters:
     - index.qmd
     - 0_process_overview.qmd
@@ -17,3 +23,5 @@ book:
 format:
   html:
     theme: cosmo
+    fig-align: center
+    title-block-banner: true

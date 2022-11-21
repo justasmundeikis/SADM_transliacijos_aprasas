@@ -11,3 +11,6 @@
 3. Transliavimas
 
 4. Post-transliavimo darbai
+
+
+![](figures/test.svg)

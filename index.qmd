@@ -1,20 +1,20 @@
 # Įvadas {.unnumbered}
 
-Šis techninis aprašas skirtas LR SADM darbuotojams, kurie turi užtikrinti SADM organizuojamų dvišalių bei trišalių susitikimų, vykstančių per MS TEAMS platformą, tiesioginę transliaciją internetu per [Youtube](https://www.youtube.com/channel/UCSIDVgAzDrQ9P43ccXTznVA) LR SADM paskyrą.
+Šis techninis aprašas skirtas SADM darbuotojams, kurie turi užtikrinti SADM organizuojamų dvišalių bei trišalių susitikimų, vykstančių per TEAMS platformą, tiesioginę transliaciją internetu per [Youtube](https://www.youtube.com/channel/UCSIDVgAzDrQ9P43ccXTznVA) SADM paskyrą.
 
-Susitikimų, posėdžių bei diskusijų transliavimas užtikrina vykdomo socialinio dialogo skaidrumą bei tiek LR SADM, tiek kitų socialinių partnerių atskaitomybę visuomenei bei reprezentuojamoms interesų grupėms.
+Susitikimų, posėdžių bei diskusijų transliavimas užtikrina vykdomo socialinio dialogo skaidrumą bei tiek SADM, tiek kitų socialinių partnerių atskaitomybę visuomenei bei reprezentuojamoms interesų grupėms.
 
 Kartu transliavimas užtikrina archyvavimo funkciją: transliuoti video išsaugomi platformoje Youtube, juose nurodant laiko žymas, atima poreikį transkribuoti posėdžius. Visgi saugumo sumetimais rekomenduojama padaryti 2 atsarginius video įrašus, kaip tai padaryti, bus paaiškinta šiame apraše.
 
-Šis aprašas nedetalizuoja, kuri LR SADM komanda turi užtikrinti transliavimo vykdymą: 
+Šis aprašas nedetalizuoja, kuri SADM komanda turi užtikrinti transliavimo vykdymą: 
 
-* komanda, kuri organizuoja renginį
+* darbo teisės komanda
 * komunikacijos komanda
 * IT komanda
 
-Kiekviena komandos įtraukimas turi savo pliusų ir minusų:
+Kiekviena komanda turi savo galimų pliusų ir minusų:
 
-* komanda, kuri organizuoja renginį (darbo teisės grupė)
+* darbo teisės komanda
     * minusas: tikėtinas mažesnis IT raštingumas, galimi konfliktai su kitų renginių transliavimu nesuderinus su komunikacijos komanda
     * pliusas: visas procesas vienuose rankose
 
@@ -23,15 +23,29 @@ Kiekviena komandos įtraukimas turi savo pliusų ir minusų:
     * pliusas: centralizuotos komunikacijos kompetencijos organizacijoje
 
 * IT komanda
-    * minusas: papildomas derinimas su organizuojančia komanda, papildomas derinimas su komunikacijos komanda dėl galimai persidengenčių laike transliacijų
+    * minusas: reikalingas papildomas derinimas su organizuojančia komanda ir su komunikacijos komanda dėl galimai persidengenčių laike transliacijų
     * pliusas: tikėtinas didesnis IT raštingumas ir kompetencijas spręsti ad-hoc kylančias IT problemas
 
 Optimalus rezultatas būtų pasiektas, jeigu susitikimo organizatorius (susitikimo administratoriaus teises turintis asmuo) vykdytų transliaciją, t.y. jog būtų atskirtos šios dvi funkcijos:
 
-1. TEAMS susitikimo techninis organizavimas ( TEAMS susitikimo nustatymų valdymas) ir susitikimo transliavimas bei pirminis ir antriniai įrašo darymai
+1. TEAMS susitikimo techninis organizavimas (TEAMS susitikimo nustatymų valdymas) ir susitikimo transliavimas bei pirminis ir antriniai įrašo darymai
 
 2. Susitikimo administravimas (kvorumo patikrinimas, klausimų atsakymas susitikimo metu ir t.t.)
 
 Šis aprašas skirtas TEAMS platformoje vykstančių susitikimų retransliavimui, tačiau yra lengvai adaptuojamas ZOOM / JITSI ir kitų platformų naudojimui, kurios galėtų būti naudojamos ateityje vietoj TEAMS platformos.
 
 Taip pat daroma prielaida, jog archyvavimo ir organizavimo tikslais taip pat naudojama TEAMS programa. Jeigu ateityje tai pasikeistų, atitinkamai reiktų adaptuoti šiame apraše esančius principus naujai platformai. 
+
+## Pagalba
+
+Nepaisant išsamaus techninio aprašo, transliacijas turintiems vykdyti darbuotojams gali kilti papildomų klausimų, poreikis padėti spręsti iškilusias problemas.
+
+Pagalbos algoritmas turėtų būti toks:
+
+1. Jeigu kyla papildomų klausimų, techninis raportas nėra aiškus, reiktų jog būtų papildytas / pataisytas aprašas:
+    * kontaktuoti Justą Mundeikį
+2. Jeigu kyla techninių problemų (nepavyksta instaliuoti programų / metamos klaidos)
+    * kontaktuoti SADM IT komandą
+    * kontaktuoti Justą Mundeikį
+3. Jeigu kyla poreikis papildomai pasiaiškinti transliavimo mechanizmą, galimi 1:1 individualūs susitikimai su Justu Mundeikiu, kuriuos reiktų derinti individualiai
+    * kontaktuoti Justą Mundeikį
