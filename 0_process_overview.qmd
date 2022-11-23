@@ -1,7 +1,5 @@
 # Transliavimo procesas - trumpai {.unnumbered}
 
-Šiame skyriuje mes aprašome visus pavienius transliavimo proceso žingsnius ir jų eiliškumą bei apytikslius laiko intervalus kada jie turėtų būti atlikti.
-
 Žemiau pateikiamas specifinis procesas pritaikytas LR trišalės tarybos transliavimui, gali būti adaptuotas bet kokio kito formato renginių, diskusijų ir posėdžių transliavimui.
 
 1. Techninė ir programinė įranga
@@ -13,4 +11,4 @@
 4. Post-transliavimo darbai
 
 
-![](figures/0/tt_transliavimo_procesas.svg)
+![](figures/0/tt_transliavimo_procesas.svg){style="border: 2px solid black"}

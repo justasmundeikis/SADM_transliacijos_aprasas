@@ -64,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta name="twitter:title" content="Techninis aprašas SADM transliacijoms">
-<meta name="twitter:description" content="Šis techninis aprašas skirtas SADM darbuotojams, kurie turi užtikrinti SADM organizuojamų dvišalių bei trišalių susitikimų, vykstančių per TEAMS platformą, tiesioginę transliaciją internetu per…">
+<meta name="twitter:description" content="Šis techninis aprašas skirtas SADM darbuotojams, kurie turės (jeigu) užtikrinti SADM organizuojamų dvišalių bei trišalių susitikimų, vykstančių per TEAMS platformą, tiesioginę transliaciją internetu…">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -178,9 +178,22 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="įvadas" class="level1 unnumbered">
 <h1 class="unnumbered">Įvadas</h1>
-<p>Šis techninis aprašas skirtas SADM darbuotojams, kurie turi užtikrinti SADM organizuojamų dvišalių bei trišalių susitikimų, vykstančių per TEAMS platformą, tiesioginę transliaciją internetu per <a href="https://www.youtube.com/channel/UCSIDVgAzDrQ9P43ccXTznVA">Youtube</a> SADM paskyrą.</p>
+<p>Šis techninis aprašas skirtas SADM darbuotojams, kurie turės (jeigu) užtikrinti SADM organizuojamų dvišalių bei trišalių susitikimų, vykstančių per <code>TEAMS</code> platformą, tiesioginę transliaciją internetu per <a href="https://www.youtube.com/channel/UCSIDVgAzDrQ9P43ccXTznVA">Youtube</a> SADM paskyrą.</p>
 <p>Susitikimų, posėdžių bei diskusijų transliavimas užtikrina vykdomo socialinio dialogo skaidrumą bei tiek SADM, tiek kitų socialinių partnerių atskaitomybę visuomenei bei reprezentuojamoms interesų grupėms.</p>
-<p>Kartu transliavimas užtikrina archyvavimo funkciją: transliuoti video išsaugomi platformoje Youtube, juose nurodant laiko žymas, atima poreikį transkribuoti posėdžius. Visgi saugumo sumetimais rekomenduojama padaryti 2 atsarginius video įrašus, kaip tai padaryti, bus paaiškinta šiame apraše.</p>
+<p>Kartu transliavimas užtikrina archyvavimo funkciją: transliuoti video išsaugomi platformoje Youtube. Šiuose video įrašuose būna nurodytos laiko žymos, o tai panaikina poreikį transkribuoti posėdžius. Visgi saugumo sumetimais rekomenduojama ir toliau susitikimų organizatoriams tęsti <code>TEAMS</code> posėdžių įrašo darymą, kuris galėtų būti panaudotas tuo atveju, jeigu dėl techninių priežasčių įvyktų kokia nors transliacijos klaida.</p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Prisimenant premjero S.Skvernelio susitikimo su medikais istoriją bei dingusius susitikimo garso įrašus, rekomenduojama transliuoti visus vadovybės susitikimus su interesų grupėmis</p>
+</div>
+</div>
 <p>Šis aprašas nedetalizuoja, kuri SADM komanda turi užtikrinti transliavimo vykdymą:</p>
 <ul>
 <li>darbo teisės komanda</li>
@@ -192,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
 <li>darbo teisės komanda
 <ul>
 <li>minusas: tikėtinas mažesnis IT raštingumas, galimi konfliktai su kitų renginių transliavimu nesuderinus su komunikacijos komanda</li>
-<li>pliusas: visas procesas vienuose rankose</li>
+<li>pliusas: visas procesas vienose rankose</li>
 </ul></li>
 <li>komunikacijos komanda
 <ul>
@@ -201,17 +214,12 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li>IT komanda
 <ul>
-<li>minusas: reikalingas papildomas derinimas su organizuojančia komanda ir su komunikacijos komanda dėl galimai persidengenčių laike transliacijų</li>
+<li>minusas: reikalingas papildomas derinimas su organizuojančia komanda ir su komunikacijos komanda dėl galimai persidengiančių (laike) transliacijų</li>
 <li>pliusas: tikėtinas didesnis IT raštingumas ir kompetencijas spręsti ad-hoc kylančias IT problemas</li>
 </ul></li>
 </ul>
-<p>Optimalus rezultatas būtų pasiektas, jeigu susitikimo organizatorius (susitikimo administratoriaus teises turintis asmuo) vykdytų transliaciją, t.y. jog būtų atskirtos šios dvi funkcijos:</p>
-<ol type="1">
-<li><p>TEAMS susitikimo techninis organizavimas (TEAMS susitikimo nustatymų valdymas) ir susitikimo transliavimas bei pirminis ir antriniai įrašo darymai</p></li>
-<li><p>Susitikimo administravimas (kvorumo patikrinimas, klausimų atsakymas susitikimo metu ir t.t.)</p></li>
-</ol>
-<p>Šis aprašas skirtas TEAMS platformoje vykstančių susitikimų retransliavimui, tačiau yra lengvai adaptuojamas ZOOM / JITSI ir kitų platformų naudojimui, kurios galėtų būti naudojamos ateityje vietoj TEAMS platformos.</p>
-<p>Taip pat daroma prielaida, jog archyvavimo ir organizavimo tikslais taip pat naudojama TEAMS programa. Jeigu ateityje tai pasikeistų, atitinkamai reiktų adaptuoti šiame apraše esančius principus naujai platformai.</p>
+<p>Šis aprašas skirtas <code>TEAMS</code> platformoje vykstančių susitikimų retransliavimui, tačiau yra lengvai adaptuojamas ZOOM / JITSI ir kitų IT platformų naudojimui, kurios galėtų būti naudojamos ateityje vietoj <code>TEAMS</code> platformos.</p>
+<p>Taip pat daroma prielaida, jog archyvavimo ir organizavimo tikslais taip pat naudojama <code>TEAMS</code> programa. Jeigu ateityje tai pasikeistų, atitinkamai reiktų adaptuoti šiame apraše esančius principus naujai platformai.</p>
 <section id="pagalba" class="level2">
 <h2 class="anchored" data-anchor-id="pagalba">Pagalba</h2>
 <p>Nepaisant išsamaus techninio aprašo, transliacijas turintiems vykdyti darbuotojams gali kilti papildomų klausimų, poreikis padėti spręsti iškilusias problemas.</p>
@@ -221,16 +229,26 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>kontaktuoti Justą Mundeikį</li>
 </ul></li>
-<li>Jeigu kyla techninių problemų (nepavyksta instaliuoti programų / metamos klaidos)
+<li>Jeigu kyla techninių problemų (nepavyksta instaliuoti programų / klaidos)
 <ul>
 <li>kontaktuoti SADM IT komandą</li>
-<li>kontaktuoti Justą Mundeikį</li>
+<li>jeigu jie negali padėti kontaktuoti Justą Mundeikį</li>
 </ul></li>
-<li>Jeigu kyla poreikis papildomai pasiaiškinti transliavimo mechanizmą, galimi 1:1 individualūs susitikimai su Justu Mundeikiu, kuriuos reiktų derinti individualiai
-<ul>
-<li>kontaktuoti Justą Mundeikį</li>
-</ul></li>
+<li>Jeigu kyla poreikis papildomai pasiaiškinti transliavimo mechanizmą, galimi 1:1 individualūs susitikimai su Justu Mundeikiu, kuriuos reiktų derinti individualiai</li>
 </ol>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Šis dokumentas yra “gyvas” - reaguojant į pastabas, besikeičiantų IT sistemų veikimą, šis dokumentus bus atnaujinimas ir stengsis reflektuoti esamą situaciją, todėl nerekomenduojama šio dokumento spausdinti, o patartina naudotis internetine versija</p>
+</div>
+</div>
 
 
 </section>

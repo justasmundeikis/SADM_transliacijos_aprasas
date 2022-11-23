@@ -62,7 +62,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta name="twitter:title" content="Techninis aprašas SADM transliacijoms - 4&nbsp; Post-transliavimo darbai">
-<meta name="twitter:description" content="Šiuo metu SADM tinklapyje taip atrodo sukeliama posėdžių medžiaga:">
+<meta name="twitter:description" content="Nors žemiau aprašomi transliacijos aplanko sukūrimo, dokumentų paruošimo žingsniai vyksta po transliacijos, šie žingsniai lygiai taip pat gali būti vykdomi ruošiantis transliacijai, taip kad TT…">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -149,8 +149,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#laiko-žymos" id="toc-laiko-žymos" class="nav-link active" data-scroll-target="#laiko-žymos"><span class="toc-section-number">4.1</span>  Laiko žymos</a></li>
-  <li><a href="#failų-paruošimas-tinklapiui" id="toc-failų-paruošimas-tinklapiui" class="nav-link" data-scroll-target="#failų-paruošimas-tinklapiui"><span class="toc-section-number">4.2</span>  Failų paruošimas tinklapiui</a></li>
+  <li><a href="#sec-folder-creation" id="toc-sec-folder-creation" class="nav-link active" data-scroll-target="#sec-folder-creation"><span class="toc-section-number">4.1</span>  Transliacijos aplanko sukūrimas</a></li>
+  <li><a href="#video-transliacijos-atsidarymas" id="toc-video-transliacijos-atsidarymas" class="nav-link" data-scroll-target="#video-transliacijos-atsidarymas"><span class="toc-section-number">4.2</span>  Video transliacijos atsidarymas</a></li>
+  <li><a href="#transliacijos-video-parsiuntimas" id="toc-transliacijos-video-parsiuntimas" class="nav-link" data-scroll-target="#transliacijos-video-parsiuntimas"><span class="toc-section-number">4.3</span>  Transliacijos video parsiuntimas</a></li>
+  <li><a href="#sec-time-tags-file" id="toc-sec-time-tags-file" class="nav-link" data-scroll-target="#sec-time-tags-file"><span class="toc-section-number">4.4</span>  Laiko žymos ir tags</a></li>
+  <li><a href="#video-aprašo-pildymas" id="toc-video-aprašo-pildymas" class="nav-link" data-scroll-target="#video-aprašo-pildymas"><span class="toc-section-number">4.5</span>  Video aprašo pildymas</a></li>
+  <li><a href="#failų-paruošimas-tinklapiui" id="toc-failų-paruošimas-tinklapiui" class="nav-link" data-scroll-target="#failų-paruošimas-tinklapiui"><span class="toc-section-number">4.6</span>  Failų paruošimas tinklapiui</a>
+  <ul class="collapse">
+  <li><a href="#sec-prep-archive" id="toc-sec-prep-archive" class="nav-link" data-scroll-target="#sec-prep-archive"><span class="toc-section-number">4.6.1</span>  Archyvo paruošimas</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -160,15 +167,195 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="laiko-žymos" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="laiko-žymos"><span class="header-section-number">4.1</span> Laiko žymos</h2>
+<p>Nors žemiau aprašomi transliacijos aplanko sukūrimo, dokumentų paruošimo žingsniai vyksta po transliacijos, šie žingsniai lygiai taip pat gali būti vykdomi ruošiantis transliacijai, taip kad TT nariai <code>TEAMS</code> kanalo <code>Trišalė taryba</code> esančiose <code>Failuose</code> rastų artėjančio posėdžio medžiagą.</p>
+<section id="sec-folder-creation" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="sec-folder-creation"><span class="header-section-number">4.1</span> Transliacijos aplanko sukūrimas</h2>
+<p>Darbalaukyje (<code>Desktop</code>) sukuriamas aplankas ir sub-aplankai, kurie vėliau bus talpinami į <code>TEAMS</code> esantį <code>Trišalė taryba</code> kanalą, tad idealiu atveju visi Trišalės tarybos bei TT darbo grupių nariai turės prieigą prie šio kanalo, matys failus bei pranešimus. Taip bus sutaupomas laikas el. laiškų siuntimui, nes bus galima kalendoriuje sukurti TT posėdį visam kanalui, tad nebereikės visų informuoti el. Paštu, persiuntinėti skaidres bei pranešimo medžiagas. Sukūrus tokį aplanką ir sukeliant į jį visus su posėdžiu susijusius failus, visi TT nariai laiku matytų reikiamus dokumentus ir galėtų pasiruošti TT posėdžiui, o esant poreikiui rastu gerai organizuotą archyvą. Taip pat archyvo centralizavimas <code>TEAMS</code> platformoje sąlygoje saugumą ir patikimumą, jeigu pvz., SADM darbuotojo, kuris rūpinasi TT dokumentais, netekties atveju.</p>
+<p>Lokaliai sukuriamas aplankas pavadinimu <code>YYYY_MM_DD_TT</code>, pvz. <code>2022_11_22_TT</code>. Jeigu aplankas skirtas ne TT, o kuriai nors darbo grupei ar panašiai, tada priesaga naudojama kita. Šio aplanko viduje sukuriami šie sub-aplankai</p>
+<ul>
+<li><code>programa</code>
+<ul>
+<li>čia įkeliamas word, arba excel failas kuris naudojamas programai parašyti</li>
+<li>ir šio failo <code>.pdf</code> kopija</li>
+</ul></li>
+<li><code>posėdžio_medžiaga</code>
+<ul>
+<li>visa posėdžio medžiaga turi būti sukelta likus 5 dd. (?) iki TT posėdžio</li>
+<li>patarimas būtų labai griežtai neleisti niekam pristatyti savo medžiagos, jeigu ja nebuvo laiku pasidalinta</li>
+<li>visa medžiaga gali būti originaliu formatu, bet turėtų būti ir <code>.pdf</code> formatu, jeigu TT nariai įkelia <code>.docx</code>, <code>.pptx</code> ar kitais formatais, SADM turėtų užtikrinti ir <code>.pdf</code> dokumentų kopijų sugeneravimą</li>
+</ul></li>
+<li><code>techninė_medžiaga</code>
+<ul>
+<li>excelinis failas laiko žymoms ir asociacinėmis žymoms (<code>tags</code>)</li>
+<li>užsklandos failas Youtube</li>
+<li>kiti techniniai dokumentai (šablonai ir t.t.)</li>
+</ul></li>
+<li><code>video_įrašas</code>
+<ul>
+<li>bus patalpinamas video failas, kuris bus parsiųstas iš Youtube, nes Youtube esantis transliacijos video tampa originaliu ir “tiesos šaltiniu”</li>
+</ul></li>
+<li><code>protokolas</code>
+<ul>
+<li><code>.docx</code> arba <code>.odf</code> arba kitas naudotas tekstinis dokumentas</li>
+<li><code>.pdf</code> kopija (neskenuota)</li>
+<li><code>.pdf</code> kopija skenuota (jeigu reikia parašų ir t.t.)</li>
+</ul></li>
+</ul>
+<p>Rekomenduojama pakeisti failų, kurie patenka į <code>posėdžio_medžiaga</code> aplanką pavadinimus (pranešimo skaidres, dokumentus ir t.t.) naudojantis tokia struktūra:</p>
+<ul>
+<li><code>YYYY_MM_DD_INSTITUCIJA_tipas_TT.formatas</code></li>
+<li><code>YYYY_MM_DD</code> yra posėdžio data</li>
+<li><code>INSTITUCIJA</code> yra pranešėjo institucijos trumpinys, pvz., UŽT, SADM, LVK, SOLIDARUMAS ir t.t.</li>
+<li>priesaga <code>_TT</code> gali būti keičiama į darbo grupės trumpinį</li>
+<li><code>TIPAS</code> gali būti <code>pranešimas</code>, <code>projektas</code>, <code>raštas</code> ir t.t.</li>
+<li>pvz.: iš UŽT gautos skaidrės <code>Darbo rinka reformos rezult Trišalei 2022-11-18 SAS PIOS.pdf</code> būtų pervadinamos į <code>2022_11_22_UŽT_pranešimas_TT.pdf</code></li>
+</ul>
+<p>Toks dokumentų pervadinimas padeda, ieškoti dokumentų, net jeigu jie “pasiklysta” ir atsiduria ne tame aplanke.</p>
+<p>Rekomendacija būtų iškomunikuoti visiems TT posėdžių dalyviams aiškias taisykles: * darbo dienų skaičius iki kada galima pristatyti dokumentus skirtus posėdžiui * dokumentų formatas: * tekstiniai: <code>.docx</code>, <code>.odf</code>,<br>
+* skaidrių: <code>.pptx</code>, <code>.odp</code> * skaičiuoklių: <code>.xlsx</code>, <code>ods</code> * universalūs: <code>.pdf</code> (žiniai: pdf - <code>Portable Document Format</code>) * dokumentų pavadinimų sistema <code>YYYY_MM_DD_INSTITUCIJA_tipas_TT.formatas</code> * kur pirmame puslapyje / skaidrėje būtų matoma dokumento atnaujinimo data</p>
+<p>Ir reikalauti TT narių bei kitų pranešėjų laikytis šios sistemos, nes tai palengvina SADM darbą. SADM yra TT organizatorius, bet ne visų TT narių sekretoriatas. Gerbkime vieni kitų darbo laiką! ❤️</p>
 </section>
-<section id="failų-paruošimas-tinklapiui" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="failų-paruošimas-tinklapiui"><span class="header-section-number">4.2</span> Failų paruošimas tinklapiui</h2>
+<section id="video-transliacijos-atsidarymas" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="video-transliacijos-atsidarymas"><span class="header-section-number">4.2</span> Video transliacijos atsidarymas</h2>
+<p>Atsidarius Youtube ir prisijungiama prie SADM paskyros</p>
+<p><img src="figures/4_post/post_01.png" class="img-fluid" style="border: 2px solid black"></p>
+<p><img src="figures/4_post/post_02.png" class="img-fluid" style="border: 2px solid black"></p>
+<p>Jeigu ieškomas transliacijos video eiti į <code>Tiesioginiai srautai</code></p>
+<p><img src="figures/4_post/post_03.png" class="img-fluid" style="border: 2px solid black"></p>
+<p>Ir susirasti norimą transliacijos video įrašą</p>
+<p><img src="figures/4_post/post_04.png" class="img-fluid" style="border: 2px solid black"></p>
+<p>Jį atidarius, galima kitame naršyklės skirtuke atidaryti nuorodą į patį video</p>
+<p><img src="figures/4_post/post_05.png" class="img-fluid" style="border: 2px solid black"></p>
+<p>Dabar galima pradėti klausytis video, vesti protokolą bei žymėti laiką, kada buvo aptariama kuri tema (žr. <a href="#sec-time-tags-file"><span>Section&nbsp;4.4</span></a> punktas).</p>
+</section>
+<section id="transliacijos-video-parsiuntimas" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="transliacijos-video-parsiuntimas"><span class="header-section-number">4.3</span> Transliacijos video parsiuntimas</h2>
+<p>Kaip jau minėta viršuje, į TT aplanką reikia įtraukti ir transliacijos video įrašą. Taip daroma siekiant išsaugoti video, kuris buvo naudojamas transliacijai ir laiko žymų nustatymui, protokolo rašymui. Šis video gali skirtis nuo to, kurį įrašo renginio organizatorius, pvz., gali skirtis įrašymo pradžia, atitinkamai laiko žymos neatitiktų.</p>
+<p>Šiame lange</p>
+<p><img src="figures/4_post/post_04.png" class="img-fluid" style="border: 2px solid black"></p>
+<p>Spaudžiama ant <code>...</code></p>
+<p><img src="figures/4_post/video_downlaod.png" class="img-fluid" style="border: 2px solid black"></p>
+<p>Tada spaudžiama <code>Atsiųsti</code>. Video parsiuntimas yra lėtas ir gali trukti ganėtinai ilgai, todėl rekomenduoja tai padarytų visų darbų pradžioje.</p>
+<p><img src="figures/4_post/video_downlaod_2.png" class="img-fluid" style="border: 2px solid black"></p>
+<p>Parsiųstam video failui pakeičiamas pavadinimas: <code>YYYY_MM_DD_video_TT</code> ir failas įkeliamas į viršuje minėto (<a href="#sec-folder-creation"><span>Section&nbsp;4.1</span></a>) aplanko sub-aplanką <code>video_įrašas</code>.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Mokymų video įraše buvo panaudotas klaidingas transliacijos video pervadinimo formatas!</p>
+</div>
+</div>
+</section>
+<section id="sec-time-tags-file" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="sec-time-tags-file"><span class="header-section-number">4.4</span> Laiko žymos ir tags</h2>
+<p>Rekomenduojama laiko žymas ir asociacijų žymas (<code>tags</code>) žymėtis naudojant šį šabloninį failą (parsisiųsti <a href="files/laiko_asociacijų_žymos.xlsx">čia</a>).</p>
+<p><img src="figures/4_post/post_06.png" class="img-fluid" style="border: 2px solid black"></p>
+<p>Pildymas vyksta remiantis Youtube esančio transliacijos įrašo laiką.</p>
+<ul>
+<li>A stulpelio pirmoje eilutėje turi būti <code>00:00:00</code> atitinka <code>HH:MM:SS</code>.
+<ul>
+<li>Paskesniuose A stulpelio eilutėse galima nurodyti <code>=A2</code> reliatyvią reikšmę ir pratraukti formulę žemyn tiek, kiek buvo aptartų temų TT posėdžio metu, taip suformuojant kiekvienos temos pradžios laiką, kuris atitinka buvusios temos pabaigos laiką</li>
+</ul></li>
+<li>B stulpelyje rašoma iki kada buvo aptariama tema formatu <code>HH:MM:SS</code>
+<ul>
+<li>B stulpelio reikšmė tampa A stulpelio sekančios eilutės reikšmė (sekančios temo pradžios laiku)</li>
+</ul></li>
+<li>C stulpelyje sugeneruojamas tekstinis abiejų laikų sutrauktas tekstas, naudojant šias dvi funkcijas
+<ul>
+<li><code>TEXT(laukelis, formatas)</code> - laukelį paverčia tekstiniu formatu, formatas pasirenkamas <code>HH:MM:SS</code></li>
+<li><code>CONCATENATE(tekstas, tekstas,..)</code> - sujungia tekstinius elementus</li>
+<li>visa formulė: <code>CONCATENATE(TEXT(A2,"HH:MM:SS"), " - ", TEXT(B2,"HH:MM:SS"))</code></li>
+<li>reikėtų atkreipti dėmesį, ar skirtukai yra <code>,</code> ar <code>;</code>, priklausomai nuo naudojamos programos, jie gali skirtis</li>
+</ul></li>
+<li>D stulpelyje rašoma tema</li>
+<li>idealiu atveju tema sutrumpinama iki kelių žodžių</li>
+<li>Žemiau surašomos asociacinės žymos (<code>tags</code>), kurios padėtų Youtube paieškoje rasti video
+<ul>
+<li>standartinės asociacinės žymos:
+<ul>
+<li><code>Socialinės apsaugos ir darbo ministerija</code></li>
+<li><code>SADM</code></li>
+<li><code>Trišalė taryba</code></li>
+<li><code>Profesinės sąjungos</code></li>
+</ul></li>
+<li>nestandartinės asociacinės žymos
+<ul>
+<li>pagal temas, pvz., “darbo kodeksas”, “darbo santykiai”, “užimtumo tarnyba” ir t.t.</li>
+<li>pagal pranešėjus “vardas pavardė”</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>Užpildytas dokumentas turėtų atrodyti taip:</p>
+<p><img src="figures/4_post/post_07.png" class="img-fluid" style="border: 2px solid black"></p>
+</section>
+<section id="video-aprašo-pildymas" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="video-aprašo-pildymas"><span class="header-section-number">4.5</span> Video aprašo pildymas</h2>
+<ul>
+<li><code>Pavadinimas</code>
+<ul>
+<li><code>Trišalės tarybos posėdis YYYY-MM-DD</code></li>
+</ul></li>
+<li><code>Aprašas</code>
+<ul>
+<li>Čia perkeliami <code>copy &amp; paste</code> būdų C ir D stulpeliai iš viršuje minėto excelio failo (<a href="#sec-time-tags-file"><span>Section&nbsp;4.4</span></a>)</li>
+<li>siekiant geresnio matomumo padaromi tarpeliai tarp pavienių punktų</li>
+<li>Pabaigoje paliekama standartinė nuoroda į SADM tinklapį:
+<ul>
+<li><code>Posėdžio darbotvarkę ir posėdžio medžiagą galima rasti: https://socmin.lrv.lt/lt/administracine-informacija/tarybos-ir-komisijos/lr-trisale-taryba/trisales-tarybos-posedziai</code></li>
+</ul></li>
+</ul></li>
+<li>Pasitikrinama ar <code>Matomumas</code> yra <code>Viešas</code></li>
+</ul>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Galima kopijuoti ir tik A+D stulpelius (vietoj C+D). Youtube taip pat atpažįsta jog tai laiko žymos. Taigi ar aprašė laiko žyma HH:MM:SS - HH:MM:SS (laikas nuo iki), ar tik HH:MM:SS (laikas nuo), nekeistų to, kaip Youtube veikia. Tai labiau skonio reikalas.</p>
+</div>
+</div>
+<p><img src="figures/4_post/post_08.png" class="img-fluid" style="border: 2px solid black"></p>
+<ul>
+<li><code>Miniatiūra</code> - sukurta užsklanda, kuri buvo panaudota kuriant transliacija (2 skyrius)</li>
+<li><code>Grojaraščiai</code>, paspaudus pasirenkamas reikiamas grojaraštis, TT atveju: <code>Trišalės tarybos posėdžiai</code>. Jeigu tai ne TT posėdis, o kurios nors darbo grupės, gali reikėti sukurti naują grojaraštį ir jam priskirti šią transliaciją.</li>
+<li>Patikrinama ar <code>Auditorija</code> - <code>Ne, jis neskirtas vaikams</code></li>
+<li>Spaudžiama ant <code>RODYTI DAUGIAU</code></li>
+</ul>
+<p><img src="figures/4_post/post_09.png" class="img-fluid" style="border: 2px solid black"></p>
+<ul>
+<li><code>Žymos</code> lange <code>copy &amp; paste</code> būdų sukeliamos asociacijos žymos (<code>tags</code>) iš excel failo</li>
+</ul>
+<p><img src="figures/4_post/post_10.png" class="img-fluid" style="border: 2px solid black"></p>
+<ul>
+<li><code>Srauto kalba</code> nustatoma <code>lietuvių</code></li>
+<li><code>Pavadinimo ir aprašo kalba</code> nustatoma <code>lietuvių</code></li>
+<li><code>Įrašymo data</code> nustatoma transliacijos data</li>
+<li><code>Srauto vietovė</code> nustatoma <code>Vilnius</code></li>
+<li>Patikrinama ar <code>Kategorija</code> yra <code>Naujienos ir politika</code></li>
+</ul>
+<p><img src="figures/4_post/post_11.png" class="img-fluid" style="border: 2px solid black"></p>
+<p>Patikrinus visus laukelius, spaudžiama ant <code>IŠSAUGOTI</code>: <img src="figures/4_post/post_12.png" class="img-fluid" style="border: 2px solid black"></p>
+<p>Kaip atrodo video, galima patikrinti jį atsidarius atskirame naršyklės lape:</p>
+<p><img src="figures/4_post/post_05.png" class="img-fluid" style="border: 2px solid black"></p>
+</section>
+<section id="failų-paruošimas-tinklapiui" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="failų-paruošimas-tinklapiui"><span class="header-section-number">4.6</span> Failų paruošimas tinklapiui</h2>
 <p>Šiuo metu <a href="https://socmin.lrv.lt/lt/administracine-informacija/tarybos-ir-komisijos/lr-trisale-taryba/trisales-tarybos-posedziai">SADM tinklapyje</a> taip atrodo sukeliama posėdžių medžiaga:</p>
-<p><img src="figures/4_post/sadm.png" class="img-fluid"></p>
-<p>Tokiame sukėlime ne retai trūksta pranešėjų skaidrių (pvz., 2022-06-21 LB pristatymo skaidrių).</p>
-<p>Rekomencija keisti į tokį formatą</p>
+<p><img src="figures/4_post/sadm.png" class="img-fluid" style="border: 2px solid black"></p>
+<p>Tokiame sukėlime ne retai trūksta pranešėjų skaidrių (pvz., 2022-11-22 UŽT skaidrių ir tt.)</p>
+<p>Ir bendrai, visas formatas nėra labai patogus vartotojams</p>
+<p>Rekomendacija keisti į tokį formatą:</p>
 <table class="table">
 <thead>
 <tr class="header">
@@ -210,14 +397,30 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <ul>
-<li><code>Formatas</code> galėtų būti <code>Trišalė taryba</code> bei komisijų ir komitetų posėdžiai</li>
-<li><code>Programa</code> galėtų būti 1:1 programa, kurį būna paruošta prieš posėdį</li>
-<li><code>Medžiaga</code> į .zip archyva suarchuvuotas visas dokumentų aplankas (jeigu nėra youtube transliacijos, kartu į zip archyvą įkeliamas ir video)</li>
-<li><code>Video</code> nuoroda į youtube transliacijos įrašą</li>
-<li>Idealiu atveju būtų galima šią lentelę <strong>filtruoti</strong></li>
+<li><code>Formatas</code> galėtų būti <code>Trišalė taryba</code> bei komisijų ir komitetų posėdžiai, jeigu būtų priimtas sprendimas ir juos transliuoti</li>
+<li><code>Programa</code> galėtų būti 1:1 programai, kurį būna paruošta prieš posėdį, tik galbūt vertėtų ją trumpinti</li>
+<li><code>Medžiaga</code> į <code>.zip</code> archyvą suarchyvuotas visas posėdžio aplankas (žr. <a href="#sec-prep-archive"><span>Section&nbsp;4.6.1</span></a> )</li>
+<li><code>Video</code> nuoroda į Youtube transliacijos įrašą</li>
+<li>Idealiu atveju būtų galima šią lentelę <strong>filtruoti</strong> (pagal datą, formatą, programos raktažodį)</li>
 </ul>
+<section id="sec-prep-archive" class="level3" data-number="4.6.1">
+<h3 data-number="4.6.1" class="anchored" data-anchor-id="sec-prep-archive"><span class="header-section-number">4.6.1</span> Archyvo paruošimas</h3>
+<p>Po posėdžio surinkus visus failus, pranešimo medžiagas, parsisiuntus transliacijos video iš Youtube, viskas sukeliama į lokalų aplanką, arba tiesiai į aplanką esantį <code>TEAMS</code>, pvz., jeigu aplankas sukurtas jau ruošiantis posėdžiui, t.y. ruošiant aplanką kaip siūloma 2 skyriuje.</p>
+<ul>
+<li>jeigu aplankas ruošiamas lokaliai (kompiuteryje), tada posėdžio aplankas paverčiamas <code>.zip</code> archyvu</li>
+</ul>
+<p><img src="figures/4_post/post_15.png" class="img-fluid" style="border: 2px solid black"></p>
+<ul>
+<li>jeigu aplankas naudojamas jau iš <code>TEAMS</code> platformos, tada būtina jį pirma atsiųsti:</li>
+</ul>
+<p><img src="figures/4_post/post_13.png" class="img-fluid" style="border: 2px solid black"></p>
+<ul>
+<li>parsiųstas failas jau yra reikiamu <code>.zip</code> formatu ir šį archyvą galima tiesiogiai naudoti prisegant į SADM tinklapį kaip archyvą (taip kaip dabar daroma su <code>.pdf</code> ir <code>.docx</code> failais)</li>
+</ul>
+<p><img src="figures/4_post/post_14.png" class="img-fluid" style="border: 2px solid black"></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

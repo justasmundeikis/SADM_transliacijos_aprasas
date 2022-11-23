@@ -1,19 +1,189 @@
 
 # Post-transliavimo darbai
-
-
-## Laiko žymos
-
+ 
+Nors žemiau aprašomi transliacijos aplanko sukūrimo, dokumentų paruošimo žingsniai vyksta po transliacijos, šie žingsniai lygiai taip pat gali būti vykdomi ruošiantis transliacijai, taip kad TT nariai `TEAMS` kanalo `Trišalė taryba`  esančiose `Failuose` rastų artėjančio posėdžio medžiagą.
+ 
+## Transliacijos aplanko sukūrimas {#sec-folder-creation}
+ 
+Darbalaukyje (`Desktop`) sukuriamas aplankas ir sub-aplankai, kurie vėliau bus talpinami į `TEAMS` esantį `Trišalė taryba` kanalą, tad idealiu atveju visi Trišalės tarybos bei TT darbo grupių nariai turės prieigą prie šio kanalo, matys failus bei pranešimus. Taip bus sutaupomas laikas el. laiškų  siuntimui, nes bus galima kalendoriuje sukurti TT posėdį visam kanalui, tad nebereikės visų informuoti el. Paštu, persiuntinėti skaidres bei pranešimo medžiagas. Sukūrus tokį aplanką ir sukeliant į jį visus su posėdžiu susijusius failus, visi TT nariai laiku matytų reikiamus dokumentus ir galėtų pasiruošti TT posėdžiui, o esant poreikiui rastu gerai organizuotą archyvą. Taip pat archyvo centralizavimas `TEAMS` platformoje sąlygoje saugumą ir patikimumą, jeigu pvz., SADM darbuotojo, kuris rūpinasi TT dokumentais, netekties atveju.
+ 
+Lokaliai sukuriamas aplankas pavadinimu `YYYY_MM_DD_TT`, pvz. `2022_11_22_TT`. Jeigu aplankas skirtas ne TT, o kuriai nors darbo grupei ar panašiai, tada priesaga naudojama kita. Šio aplanko viduje sukuriami šie sub-aplankai
+ 
+* `programa`
+    * čia įkeliamas word, arba excel failas kuris naudojamas programai parašyti
+    * ir šio failo `.pdf` kopija
+* `posėdžio_medžiaga`
+    * visa posėdžio medžiaga turi būti sukelta likus 5 dd. (?) iki TT posėdžio
+    * patarimas būtų labai griežtai neleisti niekam pristatyti savo medžiagos, jeigu ja nebuvo laiku pasidalinta
+    * visa medžiaga gali būti originaliu formatu, bet turėtų būti ir `.pdf` formatu, jeigu TT nariai įkelia `.docx`, `.pptx` ar kitais formatais, SADM turėtų užtikrinti ir `.pdf` dokumentų kopijų sugeneravimą
+* `techninė_medžiaga`
+    * excelinis failas laiko žymoms ir asociacinėmis žymoms (`tags`)
+    * užsklandos failas Youtube
+    * kiti techniniai dokumentai (šablonai ir t.t.)
+* `video_įrašas`
+    * bus patalpinamas video failas, kuris bus parsiųstas iš Youtube, nes Youtube esantis transliacijos video tampa originaliu ir "tiesos šaltiniu"
+* `protokolas`
+    * `.docx` arba `.odf` arba kitas naudotas tekstinis dokumentas
+    * `.pdf` kopija (neskenuota)
+    * `.pdf` kopija skenuota (jeigu reikia parašų ir t.t.)
+ 
+Rekomenduojama pakeisti failų, kurie patenka į `posėdžio_medžiaga` aplanką pavadinimus (pranešimo skaidres, dokumentus ir t.t.) naudojantis tokia struktūra:
+ 
+* `YYYY_MM_DD_INSTITUCIJA_tipas_TT.formatas`
+* `YYYY_MM_DD` yra posėdžio data
+* `INSTITUCIJA` yra pranešėjo institucijos trumpinys, pvz., UŽT, SADM, LVK, SOLIDARUMAS ir t.t.
+* priesaga `_TT` gali būti keičiama į darbo grupės trumpinį 
+* `TIPAS` gali būti `pranešimas`, `projektas`, `raštas` ir t.t.
+* pvz.: iš UŽT gautos skaidrės  `Darbo rinka reformos rezult Trišalei 2022-11-18 SAS PIOS.pdf` būtų pervadinamos į  `2022_11_22_UŽT_pranešimas_TT.pdf`
+ 
+Toks dokumentų pervadinimas padeda, ieškoti dokumentų, net jeigu jie “pasiklysta” ir atsiduria ne tame aplanke. 
+ 
+Rekomendacija būtų iškomunikuoti visiems TT posėdžių dalyviams aiškias taisykles:
+* darbo dienų skaičius iki kada galima pristatyti dokumentus skirtus posėdžiui
+* dokumentų formatas: 
+* tekstiniai: `.docx`, `.odf`,  
+* skaidrių: `.pptx`, `.odp`
+* skaičiuoklių: `.xlsx`, `ods`
+* universalūs: `.pdf` (žiniai: pdf - `Portable Document Format`)
+* dokumentų pavadinimų sistema  `YYYY_MM_DD_INSTITUCIJA_tipas_TT.formatas` 
+* kur pirmame puslapyje / skaidrėje būtų matoma dokumento atnaujinimo data
+ 
+Ir reikalauti TT narių bei kitų pranešėjų laikytis šios sistemos, nes tai palengvina SADM darbą. SADM yra TT organizatorius, bet ne visų TT narių sekretoriatas. Gerbkime vieni kitų darbo laiką! ❤️
+ 
+## Video transliacijos atsidarymas
+ 
+Atsidarius Youtube ir prisijungiama prie SADM paskyros
+ 
+![](figures/4_post/post_01.png){style="border: 2px solid black"}
+ 
+![](figures/4_post/post_02.png){style="border: 2px solid black"}
+ 
+Jeigu ieškomas transliacijos video eiti į `Tiesioginiai srautai`
+ 
+![](figures/4_post/post_03.png){style="border: 2px solid black"}
+ 
+Ir susirasti norimą transliacijos video įrašą
+ 
+![](figures/4_post/post_04.png){style="border: 2px solid black"}
+ 
+Jį atidarius, galima kitame naršyklės skirtuke atidaryti nuorodą į patį video
+ 
+![](figures/4_post/post_05.png){style="border: 2px solid black"}
+ 
+Dabar galima pradėti klausytis video, vesti protokolą bei žymėti laiką, kada buvo aptariama kuri tema (žr. @sec-time-tags-file punktas).
+ 
+## Transliacijos video parsiuntimas
+ 
+Kaip jau minėta viršuje, į TT aplanką reikia įtraukti ir transliacijos video įrašą. Taip daroma siekiant išsaugoti video, kuris buvo naudojamas transliacijai ir laiko žymų nustatymui, protokolo rašymui. Šis video gali skirtis nuo to, kurį įrašo renginio organizatorius, pvz., gali skirtis įrašymo pradžia, atitinkamai laiko žymos neatitiktų.
+ 
+Šiame lange
+ 
+![](figures/4_post/post_04.png){style="border: 2px solid black"}
+ 
+Spaudžiama ant `...`
+ 
+![](figures/4_post/video_downlaod.png){style="border: 2px solid black"}
+ 
+Tada spaudžiama `Atsiųsti`. Video parsiuntimas yra lėtas ir gali trukti ganėtinai ilgai, todėl rekomenduoja tai padarytų visų darbų pradžioje.
+ 
+![](figures/4_post/video_downlaod_2.png){style="border: 2px solid black"}
+ 
+Parsiųstam video failui pakeičiamas pavadinimas: `YYYY_MM_DD_video_TT` ir failas įkeliamas į viršuje minėto (@sec-folder-creation) aplanko sub-aplanką `video_įrašas`. 
+ 
+::: {.callout-note}
+Mokymų video įraše buvo panaudotas klaidingas transliacijos video pervadinimo formatas!
+:::
+ 
+ 
+## Laiko žymos ir tags {#sec-time-tags-file}
+ 
+Rekomenduojama laiko žymas ir asociacijų žymas (`tags`) žymėtis naudojant šį šabloninį failą (parsisiųsti [čia](files/laiko_asociacijų_žymos.xlsx)).
+ 
+![](figures/4_post/post_06.png){style="border: 2px solid black"}
+ 
+Pildymas vyksta remiantis Youtube esančio transliacijos įrašo laiką.
+ 
+* A stulpelio pirmoje eilutėje turi būti `00:00:00` atitinka `HH:MM:SS`.
+    * Paskesniuose A stulpelio eilutėse galima nurodyti `=A2` reliatyvią reikšmę ir pratraukti formulę žemyn tiek, kiek buvo aptartų temų TT posėdžio metu, taip suformuojant kiekvienos temos pradžios laiką, kuris atitinka buvusios temos pabaigos laiką
+* B stulpelyje rašoma iki kada buvo aptariama tema formatu `HH:MM:SS`
+    * B stulpelio reikšmė tampa A stulpelio sekančios eilutės reikšmė (sekančios temo pradžios laiku)
+* C stulpelyje sugeneruojamas tekstinis abiejų laikų sutrauktas tekstas, naudojant šias dvi funkcijas
+    * `TEXT(laukelis, formatas)` - laukelį paverčia tekstiniu formatu, formatas pasirenkamas `HH:MM:SS`
+    * `CONCATENATE(tekstas, tekstas,..)` - sujungia tekstinius elementus
+    * visa formulė: `CONCATENATE(TEXT(A2,"HH:MM:SS"), " - ", TEXT(B2,"HH:MM:SS"))`
+    * reikėtų atkreipti dėmesį, ar skirtukai yra `,` ar `;`, priklausomai nuo naudojamos programos, jie gali skirtis
+* D stulpelyje rašoma tema
+* idealiu atveju tema sutrumpinama iki kelių žodžių
+* Žemiau surašomos asociacinės žymos (`tags`), kurios padėtų Youtube paieškoje rasti video
+    * standartinės asociacinės žymos:
+        * `Socialinės apsaugos ir darbo ministerija`
+        * `SADM`
+        * `Trišalė taryba`
+        * `Profesinės sąjungos`
+    * nestandartinės asociacinės žymos
+        * pagal temas, pvz., "darbo kodeksas", "darbo santykiai", "užimtumo tarnyba" ir t.t.
+        * pagal pranešėjus "vardas pavardė"
+ 
+Užpildytas dokumentas turėtų atrodyti taip:
+ 
+![](figures/4_post/post_07.png){style="border: 2px solid black"}
+ 
+## Video aprašo pildymas
+ 
+* ` Pavadinimas`
+    * `Trišalės tarybos posėdis YYYY-MM-DD` 
+* `Aprašas`
+    * Čia perkeliami `copy & paste` būdų C ir D stulpeliai iš viršuje minėto excelio failo (@sec-time-tags-file)
+    * siekiant geresnio matomumo padaromi tarpeliai tarp pavienių punktų
+    * Pabaigoje paliekama standartinė nuoroda į SADM tinklapį:
+        * `Posėdžio darbotvarkę ir posėdžio medžiagą galima rasti: https://socmin.lrv.lt/lt/administracine-informacija/tarybos-ir-komisijos/lr-trisale-taryba/trisales-tarybos-posedziai`
+* Pasitikrinama ar `Matomumas` yra `Viešas`
+ 
+::: {.callout-note}
+Galima kopijuoti ir tik A+D stulpelius (vietoj C+D). Youtube taip pat atpažįsta jog tai laiko žymos. Taigi ar aprašė laiko žyma HH:MM:SS - HH:MM:SS (laikas nuo iki), ar tik HH:MM:SS (laikas nuo), nekeistų to, kaip Youtube veikia. Tai labiau skonio reikalas.
+:::
+ 
+![](figures/4_post/post_08.png){style="border: 2px solid black"}
+ 
+* `Miniatiūra` - sukurta užsklanda, kuri buvo panaudota kuriant transliacija (2 skyrius)
+* `Grojaraščiai`, paspaudus pasirenkamas reikiamas grojaraštis, TT atveju: `Trišalės tarybos posėdžiai`. Jeigu tai ne TT posėdis, o kurios nors darbo grupės, gali reikėti sukurti naują grojaraštį ir jam priskirti šią transliaciją.
+* Patikrinama ar `Auditorija` -  `Ne, jis neskirtas vaikams `
+* Spaudžiama ant `RODYTI DAUGIAU`
+ 
+![](figures/4_post/post_09.png){style="border: 2px solid black"}
+ 
+* `Žymos` lange `copy & paste` būdų sukeliamos asociacijos žymos (`tags`)  iš excel failo
+ 
+ 
+![](figures/4_post/post_10.png){style="border: 2px solid black"}
+ 
+* `Srauto kalba` nustatoma `lietuvių`
+* `Pavadinimo ir aprašo kalba` nustatoma `lietuvių`
+* `Įrašymo data` nustatoma transliacijos data
+* `Srauto vietovė` nustatoma `Vilnius`
+* Patikrinama ar `Kategorija` yra `Naujienos ir politika`
+ 
+![](figures/4_post/post_11.png){style="border: 2px solid black"}
+ 
+Patikrinus visus laukelius, spaudžiama ant `IŠSAUGOTI`:
+![](figures/4_post/post_12.png){style="border: 2px solid black"}
+ 
+Kaip atrodo video, galima patikrinti jį atsidarius atskirame naršyklės lape:
+ 
+![](figures/4_post/post_05.png){style="border: 2px solid black"}
+ 
 ## Failų paruošimas tinklapiui
-
+ 
 Šiuo metu [SADM tinklapyje](https://socmin.lrv.lt/lt/administracine-informacija/tarybos-ir-komisijos/lr-trisale-taryba/trisales-tarybos-posedziai) taip atrodo sukeliama posėdžių medžiaga:
-
-![](figures/4_post/sadm.png) 
-
-Tokiame sukėlime ne retai trūksta pranešėjų skaidrių (pvz., 2022-06-21 LB pristatymo skaidrių). 
-
-Rekomencija keisti į tokį formatą
-
+ 
+![](figures/4_post/sadm.png){style="border: 2px solid black"} 
+ 
+Tokiame sukėlime ne retai trūksta pranešėjų skaidrių (pvz., 2022-11-22 UŽT skaidrių ir tt.)
+ 
+Ir bendrai, visas formatas nėra labai patogus vartotojams
+ 
+Rekomendacija keisti į tokį formatą:
+ 
 +-------------+----------------+-------------+------------------+---------------+
 | Data        | Formatas       | Programa    | Medžiaga         | Video         |
 +=============+================+=============+==================+===============+
@@ -35,9 +205,26 @@ Rekomencija keisti į tokį formatą
 |             |                |             |                  |               |
 |             |                | 3....       |                  |               |
 +-------------+----------------+-------------+------------------+---------------+
-
-- `Formatas` galėtų būti `Trišalė taryba` bei komisijų ir komitetų posėdžiai
-- `Programa` galėtų būti 1:1 programa, kurį būna paruošta prieš posėdį
-- `Medžiaga` į .zip archyva suarchuvuotas visas dokumentų aplankas (jeigu nėra youtube transliacijos, kartu į zip archyvą įkeliamas ir video)
-- `Video` nuoroda į youtube transliacijos įrašą
-- Idealiu atveju būtų galima šią lentelę **filtruoti**
+ 
+- `Formatas` galėtų būti `Trišalė taryba` bei komisijų ir komitetų posėdžiai, jeigu būtų priimtas sprendimas ir juos transliuoti
+- `Programa` galėtų būti 1:1 programai, kurį būna paruošta prieš posėdį, tik galbūt vertėtų ją trumpinti
+- `Medžiaga` į `.zip` archyvą suarchyvuotas visas posėdžio aplankas (žr. @sec-prep-archive )
+- `Video` nuoroda į Youtube transliacijos įrašą
+- Idealiu atveju būtų galima šią lentelę **filtruoti** (pagal datą, formatą, programos raktažodį)
+ 
+ 
+### Archyvo paruošimas {#sec-prep-archive}
+ 
+Po posėdžio surinkus visus failus, pranešimo medžiagas, parsisiuntus transliacijos video iš Youtube, viskas sukeliama į lokalų aplanką, arba tiesiai į aplanką esantį `TEAMS`, pvz., jeigu aplankas sukurtas jau ruošiantis posėdžiui, t.y. ruošiant aplanką kaip siūloma 2 skyriuje.
+ 
+* jeigu aplankas ruošiamas lokaliai (kompiuteryje), tada posėdžio aplankas paverčiamas `.zip` archyvu
+ 
+![](figures/4_post/post_15.png){style="border: 2px solid black"}
+ 
+* jeigu aplankas naudojamas jau iš `TEAMS` platformos, tada būtina jį pirma atsiųsti: 
+ 
+![](figures/4_post/post_13.png){style="border: 2px solid black"}
+ 
+* parsiųstas failas jau yra reikiamu `.zip` formatu ir šį archyvą galima tiesiogiai naudoti prisegant į SADM tinklapį kaip archyvą (taip kaip dabar daroma su `.pdf` ir `.docx` failais)
+ 
+![](figures/4_post/post_14.png){style="border: 2px solid black"}

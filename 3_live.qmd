@@ -1,202 +1,202 @@
 # Live transliacija
-
+ 
 Šiame skyriuje aprašomi veiksmai iš dviejų kompiuterių perspektyvos: 
-
+ 
 1. organizatoriaus 
 2. transliuotojo
-
-
+ 
 ## Organizatoriaus nustatymai
-
-Standartinis TEAMS nustatymas yra, jog renginio organizatorius (arba bet kuris dalyvis) turi patvirtinti kiekvieną norintį prisijungti prie susitikimo. Dėl šios priežasties ekrane atsiranda pop-up pranešimas apie norinčius prisijungti, be to, girdimas pranešimo signalas. Kad būtų išvengta šių video ir garso trikdžių rekomenduojami šie nustatymai:
-
+ 
+Įprastai paleidus `TEAMS` susitikimą, renginio organizatorius (arba bet kuris dalyvis) turi patvirtinti kiekvieną norintį prisijungti prie susitikimo. Dėl šios priežasties ekrane atsiranda pop-up pranešimas apie norinčius prisijungti, papildomai girdimas pranešimo signalas. Kad būtų išvengta šių vaizdo ir garso trikdžių rekomenduojami šie nustatymai:
+ 
 `TEAMS` susitikimo lange:
-
-![](figures/1_technical/teams_setup_1.png)
-
-Einama į `Meeting options`
-
-![](figures/1_technical/teams_setup_2.png)
-
+ 
+![](figures/3_live/live_01.png){style="border: 2px solid black"}
+ 
+Einama į `Meeting options`:
+ 
+![](figures/3_live/live_02.png){style="border: 2px solid black"}
+ 
 Keičiami  šie nustatymai:
+ 
+* `Who can bypass the lobby` keičiama į `Everyone`
+* `Announce when callers join ir leave`  išjungiama
+ 
+![](figures/3_live/live_03.png){style="border: 2px solid black"}
+ 
+Dabar kiekvienas turintis nuorodą galės tiesiogiai patekti į susitikimą, apeinant `lobby`. Tai sumažins organizatoriaus darbo naštą. Turint omenyje, jog posėdžiai yra atviri, saugumo prasme toks atvėrimas nesukelia didelės rizikos. Juo labiau, jog ateityje į transliacijas turėtų jungtis tik TT nariai bei pranešėjai, o plati visuomenė bei žiniasklaidos atstovai - sekti transliacijas SADM Youtube paskyroje.
 
-* `Who can bypass the lobby` pakeisti į `Everyone`
-* `Announce when callers join ir leave`  išjungti
 
-Dabar kiekvienas turintis nuorodą galės tiesiogiai patekti į susitikimą, apeinant `lobby`, tai sumažins organizatoriaus darbo naštą. Turint omenyje, jog posėdžiai yra atviri, saugumo prasme toks atvėrimas nesukelia didelės rizikos. Juo labiau, jog ateityje į transliacijas turėtų jungtis tik TT nariai bei pranešėjai, o plati visuomenė bei žiniasklaidos atstovai - sekti transliacijas SADM Youtube paskyroje.
-
-![](figures/1_technical/teams_setup_3.png)
-
-## Transliuotojo nustatymai
-
+## Live transliavimas
+ 
 Žemiau detaliai aprašomas visas transliavimo procesas iš transliuotojo kompiuterio perspektyvos.
-
+ 
 ### Pasitikrinti ar pasirinktas teisingas energijos maitinimo planas
-
+ 
 Dešiniu pelės mygtuku spaudžiama ant maitinimo ikonėlės:
+ 
+![](figures/3_live/live_04.png){style="border: 2px solid black"}
+ 
+Atidaroma `Maitinimo parinktys`:
+ 
+![](figures/3_live/live_05.png){style="border: 2px solid black"}
+ 
+Būtina pasitikrinti, ar pasirinktas `didelio efektyvumo` (ar kitaip pavadintas) planas, kuris buvo sukurtas pirmame skyriuje. Tai yra svarbu, nes toks pasirinkimas užtikrina jog vykdant transliaciją ir ilgesnį laiką nesąveikaujant su kompiuteriu, šis nepereitų į miego ar energijos taupymo rėžimą, neišjungtų ekrano ir bendrai, jog kompiuterio procesorius veiktų maksimaliu pajėgumu, taip užtikrinant pakankamus resursus transliavimo procesui:
+ 
+![](figures/3_live/live_06.png){style="border: 2px solid black"}
 
-![](figures/3_live/pre_1.png)
-
-Atidaroma `Maitinimo parinktys`
-
-![](figures/3_live/pre_2.png)
-
-Būtina pasitirkinti, ar pasirinktas `didelio efektyvumo` (ar kitaip pavadintas) planas, kuris buvo sukurtas pirmame skyriuje. Tai yra svarbu, nes užtikrina, jog vykdant transliaciją ir ilgesnį laiką nesąveikaujant su kompiuteriu, šis nepereitų į miego ar energijos taupymo rėžimą, neišjungtų ekrano ir bendrai, jog kompiuterio procesorius veiktų maksimaliu pajėgumu, taip užtikrinant pakankamus resurus tranliavimo procesui.
-
-![](figures/3_live/pre_3.png)
 
 ### Pasitikrinti ar deaktyvuotas mikrofonas
+ 
+`Parametruose` nuėjus į `Garsas` turėtų matytis, jog `Nerasta įvesties įrenginių`, tai reiškia, jog kompiuteryje deaktyvuotas mikrofonas. Tai labai svarbu, nes antraip paleidus transliaciją ir fone atsiradus garsams, `TEAMS` rodys  pranešimą, jog rekomenduoja įjungti mikrofoną.
+ 
+![](figures/3_live/live_07.png){style="border: 2px solid black"}
 
-`Parametruose` nuėjus į `Garsas` turėtų matytis, jog `Nerasta įvesties įrenginių`, tai reiškia, jog kompiuteryje deaktyvuotas mikrofonas.
-
-Tai labai svarbu, nes antraip paleidus transliaciją ir fone atsiradus garsams, `TEAMS` rodys  pranešimą, jog rekomenduoja įjungti mikrofoną.
-
-![](figures/3_live/pre_4.png)
-
+ 
 ### Teams paleidimas
-
+ 
 Prisijungiant prie norimo susitikimo, turėtų matytis, jog :
-
+ 
 * kamera yra deaktyvuota / neįjungta
 * mikrofonas yra deaktyvuotas
 * garsas yra nustatytas maksimalus
+ 
+![](figures/3_live/live_08.png){style="border: 2px solid black"}
 
-![](figures/3_live/live_1.png)
-
-Prisijungus prie susitikimo, TEAMS gali išmesti du pranešimus, kuriuos transliuotojas turėtų išjungti:
-
-* išjungti pranešimą apie tai, jog nerastas mikrofonas
-* organizatoriui pradėjus susitikimo įrašą, išjungti šį pranešimą
-
+Prisijungus prie susitikimo, `TEAMS` gali išmesti du pranešimus, kuriuos transliuotojas turėtų išjungti:
+ 
+* pranešimą apie tai, jog nerastas mikrofonas
+* organizatoriui pradėjus susitikimo įrašą, išjungti pranešimą apie daromą įrašą
+ 
 ::: {layout-ncol="2"}
-![](figures/3_live/live_2a.png)
-![](figures/3_live/live_2b.png)
+![](figures/3_live/live_10.png){style="border: 2px solid black"}
+
+![](figures/3_live/live_11.png){style="border: 2px solid black"}
 :::
+ 
+Siekiant jog `OBS-STUDIO` programa pagautų `TEAMS` vaizdą teisingu (16:9 ekrano santykio) formatu, reikia pasirinkti, jog `TEAMS` susitikimas būtų rodomas pilnu ekranu (`full-screen`):
 
-Siekiant jog `OBS-STUDIO` programa pagautų `TEAMS` vaizdą teisingu (16:9 ekrano santykio) formatu, reikia pasirinkti, jog `TEAMS` susitikimas būtų rodomas pilnu ekranu (`full-screen`).
-
-![](figures/3_live/live_3.png)
-
-
+![](figures/3_live/live_09.png){style="border: 2px solid black"}
+ 
+ 
 ### Transliacija per OBS-Studio
+ 
+Paspaudus `WIN` klavišą ir atsidarius `START` meniu bei juostai, galima atsidaryti `OBS-STUDIO` programą:
 
-Paspaudus `WIN` klavišą ir atsidarius `START` meniu bei juostai, galima atsidaryti `OBS-STUDIO` programą
+![](figures/3_live/live_12.png){style="border: 2px solid black"}
 
-#### Transliavimo pagrindiniai nustatymai
 
+### Transliavimo pagrindiniai nustatymai
+ 
 Prieš kiekvieną transliaciją rekomenduojama pasitikrinti pagrindinius nustatymus:
-
-![](figures/3_live/live_4.png)
-
-* `General` lange - ar nėra aktyvuotas automatinis video įrašinėjimas (jeigu taip, reikia deaktyvuoti)
-
-![](figures/3_live/live_5.png)
-
-* `Stream` lange - yra sąsaja su SADM Youtuba paskyra
-
-![](figures/3_live/live_6.png)
-
-* `Video` lange - ar abi rezoliucijos yra `1920x1080` ir `30` kadrų per sekundę (`Common FPS Values`)
-
-![](figures/3_live/live_7.png)
-
+ 
+![](figures/3_live/live_13.png){style="border: 2px solid black"}
+ 
+* `General` lange - ar nėra aktyvuotas automatinis video įrašinėjimas (jeigu taip, reikia deaktyvuoti):
+ 
+![](figures/3_live/live_14.png){style="border: 2px solid black"}
+ 
+* `Stream` lange - yra sąsaja su SADM Youtuba paskyra:
+ 
+![](figures/3_live/live_15.png){style="border: 2px solid black"}
+ 
+* `Video` lange - ar abi rezoliucijos yra `1920x1080` ir `30` kadrų per sekundę (`Common FPS Values`):
+ 
+![](figures/3_live/live_16.png){style="border: 2px solid black"}
+ 
 Jeigu visi nustatymai teisingi, galima uždaryti nustatymų langą.
-
-#### Transliavimo šaltinio pridėjimas
-
-* pagrindiniame `OBS-Studio` lange, ties `Sources` spaudžiama ant `+` jog pridėti naują video šaltinį
-
-![](figures/3_live/live_8.png)
-
-* Pasirinkimas `Window Capture`, kuris retransliuoja pasirinkto lango vaizdą
-
-![](figures/3_live/live_9.png)
-
-* atsidariusiame pop-up lange galima pakeisti pavadinimą, bet nebūtina, tad spaudžiama ant `OK`
-
-![](figures/3_live/live_10.png)
-
+ 
+### Transliavimo šaltinio pridėjimas
+ 
+* pagrindiniame `OBS-Studio` lange, ties `Sources` spaudžiama ant `+` jog pridėti naują video šaltinį:
+ 
+![](figures/3_live/live_17.png){style="border: 2px solid black"}
+ 
+* Pasirinkimas `Window Capture`, kuris retransliuoja pasirinkto lango vaizdą:
+ 
+![](figures/3_live/live_18.png){style="border: 2px solid black"}
+ 
+* atsidariusiame pop-up lange galima pakeisti pavadinimą, bet nebūtina, tad spaudžiama ant `OK`:
+ 
+![](figures/3_live/live_19.png){style="border: 2px solid black"}
+ 
 Atsidariusiame naujame lange `OBS-Studio` bando automatiškai parinkti, kurį langą transliuosime.
-
-* jeigu matomas vaizdas / parintkas langas **neteisingas**, paspaudus ant `Window` parinkties galima pakeisti langą
+ 
+* jeigu matomas vaizdas / parinktas langas **neteisingas**, paspaudus ant `Window` parinkties galima pakeisti langą
 * `Capture Method` reikėtų pakeisti į `Windows 10`
-* **BŪTINA** nuimti varnelę nuo `Capture Cursor`, jog transliuojant nebūtų rodomi pelės judesiai
+* **BŪTINA** nuimti varnelę nuo `Capture Cursor`, jog transliuojant nebūtų matomi pelės judesiai
 * Spaudžiama ant `OK`
+ 
+![](figures/3_live/live_20.png){style="border: 2px solid black"}
+ 
+* Labai dažnai nutinka taip, jog transliavimo langas (šiuo atveju `TEAMS`) netelpa į transliavimo ekrano rėmus, t.y. matomi dryžiai šonuose:
 
-![](figures/3_live/live_11.png)
-
-* Labai dažnai nutinka taip, jog transliavimo langas (šiuo atveju `TEAMS`) netelpa į transliavimo ekrano remus, t.y. matomi dryžiai šonuose. 
-
-![](figures/3_live/live_12.png)
-
-* Tokiu atveju paspaudus ant raudonų kampinių kvadratukų galima reguliuoti transliuojamo lango dydį ir pritaikyti jį transliavimo ekranui.
-
-![](figures/3_live/live_13.png)
-
-* baigus transliuojamas langas (`TEAMS`) ir transliavimo ekranas turėtųi pilnai atitikti (nesimatyti dryžuotų regionų arba juodų juostų)
-
-![](figures/3_live/live_14.png)
-
+![](figures/3_live/live_21.png){style="border: 2px solid black"}
+ 
+* Tokiu atveju paspaudus ant raudonų kampinių kvadratukų galima reguliuoti transliuojamo lango dydį ir pritaikyti jį transliavimo ekranui:
+ 
+![](figures/3_live/live_22.png){style="border: 2px solid black"}
+ 
+* baigus transliuojamas langas (`TEAMS`) ir transliavimo ekranas turėtų pilnai atitikti (nesimatyti dryžuotų regionų arba juodų juostų):
+ 
+![](figures/3_live/live_23.png){style="border: 2px solid black"}
+ 
 ### Transliacijos pasirinkimas
-
-* paspaudus ant `Manage broadcast` atsidaro transliavimo sukūrimo (`Create New Broadcast`) arba jau sukurtų renginių pasirinkimo langas (`Select existing Broadcast`)
-
-* Spaudžiama ant sukurtų renginių pasirinkimo lango (`Select existing Broadcast`)
-
-![](figures/3_live/live_16.png)
-
+ 
+* paspaudus ant `Manage broadcast` atsidaro transliavimo sukūrimo (`Create New Broadcast`) arba jau sukurtų renginių pasirinkimo langas (`Select existing Broadcast`). Spaudžiama ant sukurtų renginių pasirinkimo lango (`Select existing Broadcast`):
+ 
+![](figures/3_live/live_24.png){style="border: 2px solid black"}
+ 
 * Pasirenkame norima transliacija (pasirinkta transliacija tampa mėlyna)
 * pabaigus pasirinkimą spausti ant `Select broadcast`
-* **SVARBU**: negalima spausti ant `Select broadcast and start streaming` nes kitaip iš karto pasileis tiesioginė transliacija ir atitinkamai jos nebebus galima sustabdyti, arba sustabdžius nebebus galima pratęsti / transliuoti dar kartą.
 
-![](figures/3_live/live_17.png)
+![](figures/3_live/live_25.png){style="border: 2px solid black"}
+ 
+![](figures/3_live/live_26.png){style="border: 2px solid black"}
 
-![](figures/3_live/live_18.png)
+::: {.callout-warning}
+Negalima spausti ant `Select broadcast and start streaming` nes kitaip iš karto pasileis tiesioginė transliacija ir jos nebebus galima sustabdyti, arba sustabdžius nebebus galima pratęsti / transliuoti dar kartą.
+:::
 
-* `Controls` skiltyje matome, jog `Manage broadcast` tapo mėlyna, taigi yra pasirinkta tranliacija
-* kai `TEAMS` organizatorius paleidžia video įrašą, transliuotjanas išjungia pranešimą apie daromą įrašą
-*  turimas kvorumas ir t.t.
-* spaudžaiama ant `Start streaming`
+`Controls` skiltyje matome, jog `Manage broadcast` tapo mėlyna, taigi transliacija yra pasirinkta 
+
+Kada pradėti transliacija:
+
+* kai `TEAMS` organizatorius paleidžia video įrašą, transliuotojas išjungia pranešimą apie daromą įrašą
+* turimas kvorumas ir t.t.
+* spaudžiama ant `Start streaming`
 * `OBS-studio` pradeda transliuoti tiesiogiai per Youtube
+ 
+![](figures/3_live/live_27.png){style="border: 2px solid black"}
 
-![](figures/3_live/live_19.png)
+* Patikrinama ar garsas švyti ties žalios zonos pabaiga / geltonos zonos pradžia, jeigu per mažai garso, galima padidinti, jeigu garso amplitudė patenka kartais į raudoną zoną, galima pritildyti reguliuojant garso kiekį
 
-* Pasitikrinima, ar garsas švyti ties žalios zonos pabaiga / geltonos zonos pradžia, jeigu per mažai garso, galima padidinti, jeigu garso amplitudė patenka kartais į raudoną zoną, galima pritildyti reguliuojant garso kiekį
-
-![](figures/3_live/live_22.png)
-
-![](figures/3_live/live_23.png)
-
-
+![](figures/3_live/live_28.png){style="border: 2px solid black"}
+ 
 ### Kompiuterio garso išjungimas
-
-Sutvarkius garsą ir nenorint, jog notebookas garsiai leistų TT posėdį, galima išjungti kompiuterio garsą
-
-* paspaudus ant garso įkonėlės ekrano dešiniame kampe
-
-![](figures/3_live/live_20.png)
-
-* spausti ant garsiakalbio simbolio. Kai jis perbrauktas, kompiuteris nutyla, tačiau transliacija vyksta toliau su garsu
-
-![](figures/3_live/live_21.png)
-
+ 
+Sutvarkius garsą ir nenorint jog notebookas garsiai leistų TT posėdį, galima išjungti kompiuterio garsą, paspaudus ant garso įkonėlės ekrano dešiniame kampe:
+ 
+![](figures/3_live/live_29.png){style="border: 2px solid black"}
+ 
+Spaudžiant ant garsiakalbio simbolio. Kai jis perbrauktas, kompiuteris nutyla, tačiau transliacija vyksta toliau su garsu:
+ 
+![](figures/3_live/live_30.png){style="border: 2px solid black"}
+ 
 ### Transliacijos kokybė
-
+ 
 * Transliacijos pradžioje būtų gerai pažiūrėti, koks yra kompiuterio apkrovimas (`CPU`) ir kiek kadrų per sekundę siekia vaizdo kokybė (`FPS`), kuri turėtų būti apie 30
 * jeigu vaizdo kokybė nukrenta žemiau nei 25 FPS, galimai interneto greitis, arba kompiuterio galia nepakankami, siekiant kokybiškai vykdyti transliacijas
-
-![](figures/3_live/live_x.png)
-
-
+ 
+![](figures/3_live/live_31.png){style="border: 2px solid black"}
+ 
+ 
 ### Transliacijos nutraukimas
-
-* transliacija nutraukiama paspaudus ant `Stop Recording`
-
-![](figures/3_live/live_xx.png)
-
-* Ir patvirtinus nutraukima atsiradusiame pop-up lange
-
-![](figures/3_live/live_xxx.png)
-
-
-
+ 
+* transliacija nutraukiama paspaudus ant `Stop Recording`:
+ 
+![](figures/3_live/live_32.png){style="border: 2px solid black"}
+ 
+* Ir patvirtinus nutraukimą atsiradusiame pop-up lange:
+ 
+![](figures/3_live/live_33.png){style="border: 2px solid black"}

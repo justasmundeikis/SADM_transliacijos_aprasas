@@ -1,102 +1,96 @@
 # Pre-transliavimo darbai
+ 
+Šiame skyriuje aprašomi paruošiamieji transliacijos darbai:
+ 
+1. sukuriama užsklanda Youtube transliacijai, ji matoma Youtube kanale laukiant transliacijosbei po transliacijos ji veikia kaip video pagrindinis paveiksliukas, kuris matomas peržiūrint visus video.
 
-Šiame skyriuje parodomi du paruošiamieji transliacijai darbai:
+::: {layout-ncol="2"} 
+![](figures/2_pre/pre_01.png){style="border: 2px solid black"}
 
-1. sukuriama užsklanda Youtube transliacijai, ji matoma Youtube kanale laukiant transliacijos
-
-![](figures/2_pre/yb_1.png)
-
-Po įrašo ji veikia kaip transliacijos pagrindinis paveiksliukas, kuris matomas peržiūrint visus video
-
-![](figures/2_pre/yb_2.png)
-
+![](figures/2_pre/pre_02.png){style="border: 2px solid black"}
+:::
+ 
 2. sukuriamas Youtube transliacijos renginys per `OBS-Studio` programą
+ 
+3. pateikiama rekomendacija kaip organizuoti failus `TEAMS` platformos `Trišalės taryba` kanale.
 
-Taip pat pateikiamos papildomos rekomendacijos TT Teams kanale bei komunikuojant su kitomis komandomis apie planuojamą transliaciją.
-
+ 
 ## Youtube užsklandos sukūrimas
-
+ 
 Žemiau pateikta instrukcija naudojantis `GIMP` grafikos apdorojimo programa (žr. 1 skyrius).
-
-1. Parsisiunčiamas šablonas arba iš TT Teams kanalo (Trišalės tarybos grupė - > Files -> Pagalbiniai_failai), arba spaudžiant [čia](files/TT_šablonas.xcf). Rekomenduojama išsisaugoti ant darbastalio / darbalaukio (`Desktop`)
-
-![](figures/2_pre/gimp_1.png)
-
-2. Paleidus GIMP programą, atidaromas parsisiųstas šablono failas su `Failas` -> `Open` ir pasirenkant šablono failą
-
-![](figures/2_pre/gimp_2.png)
-
-![](figures/2_pre/gimp_3.png)
-
-![](figures/2_pre/gimp_4.png)
-
-5. `Įrankių` juostoje (kairėje pusėje) pasirinkti `A` (teksto editavimo simbolį) paspaudžiant ant jo su pele
-
-![](figures/2_pre/gimp_5.png)
-
-6. Tada su pele spaudžiama ant datos ir data koreguojama į sekančio posėdžio datą. Jeigu reikia koreguoti raidžių dydį, dvigubu pelės paspaudimu galima pasirinkti visas raides ir tada padidinti arba sumažinti raidžių dydį, išreikštą `px` (turėtų būti **70**).
-
-![](figures/2_pre/gimp_6.png)
-
-7. Norint eksportuoti failą kaip paveiksliuką, spaudžiama ant: `Failas` -> `Eksportuoti`.
-
-![](figures/2_pre/gimp_7.png)
-
-Tada pavadinimą reiktų papildyti numatomo posėdžio data ir spausti ant `Eksportuoti`.
-
-![](figures/2_pre/gimp_8.png)
-
-Atsidariusiame pop-up lange nieko nekeisti ir spausti vėl spausti ant `Eksportuoti`
-
-![](figures/2_pre/gimp_9.png)
-
-Darbalaukyje dabar turėtų būti atsiradęs naujas failas
-
-![](figures/2_pre/gimp_10.png)
-
-Šį naują failą ir naudosime Youtube užsklandai. `GIMP` programą galima išjungti
+ 
+Parsisiunčiamas šablonas arba iš `TEAMS` kanalo (Trišalės tarybos grupė - > Files -> Pagalbiniai_failai), arba spaudžiant [čia](files/TT_šablonas.xcf). Rekomenduojama išsisaugoti ant darbastalio / darbalaukio (`Desktop`)
+ 
+![](figures/2_pre/pre_03.png){style="border: 2px solid black"}
+ 
+Paleidus GIMP programą, atidaromas parsisiųstas šablono failas su `Failas` -> `Open` ir pasirenkant šablono failą:
+ 
+![](figures/2_pre/pre_04.png){style="border: 2px solid black"}
+ 
+![](figures/2_pre/pre_05.png){style="border: 2px solid black"}
+ 
+![](figures/2_pre/pre_06.png){style="border: 2px solid black"}
+ 
+`Įrankių` juostoje (kairėje pusėje) pasirinkti `A` (teksto editavimo simbolį) paspaudžiant ant jo su pele:
+ 
+![](figures/2_pre/pre_07.png){style="border: 2px solid black"}
+ 
+Su pele spaudžiama ant datos ir data koreguojama į sekančio posėdžio datą. Jeigu reikia koreguoti raidžių dydį, dvigubu pelės paspaudimu galima pasirinkti visas raides (arba klavišų kombinacija `Ctrl+A`) ir tada padidinti arba sumažinti raidžių dydį, išreikštą `px` (turėtų būti **70**).
+ 
+![](figures/2_pre/pre_08.png){style="border: 2px solid black"}
+ 
+Norint eksportuoti failą kaip paveiksliuką, spaudžiama ant: `Failas` -> `Eksportuoti`:
+ 
+![](figures/2_pre/pre_09.png){style="border: 2px solid black"}
+ 
+Pavadinimą papildant numatomo posėdžio data, tada spausti ant `Eksportuoti`:
+ 
+![](figures/2_pre/pre_10.png){style="border: 2px solid black"}
+ 
+Atsidariusiame pop-up lange nieko nekeisti ir spausti vėl spausti ant `Eksportuoti`:
+ 
+![](figures/2_pre/pre_11.png){style="border: 2px solid black"}
+ 
+Darbalaukyje dabar turėtų būti atsiradęs naujas failas:
+ 
+![](figures/2_pre/pre_12.png){style="border: 2px solid black"}
+ 
+Šį naują failą ir naudosime Youtube užsklandai. `GIMP` programą galima išjungti.
+ 
 
 ## Būsimos Youtube transliacijos sukūrimas
+ 
+Šiame poskyryje daroma prielaida, jog `OBS-Studio` programa yra instaliuota ir susieta su SADM Youtube paskyra (žr. 1 skyrius).
+ 
+Paleidus `OBS-Studio` programą spausti ant `Manage brodcast`:
+ 
+![](figures/2_pre/pre_13.png){style="border: 2px solid black"}
+ 
+Atsidariusiame lange reikia užpildyti visą transliacijos informaciją. Žemiau pateikiamas pavyzdys skirtas Trišalės tarybos posėdžiui 2022-11-22:
 
-Šiame poskyryje daroma prielaida, jog `OBS-Studio` programa yra instaliuoti ir susieta su SADM Youtube paskyra (žr. 1 skyrius).
-
-1. Paleidus `OBS-Studio` programą spausti ant `Manage brodcast`
-
-![](figures/2_pre/obs_1.png)
-
-2. Atsidariusiame lange reikia užpildyti viską transliacijos informaciją. Žemiau pateikiamas pvz., TT posėdžiui 2022-10-25.
-
-![](figures/2_pre/obs_3.png)
-
-* `Title`: Trišalės tarybos posėdis 2022-10-25 
-* `Description`: galima įrašyti "Posėdžio darbotvarkę ir posėdžio medžiagą galima rasti:
-https://socmin.lrv.lt/lt/administracine-informacija/tarybos-ir-komisijos/lr-trisale-taryba/trisales-tarybos-posedziai"
-* `Privacy` - `Public`
-* `Category` - `News & Politics`
+* `Title`: `Trišalės tarybos posėdis 2022-11-22` 
+* `Description`: galima įrašyti `Posėdžio darbotvarkę ir posėdžio medžiagą galima rasti:
+https://socmin.lrv.lt/lt/administracine-informacija/tarybos-ir-komisijos/lr-trisale-taryba/trisales-tarybos-posedziai`
+* `Privacy` palikti `Public`
+* `Category` pakeisti į `News & Politics`
 * `Is this video made for kids?` pasirinkti `No, it's not made for kids`
-* `Thumbnail` pasirinkti spaudžiant ant `Select file` ir pasirenkant pirmame šio skyriaus dalyje sukurtą užsklandą
+* `Thumbnail` pasirinkti spaudžiant ant `Select file` ir pasirenkant pirmoje šio skyriaus dalyje sukurtą užsklandą
 * Uždėti varnelę ant `Schedule for later` ir pasirinkti laiką, kada planuojama transliacijos pradžia (pvz., `2022-11-22 14:00` atitinka `11/22/22 2:00 PM`)
-* Uždėti varnelę ant `Enable Auto-start` IR `Enable Auto-stop`, šis pasirinkimas leis pradėti ir užbaigti Youtube transliaciją tiesiogiai iš OBS-Studio programos
+* Uždėti varnelę ant `Enable Auto-start` ir `Enable Auto-stop`, šis pasirinkimas leis pradėti ir užbaigti Youtube transliaciją tiesiogiai iš OBS-Studio programos
 * Pasitikrinti ar viskas suvesta teisingai, spausti ant `Schedule broadcast`
+ 
+![](figures/2_pre/pre_14.png){style="border: 2px solid black"}
 
 
-Nuėjus į Youtube, netrukus galima rasti transliaciją.
-
-
-## Komunikacija su Komunikacijos komanda
-
-* Sukūrus planuojama transliaciją, būtina informuoti Komunikacijos komandą apie tai, kurią dieną ir kuriuo metu bus naudojamasi transliacijos prieiga, tam kad tuo pačiu metu nevyktų jokių kitų transliacijų. Informavimas yra pakankamas privačia žinute per TEAMS platformą.
-
-## TT Teams kanalo darbai
-
-Sukūrus transliacijos renginio anonsą, taip apt rekomenduojama sukurti reikiama aplankų struktūrą TT Teams kanale:
-
-* `Files` -> `Posėdžiai` -> `YYYY` -> sukurti naują aplanką skirtą `YYYY_MM_DD_TT/` posėdžiui (jeigu tai Darbo Grupė, tada YYYY_MM_DD_DG). Šio aplanko viduje sukurti šiuos aplankus:
-    * video_įrašas/
-    * dokumentai/
-        * protokolas/
-        * medžiaga/
-        * programa.pdf / programa.docx
-
-Aplankas `dokumentai` galėtų būti archyvuojamas į .zip archyva ir naudojamas socmin.lt tinklapyje pateikti visą medžiagą, kuri buvo naudota susitikimo metu (žr. 4 skyrius)
-
+## Teams kanalo darbai
+ 
+Sukūrus transliacijos renginio anonsą, taip pat rekomenduojama sukurti reikiama aplankų struktūrą TT `TEAMS` kanale:
+ 
+* `Files` -> `Posėdžiai` -> `YYYY` -> sukurti naują aplanką skirtą `YYYY_MM_DD_TT/` posėdžiui (jeigu tai Darbo Grupė, tada `YYYY_MM_DD_DG`). Šio aplanko viduje sukurti šiuos aplankus:
+    * programa
+    * posėdžio_medžiaga
+    * techninė medžiaga
+    * video_įrašas
+    * protokolas
+ 
+Visas aplankas vėliau bus archyvuojamas į `.zip` archyvą ir naudojamas socmin.lt tinklapyje pateikiant visą posėdžio medžiagą, kuri buvo naudota susitikimo metu (žr. 4 skyrių) išsamiam aptarimui.
