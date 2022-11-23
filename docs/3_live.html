@@ -63,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta name="twitter:title" content="Techninis aprašas SADM transliacijoms - 3&nbsp; Live transliacija">
-<meta name="twitter:description" content="Šiame skyriuje aprošomi veiksmai iš dviejų kompiuterių perspektyvos:">
+<meta name="twitter:description" content="Šiame skyriuje aprašomi veiksmai iš dviejų kompiuterių perspektyvos:">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -150,9 +150,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#transliacijos-set-up" id="toc-transliacijos-set-up" class="nav-link active" data-scroll-target="#transliacijos-set-up"><span class="toc-section-number">3.1</span>  Transliacijos set-up</a>
+  <li><a href="#organizatoriaus-nustatymai" id="toc-organizatoriaus-nustatymai" class="nav-link active" data-scroll-target="#organizatoriaus-nustatymai"><span class="toc-section-number">3.1</span>  Organizatoriaus nustatymai</a></li>
+  <li><a href="#transliuotojo-nustatymai" id="toc-transliuotojo-nustatymai" class="nav-link" data-scroll-target="#transliuotojo-nustatymai"><span class="toc-section-number">3.2</span>  Transliuotojo nustatymai</a>
   <ul class="collapse">
-  <li><a href="#teams-nustatymai" id="toc-teams-nustatymai" class="nav-link" data-scroll-target="#teams-nustatymai"><span class="toc-section-number">3.1.1</span>  Teams nustatymai</a></li>
+  <li><a href="#pasitikrinti-ar-pasirinktas-teisingas-energijos-maitinimo-planas" id="toc-pasitikrinti-ar-pasirinktas-teisingas-energijos-maitinimo-planas" class="nav-link" data-scroll-target="#pasitikrinti-ar-pasirinktas-teisingas-energijos-maitinimo-planas"><span class="toc-section-number">3.2.1</span>  Pasitikrinti ar pasirinktas teisingas energijos maitinimo planas</a></li>
+  <li><a href="#pasitikrinti-ar-deaktyvuotas-mikrofonas" id="toc-pasitikrinti-ar-deaktyvuotas-mikrofonas" class="nav-link" data-scroll-target="#pasitikrinti-ar-deaktyvuotas-mikrofonas"><span class="toc-section-number">3.2.2</span>  Pasitikrinti ar deaktyvuotas mikrofonas</a></li>
+  <li><a href="#teams-paleidimas" id="toc-teams-paleidimas" class="nav-link" data-scroll-target="#teams-paleidimas"><span class="toc-section-number">3.2.3</span>  Teams paleidimas</a></li>
+  <li><a href="#transliacija-per-obs-studio" id="toc-transliacija-per-obs-studio" class="nav-link" data-scroll-target="#transliacija-per-obs-studio"><span class="toc-section-number">3.2.4</span>  Transliacija per OBS-Studio</a></li>
+  <li><a href="#transliacijos-pasirinkimas" id="toc-transliacijos-pasirinkimas" class="nav-link" data-scroll-target="#transliacijos-pasirinkimas"><span class="toc-section-number">3.2.5</span>  Transliacijos pasirinkimas</a></li>
+  <li><a href="#kompiuterio-garso-išjungimas" id="toc-kompiuterio-garso-išjungimas" class="nav-link" data-scroll-target="#kompiuterio-garso-išjungimas"><span class="toc-section-number">3.2.6</span>  Kompiuterio garso išjungimas</a></li>
+  <li><a href="#transliacijos-kokybė" id="toc-transliacijos-kokybė" class="nav-link" data-scroll-target="#transliacijos-kokybė"><span class="toc-section-number">3.2.7</span>  Transliacijos kokybė</a></li>
+  <li><a href="#transliacijos-nutraukimas" id="toc-transliacijos-nutraukimas" class="nav-link" data-scroll-target="#transliacijos-nutraukimas"><span class="toc-section-number">3.2.8</span>  Transliacijos nutraukimas</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -163,26 +171,183 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Šiame skyriuje aprošomi veiksmai iš dviejų kompiuterių perspektyvos:</p>
-<ul>
-<li>organizatoriaus (su galimybe naudotis mirkofonu, darančio papildomą įrašą)</li>
-<li>transliuotojo (be mikrofono, tranlsiuojančio į Youtube ir darančio įrašą)</li>
-</ul>
-<section id="transliacijos-set-up" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="transliacijos-set-up"><span class="header-section-number">3.1</span> Transliacijos set-up</h2>
-<section id="teams-nustatymai" class="level3" data-number="3.1.1">
-<h3 data-number="3.1.1" class="anchored" data-anchor-id="teams-nustatymai"><span class="header-section-number">3.1.1</span> Teams nustatymai</h3>
-<p>Standartinis TEAMS nustatymas yra, jog renginio organizatorius arba dalyvis turi patvirtinti kiekvieną norintį prisijungti prie susitikimo. Dėl šios priežasties ekrane atsiranda pop-up pranešimas apie norinčius prisijungti, be to, girdimas pranešimo signalas. Kad būtų išvengta šių video ir garso trikdžių rekomenduojami šie nustatymai:</p>
-<ul>
-<li><code>Who can bypass the lobby</code> pakeisti į <code>Everyone</code></li>
-<li><code>Announce when callers join ir leave</code> - išjungti</li>
-</ul>
-<p>TEAMS susitikimo lange</p>
+<p>Šiame skyriuje aprašomi veiksmai iš dviejų kompiuterių perspektyvos:</p>
+<ol type="1">
+<li>organizatoriaus</li>
+<li>transliuotojo</li>
+</ol>
+<section id="organizatoriaus-nustatymai" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="organizatoriaus-nustatymai"><span class="header-section-number">3.1</span> Organizatoriaus nustatymai</h2>
+<p>Standartinis TEAMS nustatymas yra, jog renginio organizatorius (arba bet kuris dalyvis) turi patvirtinti kiekvieną norintį prisijungti prie susitikimo. Dėl šios priežasties ekrane atsiranda pop-up pranešimas apie norinčius prisijungti, be to, girdimas pranešimo signalas. Kad būtų išvengta šių video ir garso trikdžių rekomenduojami šie nustatymai:</p>
+<p><code>TEAMS</code> susitikimo lange:</p>
 <p><img src="figures/1_technical/teams_setup_1.png" class="img-fluid"></p>
 <p>Einama į <code>Meeting options</code></p>
 <p><img src="figures/1_technical/teams_setup_2.png" class="img-fluid"></p>
-<p>Keičiama į šiuos nustatymus</p>
+<p>Keičiami šie nustatymai:</p>
+<ul>
+<li><code>Who can bypass the lobby</code> pakeisti į <code>Everyone</code></li>
+<li><code>Announce when callers join ir leave</code> išjungti</li>
+</ul>
+<p>Dabar kiekvienas turintis nuorodą galės tiesiogiai patekti į susitikimą, apeinant <code>lobby</code>, tai sumažins organizatoriaus darbo naštą. Turint omenyje, jog posėdžiai yra atviri, saugumo prasme toks atvėrimas nesukelia didelės rizikos. Juo labiau, jog ateityje į transliacijas turėtų jungtis tik TT nariai bei pranešėjai, o plati visuomenė bei žiniasklaidos atstovai - sekti transliacijas SADM Youtube paskyroje.</p>
 <p><img src="figures/1_technical/teams_setup_3.png" class="img-fluid"></p>
+</section>
+<section id="transliuotojo-nustatymai" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="transliuotojo-nustatymai"><span class="header-section-number">3.2</span> Transliuotojo nustatymai</h2>
+<p>Žemiau detaliai aprašomas visas transliavimo procesas iš transliuotojo kompiuterio perspektyvos.</p>
+<section id="pasitikrinti-ar-pasirinktas-teisingas-energijos-maitinimo-planas" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="pasitikrinti-ar-pasirinktas-teisingas-energijos-maitinimo-planas"><span class="header-section-number">3.2.1</span> Pasitikrinti ar pasirinktas teisingas energijos maitinimo planas</h3>
+<p>Dešiniu pelės mygtuku spaudžiama ant maitinimo ikonėlės:</p>
+<p><img src="figures/3_live/pre_1.png" class="img-fluid"></p>
+<p>Atidaroma <code>Maitinimo parinktys</code></p>
+<p><img src="figures/3_live/pre_2.png" class="img-fluid"></p>
+<p>Būtina pasitirkinti, ar pasirinktas <code>didelio efektyvumo</code> (ar kitaip pavadintas) planas, kuris buvo sukurtas pirmame skyriuje. Tai yra svarbu, nes užtikrina, jog vykdant transliaciją ir ilgesnį laiką nesąveikaujant su kompiuteriu, šis nepereitų į miego ar energijos taupymo rėžimą, neišjungtų ekrano ir bendrai, jog kompiuterio procesorius veiktų maksimaliu pajėgumu, taip užtikrinant pakankamus resurus tranliavimo procesui.</p>
+<p><img src="figures/3_live/pre_3.png" class="img-fluid"></p>
+</section>
+<section id="pasitikrinti-ar-deaktyvuotas-mikrofonas" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="pasitikrinti-ar-deaktyvuotas-mikrofonas"><span class="header-section-number">3.2.2</span> Pasitikrinti ar deaktyvuotas mikrofonas</h3>
+<p><code>Parametruose</code> nuėjus į <code>Garsas</code> turėtų matytis, jog <code>Nerasta įvesties įrenginių</code>, tai reiškia, jog kompiuteryje deaktyvuotas mikrofonas.</p>
+<p>Tai labai svarbu, nes antraip paleidus transliaciją ir fone atsiradus garsams, <code>TEAMS</code> rodys pranešimą, jog rekomenduoja įjungti mikrofoną.</p>
+<p><img src="figures/3_live/pre_4.png" class="img-fluid"></p>
+</section>
+<section id="teams-paleidimas" class="level3" data-number="3.2.3">
+<h3 data-number="3.2.3" class="anchored" data-anchor-id="teams-paleidimas"><span class="header-section-number">3.2.3</span> Teams paleidimas</h3>
+<p>Prisijungiant prie norimo susitikimo, turėtų matytis, jog :</p>
+<ul>
+<li>kamera yra deaktyvuota / neįjungta</li>
+<li>mikrofonas yra deaktyvuotas</li>
+<li>garsas yra nustatytas maksimalus</li>
+</ul>
+<p><img src="figures/3_live/live_1.png" class="img-fluid"></p>
+<p>Prisijungus prie susitikimo, TEAMS gali išmesti du pranešimus, kuriuos transliuotojas turėtų išjungti:</p>
+<ul>
+<li>išjungti pranešimą apie tai, jog nerastas mikrofonas</li>
+<li>organizatoriui pradėjus susitikimo įrašą, išjungti šį pranešimą</li>
+</ul>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="figures/3_live/live_2a.png" class="img-fluid"> <img src="figures/3_live/live_2b.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>Siekiant jog <code>OBS-STUDIO</code> programa pagautų <code>TEAMS</code> vaizdą teisingu (16:9 ekrano santykio) formatu, reikia pasirinkti, jog <code>TEAMS</code> susitikimas būtų rodomas pilnu ekranu (<code>full-screen</code>).</p>
+<p><img src="figures/3_live/live_3.png" class="img-fluid"></p>
+</section>
+<section id="transliacija-per-obs-studio" class="level3" data-number="3.2.4">
+<h3 data-number="3.2.4" class="anchored" data-anchor-id="transliacija-per-obs-studio"><span class="header-section-number">3.2.4</span> Transliacija per OBS-Studio</h3>
+<p>Paspaudus <code>WIN</code> klavišą ir atsidarius <code>START</code> meniu bei juostai, galima atsidaryti <code>OBS-STUDIO</code> programą</p>
+<section id="transliavimo-pagrindiniai-nustatymai" class="level4" data-number="3.2.4.1">
+<h4 data-number="3.2.4.1" class="anchored" data-anchor-id="transliavimo-pagrindiniai-nustatymai"><span class="header-section-number">3.2.4.1</span> Transliavimo pagrindiniai nustatymai</h4>
+<p>Prieš kiekvieną transliaciją rekomenduojama pasitikrinti pagrindinius nustatymus:</p>
+<p><img src="figures/3_live/live_4.png" class="img-fluid"></p>
+<ul>
+<li><code>General</code> lange - ar nėra aktyvuotas automatinis video įrašinėjimas (jeigu taip, reikia deaktyvuoti)</li>
+</ul>
+<p><img src="figures/3_live/live_5.png" class="img-fluid"></p>
+<ul>
+<li><code>Stream</code> lange - yra sąsaja su SADM Youtuba paskyra</li>
+</ul>
+<p><img src="figures/3_live/live_6.png" class="img-fluid"></p>
+<ul>
+<li><code>Video</code> lange - ar abi rezoliucijos yra <code>1920x1080</code> ir <code>30</code> kadrų per sekundę (<code>Common FPS Values</code>)</li>
+</ul>
+<p><img src="figures/3_live/live_7.png" class="img-fluid"></p>
+<p>Jeigu visi nustatymai teisingi, galima uždaryti nustatymų langą.</p>
+</section>
+<section id="transliavimo-šaltinio-pridėjimas" class="level4" data-number="3.2.4.2">
+<h4 data-number="3.2.4.2" class="anchored" data-anchor-id="transliavimo-šaltinio-pridėjimas"><span class="header-section-number">3.2.4.2</span> Transliavimo šaltinio pridėjimas</h4>
+<ul>
+<li>pagrindiniame <code>OBS-Studio</code> lange, ties <code>Sources</code> spaudžiama ant <code>+</code> jog pridėti naują video šaltinį</li>
+</ul>
+<p><img src="figures/3_live/live_8.png" class="img-fluid"></p>
+<ul>
+<li>Pasirinkimas <code>Window Capture</code>, kuris retransliuoja pasirinkto lango vaizdą</li>
+</ul>
+<p><img src="figures/3_live/live_9.png" class="img-fluid"></p>
+<ul>
+<li>atsidariusiame pop-up lange galima pakeisti pavadinimą, bet nebūtina, tad spaudžiama ant <code>OK</code></li>
+</ul>
+<p><img src="figures/3_live/live_10.png" class="img-fluid"></p>
+<p>Atsidariusiame naujame lange <code>OBS-Studio</code> bando automatiškai parinkti, kurį langą transliuosime.</p>
+<ul>
+<li>jeigu matomas vaizdas / parintkas langas <strong>neteisingas</strong>, paspaudus ant <code>Window</code> parinkties galima pakeisti langą</li>
+<li><code>Capture Method</code> reikėtų pakeisti į <code>Windows 10</code></li>
+<li><strong>BŪTINA</strong> nuimti varnelę nuo <code>Capture Cursor</code>, jog transliuojant nebūtų rodomi pelės judesiai</li>
+<li>Spaudžiama ant <code>OK</code></li>
+</ul>
+<p><img src="figures/3_live/live_11.png" class="img-fluid"></p>
+<ul>
+<li>Labai dažnai nutinka taip, jog transliavimo langas (šiuo atveju <code>TEAMS</code>) netelpa į transliavimo ekrano remus, t.y. matomi dryžiai šonuose.</li>
+</ul>
+<p><img src="figures/3_live/live_12.png" class="img-fluid"></p>
+<ul>
+<li>Tokiu atveju paspaudus ant raudonų kampinių kvadratukų galima reguliuoti transliuojamo lango dydį ir pritaikyti jį transliavimo ekranui.</li>
+</ul>
+<p><img src="figures/3_live/live_13.png" class="img-fluid"></p>
+<ul>
+<li>baigus transliuojamas langas (<code>TEAMS</code>) ir transliavimo ekranas turėtųi pilnai atitikti (nesimatyti dryžuotų regionų arba juodų juostų)</li>
+</ul>
+<p><img src="figures/3_live/live_14.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="transliacijos-pasirinkimas" class="level3" data-number="3.2.5">
+<h3 data-number="3.2.5" class="anchored" data-anchor-id="transliacijos-pasirinkimas"><span class="header-section-number">3.2.5</span> Transliacijos pasirinkimas</h3>
+<ul>
+<li><p>paspaudus ant <code>Manage broadcast</code> atsidaro transliavimo sukūrimo (<code>Create New Broadcast</code>) arba jau sukurtų renginių pasirinkimo langas (<code>Select existing Broadcast</code>)</p></li>
+<li><p>Spaudžiama ant sukurtų renginių pasirinkimo lango (<code>Select existing Broadcast</code>)</p></li>
+</ul>
+<p><img src="figures/3_live/live_16.png" class="img-fluid"></p>
+<ul>
+<li>Pasirenkame norima transliacija (pasirinkta transliacija tampa mėlyna)</li>
+<li>pabaigus pasirinkimą spausti ant <code>Select broadcast</code></li>
+<li><strong>SVARBU</strong>: negalima spausti ant <code>Select broadcast and start streaming</code> nes kitaip iš karto pasileis tiesioginė transliacija ir atitinkamai jos nebebus galima sustabdyti, arba sustabdžius nebebus galima pratęsti / transliuoti dar kartą.</li>
+</ul>
+<p><img src="figures/3_live/live_17.png" class="img-fluid"></p>
+<p><img src="figures/3_live/live_18.png" class="img-fluid"></p>
+<ul>
+<li><code>Controls</code> skiltyje matome, jog <code>Manage broadcast</code> tapo mėlyna, taigi yra pasirinkta tranliacija</li>
+<li>kai <code>TEAMS</code> organizatorius paleidžia video įrašą, transliuotjanas išjungia pranešimą apie daromą įrašą</li>
+<li>turimas kvorumas ir t.t.</li>
+<li>spaudžaiama ant <code>Start streaming</code></li>
+<li><code>OBS-studio</code> pradeda transliuoti tiesiogiai per Youtube</li>
+</ul>
+<p><img src="figures/3_live/live_19.png" class="img-fluid"></p>
+<ul>
+<li>Pasitikrinima, ar garsas švyti ties žalios zonos pabaiga / geltonos zonos pradžia, jeigu per mažai garso, galima padidinti, jeigu garso amplitudė patenka kartais į raudoną zoną, galima pritildyti reguliuojant garso kiekį</li>
+</ul>
+<p><img src="figures/3_live/live_22.png" class="img-fluid"></p>
+<p><img src="figures/3_live/live_23.png" class="img-fluid"></p>
+</section>
+<section id="kompiuterio-garso-išjungimas" class="level3" data-number="3.2.6">
+<h3 data-number="3.2.6" class="anchored" data-anchor-id="kompiuterio-garso-išjungimas"><span class="header-section-number">3.2.6</span> Kompiuterio garso išjungimas</h3>
+<p>Sutvarkius garsą ir nenorint, jog notebookas garsiai leistų TT posėdį, galima išjungti kompiuterio garsą</p>
+<ul>
+<li>paspaudus ant garso įkonėlės ekrano dešiniame kampe</li>
+</ul>
+<p><img src="figures/3_live/live_20.png" class="img-fluid"></p>
+<ul>
+<li>spausti ant garsiakalbio simbolio. Kai jis perbrauktas, kompiuteris nutyla, tačiau transliacija vyksta toliau su garsu</li>
+</ul>
+<p><img src="figures/3_live/live_21.png" class="img-fluid"></p>
+</section>
+<section id="transliacijos-kokybė" class="level3" data-number="3.2.7">
+<h3 data-number="3.2.7" class="anchored" data-anchor-id="transliacijos-kokybė"><span class="header-section-number">3.2.7</span> Transliacijos kokybė</h3>
+<ul>
+<li>Transliacijos pradžioje būtų gerai pažiūrėti, koks yra kompiuterio apkrovimas (<code>CPU</code>) ir kiek kadrų per sekundę siekia vaizdo kokybė (<code>FPS</code>), kuri turėtų būti apie 30</li>
+<li>jeigu vaizdo kokybė nukrenta žemiau nei 25 FPS, galimai interneto greitis, arba kompiuterio galia nepakankami, siekiant kokybiškai vykdyti transliacijas</li>
+</ul>
+<p><img src="figures/3_live/live_x.png" class="img-fluid"></p>
+</section>
+<section id="transliacijos-nutraukimas" class="level3" data-number="3.2.8">
+<h3 data-number="3.2.8" class="anchored" data-anchor-id="transliacijos-nutraukimas"><span class="header-section-number">3.2.8</span> Transliacijos nutraukimas</h3>
+<ul>
+<li>transliacija nutraukiama paspaudus ant <code>Stop Recording</code></li>
+</ul>
+<p><img src="figures/3_live/live_xx.png" class="img-fluid"></p>
+<ul>
+<li>Ir patvirtinus nutraukima atsiradusiame pop-up lange</li>
+</ul>
+<p><img src="figures/3_live/live_xxx.png" class="img-fluid"></p>
 
 
 </section>

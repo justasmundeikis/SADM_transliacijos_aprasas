@@ -1,13 +1,8 @@
 
 # Post-transliavimo darbai
 
-## Video apkarpymas
 
-..
-
-## Laiko žymės
-
-..
+## Laiko žymos
 
 ## Failų paruošimas tinklapiui
 
